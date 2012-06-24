@@ -1,14 +1,5 @@
 <?php
 /**
- * Preprocess page template variables.
- */
-function sport_preprocess_page(&$vars) {
-  if (drupal_is_front_page()) {
-    $vars['classes_array'][] = 'sidepicture';
-  }
-}
-
-/**
  * Implements hook_breadcrumb()
  */
 function sport_breadcrumb($variables) {
@@ -21,13 +12,18 @@ function sport_breadcrumb($variables) {
   }
 }
 
-
+/**
+ * Implements hook_menu_local_task()
+ */
 function sport_menu_local_task($variables) {
   $link = $variables['element']['#link'];
   $link['localized_options']['html'] = TRUE;
   return '<li>'.l($link['title'], $link['href'], $link['localized_options']).'</li>'."\n";
 }
 
+/**
+ * Implements hook_menu_local_tasks()
+ */
 function sport_menu_local_tasks(&$variables) {
   $output = '';
   $has_access = user_access('access contextual links');

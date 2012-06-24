@@ -1,76 +1,116 @@
 html, body {
-	color: black;
-	background: white;
-	width: auto;
-	padding: 10px;
-	text-align: left;
-	font-size: 12pt;
-	font: Georgia, serif;
+  color: black;
+  background: white;
+  width: auto;
+  padding: 10px;
+  text-align: left;
+  font: 10px/1.5 Verdana, Arial, Helvetica, sans-serif;
 }
 
-.top {
-    display: none;
+#outer {
+  padding: 0;
+  width: 100%;
 }
 
-#hd h1 {
-	position: relative;
-	top: 0;
-	right: 0;
-	width: auto;
-	height: auto;
+#highlighted {
+  display: none;
 }
 
-#hd h1 {
-    display: block;	
+#header {
+  position: static;
+  height: auto;
+  width: auto;
+  background: none;
 }
 
-#hd h1 a span {
-	position: relative;
-	top: 0em
-    display: block;	
-    background: url(../logo.png) no-repeat;
-    padding: 15px;
-    color: black;
+#hd {
+  position: static;
+  padding: 0;
+  margin: 0;
+  height: 83px;
+  background: url(../images/logo/logo.gif) right no-repeat;
 }
 
-#col1,#col3 {
-	display: none;
+#hd h2 {
+  position: static;
+  width: auto;
+  height: auto;
+  font-size: 2em;
+  margin-left: 0;
+  padding-left: 0; 
+}
+
+#hd h2 a {
+  width: auto;
+  height: auto;
+}
+
+#hd h2 a span {
+  position: static;
+  color: black;
+}
+
+#inner {
+  background: none;
+  padding: 0;
+  width: 100%;
+}
+
+#main {
+  background: none;
+  width: 100%;
+}
+
+#col1, #col3 {
+  display: none;
 }
 
 #footer {
-    display: none;
+  display: none;
 }
 
 #breadcrumb {
-	display: none
+  display: none
 }
 
 #prop, #base {
-	display: none
+  display: none
 }
 
 #content-main {
-    width: 100%;
-    margin: 0;
-    float: none;
+  width: 100%;
+  margin: 0;
+  float: none;
 }
 
 #content-main img {
-    float: right;
-    margin: 5px;
+  float: right;
+  margin: 5px;
 }
 
 p {
-    font-size: 12pt;
+  font-size: 8pt;
 }
 
 a:link, a:visited {
-	color: #06c;
-	font-weight: bold;
-	text-decoration: underline;
+  color: #06c;
+  font-weight: bold;
+  text-decoration: underline;
 }
 
+/*
 a:link:after,a:visited:after {
-	content: " (" attr(href) ") ";
-	font-size: 90%;
+  content: " (" attr(href) ") ";
+  font-size: 90%;
+}
+*/
+
+#content-main {
+  width: 100%;
+  background: none;
+  position: static;
+}
+
+#toolbar, iframe, .action-links {
+  display: none;
 }
