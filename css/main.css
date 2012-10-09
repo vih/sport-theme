@@ -669,3 +669,56 @@ table.views-view-grid tr.odd, table.views-view-grid tr.even {
 table.views-view-grid tr td:last-child {
   border-right: none !important; /* LTR */
 }
+
+/* Action links */
+ul.action-links {
+  margin: 0 !important;
+  padding: 0 !important;
+  list-style-type: none;
+  overflow: hidden;
+}
+
+ul.action-links li {
+  background: #2f88cd;
+  background: -moz-linear-gradient(top, #36a2f6 0%, #2f88cd 100%);
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #36a2f6), color-stop(100%, #2f88cd));
+  background: -webkit-linear-gradient(top, #36a2f6 0%, #2f88cd 100%);
+  background: -o-linear-gradient(top, #36a2f6 0%, #2f88cd 100%);
+  background: -ms-linear-gradient(top, #36a2f6 0%, #2f88cd 100%);
+  background: linear-gradient(to bottom, #36a2f6 0%, #2f88cd 100%);
+  border: 1px solid #2f88cd;
+  -moz-border-radius: 4px;
+  -webkit-border-radius: 4px;
+  border-radius: 4px;
+  -moz-box-shadow: 0 1px 2px #cccccc, inset 0 1px 1px #7bb8ef;
+  -webkit-box-shadow: 0 1px 2px #cccccc, inset 0 1px 1px #7bb8ef;
+  box-shadow: 0 1px 2px #cccccc, inset 0 1px 1px #7bb8ef;
+  font: normal 500 16px/16px "Open Sans", Arial, sans-serif;
+  margin-left: 1px;
+  margin-top: 1px;
+  padding: 3px 15px;
+  text-decoration: none;
+  color: #fff;
+  float: left;
+}
+ul.action-links li:focus {
+  color: #fff;
+}
+ul.action-links li:hover,
+ul.action-links li:focus,
+ul.action-links li:active {
+  background: #359ff2;
+  box-shadow: 0 1px 2px #cccccc, inset 0 1px 1px #7bb8ef;
+  color: #fff;
+  text-shadow: 0 -1px 1px #2f88cd;
+}
+
+ul.action-links li a {
+  text-decoration: none;
+  background: transparent url(../images/add.png) no-repeat 0 center;
+  line-height: 30px;
+  color: #ffffff;
+  font-weight: 500;
+  padding: 0px 5px 0px 15px;
+}
+
