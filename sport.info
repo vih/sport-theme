@@ -7,6 +7,7 @@ stylesheets[all][] = css/main.css
 stylesheets[all][] = css/context.css
 stylesheets[all][] = css/ie.css
 stylesheets[all][] = css/vih.css
+stylesheets[all][] = css/mail.css
 stylesheets[print][] = css/print.css
 
 regions[header] = Header
