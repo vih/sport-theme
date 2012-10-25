@@ -539,9 +539,14 @@ table.skema tr {
 }
 
 form.commerce-add-to-cart {
+  margin-top: 1em;
   background: #cbcbcb;
   -moz-border-radius: 8px;
   border-radius: 8px;
   margin-bottom: 1em;  
   padding: 1em;
+}
+
+form.commerce-add-to-cart .views-table {
+  margin-top: 1em;  
 }
