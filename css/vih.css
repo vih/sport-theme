@@ -537,3 +537,11 @@ table.skema tr {
   border-style: solid;
   border-color: #bebfb9;
 }
+
+form.commerce-add-to-cart {
+  background: #cbcbcb;
+  -moz-border-radius: 8px;
+  border-radius: 8px;
+  margin-bottom: 1em;  
+  padding: 1em;
+}
