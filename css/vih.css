@@ -550,3 +550,7 @@ form.commerce-add-to-cart {
 form.commerce-add-to-cart .views-table {
   margin-top: 1em;  
 }
+
+.display-price-amount {
+  font-size: 2em;
+}
