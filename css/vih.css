@@ -554,3 +554,15 @@ form.commerce-add-to-cart .views-table {
 .display-price-amount {
   font-size: 2em;
 }
+
+/* HACK FOR ENGLISH PAGE */
+#content-main .calltoaction {
+  margin-top: 1em;
+  margin-bottom: 1em;
+  background: #cbcbcb;
+  -moz-border-radius: 8px;
+  border-radius: 8px;  
+  padding: 1em;
+  width: 50%;
+  float: right;
+}
