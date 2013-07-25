@@ -259,6 +259,7 @@ strong {
 #content-main fieldset { /*border: 1px solid #ccc;*/
   padding: 1em;
   margin-bottom: 1em;
+  clear: both;
 }
 
 #col3 ul {
