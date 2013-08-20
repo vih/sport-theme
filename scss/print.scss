@@ -1,0 +1,105 @@
+html, body {
+  color: black;
+  background: white;
+  width: auto;
+  padding: 10px;
+  text-align: left;
+  font: 10px/1.5 Verdana, Arial, Helvetica, sans-serif;
+}
+
+#outer {
+  padding: 0;
+  width: 100%;
+}
+
+#highlighted {
+  display: none;
+}
+
+#header {
+  position: static;
+  height: auto;
+  width: auto;
+  background: none;
+}
+
+#hd {
+  position: static;
+  padding: 0;
+  margin: 0;
+  height: 83px;
+  background: url(../images/logo/logo.gif) right no-repeat;
+  
+  h2 {
+    position: static;
+    width: auto;
+    height: auto;
+    font-size: 2em;
+    margin-left: 0;
+    padding-left: 0;
+    
+    a {
+      width: auto;
+      height: auto;
+      
+      span {
+        position: static;
+        color: black;
+      }
+    }
+  }
+}
+
+#inner {
+  background: none;
+  padding: 0;
+  width: 100%;
+}
+
+#main {
+  background: none;
+  width: 100%;
+}
+
+#col1, #col3 {
+  display: none;
+}
+
+#footer {
+  display: none;
+}
+
+#breadcrumb {
+  display: none
+}
+
+#prop, #base {
+  display: none
+}
+
+#content-main {
+  width: 100%;
+  margin: 0;
+  float: none;
+  background: none;
+  position: static;
+  
+  img {
+    float: right;
+    margin: 5px;
+  }
+}
+
+p {
+  font-size: 8pt;
+}
+
+a:link, a:visited {
+  color: #06c;
+  font-weight: bold;
+  text-decoration: underline;
+}
+
+#toolbar, iframe, .action-links {
+  display: none;
+}
