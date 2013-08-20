@@ -12,7 +12,7 @@
     <div id="outer" class="<?php print $classes; ?> clearfix"<?php print $attributes; ?>>
         <div id="header">
             <div id="hd">
-               <h1><a href="<?php print $front_page; ?>"><span><?php print $site_name; ?></span></a></h1>
+               <h2><a href="<?php print $front_page; ?>"><span><?php print $site_name; ?></span></a></h2>
             </div>
         </div>
         <div id="inner">
