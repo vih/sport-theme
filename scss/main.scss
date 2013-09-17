@@ -1,4 +1,6 @@
 @import "compass/css3";
+@import "compass/utilities/text/replacement";
+@import "compass/utilities/general/clearfix";
 
 $branding-color: #41AD49;
 $fade_percent: 25%;
@@ -33,7 +35,7 @@ ul li {
   list-style: none;
 }
 
-h1,h2,h3,h4,h5,h6 {
+#{headings()} {
   font-size: 100%;
   font-weight: normal;
   margin: 8px 0 4px 0;
@@ -80,29 +82,6 @@ strong {
   font-style: normal;
 }
 
-/* clearing technique */
-.clearfix {
-  display: inline-block;
-}
-
-.clearfix:after {
-  content: ".";
-  display: block;
-  height: 0;
-  clear: both;
-  visibility: hidden;
-}
-
-/* mac hide \*/
-* html .clearfix {
-  height: 1%;
-}
-
-.clearfix {
-  display: block;
-}
-/* End hide */
-
 #outer {
   width: 1098px;
   margin: auto;
@@ -146,9 +125,12 @@ strong {
   @include box-shadow(black 5px 5px 5px);
 }
 
+#header {
+  @include clearfix;
+}
+
 #hd {
-  background: image-url("logo/logo.gif") no-repeat 884px 15px;
-  padding: 20px;
+  margin: 20px;
 
   h2 {
     a {
@@ -157,16 +139,14 @@ strong {
       width: 182px;
       height: 63px;
       display: block;
-
-      span {
-        position: absolute;
-        top: -999em
-      }
+      float: right;
+      @include replace-text-with-dimensions("logo/logo.gif");
     }
   }
 }
 
 #main {
+  @include clearfix;
   display: table;
   margin: 1em;
 }
@@ -346,6 +326,7 @@ strong {
 }
 
 #footer {
+  @include clearfix;
   padding-bottom: 2em;
   
   p {

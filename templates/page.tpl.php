@@ -35,8 +35,8 @@
         </div>
       </div>
     </div>
-    <div id="footer" class="clearfix">
-      <div id="footer-inner">
+    <div id="footer">
+      <div id="inner">
         <div id="footer-first">
           <?php print render($page['footer_first']); ?> 
         </div>
