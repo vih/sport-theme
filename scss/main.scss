@@ -2,8 +2,12 @@
 @import "compass/utilities/text/replacement";
 @import "compass/utilities/general/clearfix";
 @import "compass/reset/utilities";
+@import "compass/layout/stretching";
+@import "compass/utilities";
 
 $branding-color: #41AD49;
+$background-color: #5f7283;
+$link-color: #4278AE;
 $fade_percent: 25%;
 
 /* reset*/
@@ -15,12 +19,12 @@ body {
   text-align: center;
   font: 13px/1.5 Verdana, Arial, Helvetica, sans-serif;
   height: 100%;
-  background-color: #5f7283;
+  background-color: $background-color;
   background-image: image-url("background/soccerfield2.jpg");
 }
 
 a {
-  color: #4278AE;
+  color: $link-color;
 }
 
 img {
@@ -170,7 +174,7 @@ strong {
     padding-left: 12px;
   }
 
-  .region-sidebar-first/*, #col3 .region-sidebar-second */{
+  .region-sidebar-first {
     margin: 0 15px;
   }
 }
@@ -186,26 +190,26 @@ strong {
     padding: 1em;
   }
   
-  h1 {
+  #{headings()} {
     font-weight: bold;
+  }
+  
+  h1 {
     font-size: 1.5em;
     border-bottom: 1px solid #ccc;
     letter-spacing: 0.1em;
   }
   
   h2 {
-    font-weight: bold;
     font-size: 1.2em;
     margin-bottom: 0.5em;
   }
   
   h3 {
-    font-weight: bold;
     font-size: 1em;
   }
   
   h4 {
-    font-weight: bold;
     font-size: 1em;
   }
   
@@ -243,7 +247,7 @@ strong {
     margin: 0.5em 0.5em;
   }
   
-  fieldset { /*border: 1px solid #ccc;*/
+  fieldset {
     padding: 1em;
     margin-bottom: 1em;
     clear: both;
