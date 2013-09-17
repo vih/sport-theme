@@ -2,37 +2,36 @@
   <div id="highlighted">
     <?php print render($page['highlighted']); ?>
   </div>
-  <div id="header">
-    <div id="hd">
-      <h2><a href="<?php print $front_page; ?>"><span><?php print $site_name; ?></span></a></h2>
-    </div>
-  </div>
   <div id="inner">
+    <div id="header">
+      <div id="hd">
+        <h2><a href="<?php print $front_page; ?>"><span><?php print $site_name; ?></span></a></h2>
+      </div>
+    </div>
     <div id="main">
-      <div id="content">
-        <div class="clearfix picholder">
-          <div id="col1">
-            <?php print render($page['sidebar_first']); ?>
+      <div id="col1">
+        <div class="inner">
+          <?php print render($page['sidebar_first']); ?>
+        </div>
+      </div>
+      <div id="content-main">
+        <div class="inner">
+          <div class="contextual-links-region">
+            <div class="element-invisible"></div>
+            <?php print render($title_prefix); ?>
+            <?php if ($title): ?><h1 class="title" id="page-title"><span><?php print $title; ?></span></h1><?php endif; ?>
+            <?php print render($title_suffix); ?>
+            <?php if ($tabs): ?><div class="tabs"><?php print render($tabs); ?></div><?php endif; ?>
+            <?php if ($messages): ?><div id="console" class="clearfix"><?php print $messages; ?></div><?php endif; ?>
+            <?php print render($page['help']); ?>
+            <?php if ($action_links): ?><ul class="action-links"><?php print render($action_links); ?></ul><?php endif; ?>
+            <?php print render($page['content']); ?>
           </div>
-          <div id="content-main">
-            <div class="fit contextual-links-region">
-              <div class="element-invisible"></div>
-              <?php print render($title_prefix); ?>
-              <?php if ($title): ?><h1 class="title" id="page-title"><span><?php print $title; ?></span></h1><?php endif; ?>
-              <?php print render($title_suffix); ?>
-              <?php if ($tabs): ?><div class="tabs"><?php print render($tabs); ?></div><?php endif; ?>
-              <?php if ($messages): ?><div id="console" class="clearfix"><?php print $messages; ?></div><?php endif; ?>
-              <?php print render($page['help']); ?>
-              <?php if ($action_links): ?><ul class="action-links"><?php print render($action_links); ?></ul><?php endif; ?>
-
-              <?php print render($page['content']); ?>
-            </div>
-          </div>
-          <div id="col3">
-            <div class="col3inner">
-              <?php print render($page['sidebar_second']); ?>
-            </div>
-          </div>
+        </div>
+      </div>
+      <div id="col3">
+        <div class="inner">
+          <?php print render($page['sidebar_second']); ?>
         </div>
       </div>
     </div>
@@ -52,5 +51,4 @@
   </div>
   <div id="prop"></div>
   <div id="prop2"></div>
-  <div id="base"></div>
 </div>
