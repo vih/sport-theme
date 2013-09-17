@@ -136,8 +136,6 @@ strong {
     a {
       color: gray;
       text-decoration: none;
-      width: 182px;
-      height: 63px;
       display: block;
       float: right;
       @include replace-text-with-dimensions("logo/logo.gif");
