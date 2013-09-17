@@ -390,61 +390,6 @@ div.field-name-field-register-at {
   }
 }
 
-#cboxContent table {
-  width: 100%;
-  font-size: 1em;
-  
-  td, th {
-    padding: 0.5em;
-    text-align: center;
-  }
-  
-  th {
-    background: #ccc;
-    color: white;
-    border: 2px solid white !important;
-  }
-  
-  td {
-    background: #eee;
-    color: black;
-    border: 2px solid white !important;
-  }
-  
-  caption {
-    text-align: left;
-    height: 50px;
-    padding-left: 130px;
-    font-size: 20px;
-    color: #bbb;
-    font-weight: bold;
-    background: white image-url("logo/logo-skemaeksempel-colorbox.png") no-repeat 5px 0px;
-    padding-top: 15px;
-  }
-  
-  #skemaeksempel {
-    display: block;
-  }
-  #morereasons {
-    display: block;
-    text-align: left;
-    list-style-type: square;
-    
-    li {
-      margin-bottom: 1em;
-    }
-    
-  }
-}
-
-#skemaeksempel {
-  display: none;
-}
-
-#morereasons {
-  display: none;
-}
-
 #content-main {
   .pane-employees-context th {
     display: none;

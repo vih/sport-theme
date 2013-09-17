@@ -143,58 +143,35 @@ div.field-name-field-register-at a { text-decoration: none; }
 .teachers .views-field-title a { color: white; text-decoration: none; font-size: 12px; background: black; padding: 8px 8px; width: 129px; filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=70); opacity: 0.7; display: block; margin: 0; font-weight: bold; }
 
 /* line 393, ../scss/vih.scss */
-#cboxContent table { width: 100%; font-size: 1em; }
-/* line 397, ../scss/vih.scss */
-#cboxContent table td, #cboxContent table th { padding: 0.5em; text-align: center; }
-/* line 402, ../scss/vih.scss */
-#cboxContent table th { background: #ccc; color: white; border: 2px solid white !important; }
-/* line 408, ../scss/vih.scss */
-#cboxContent table td { background: #eee; color: black; border: 2px solid white !important; }
-/* line 414, ../scss/vih.scss */
-#cboxContent table caption { text-align: left; height: 50px; padding-left: 130px; font-size: 20px; color: #bbb; font-weight: bold; background: white url('../images/logo/logo-skemaeksempel-colorbox.png?1377019143') no-repeat 5px 0px; padding-top: 15px; }
-/* line 425, ../scss/vih.scss */
-#cboxContent table #skemaeksempel { display: block; }
-/* line 428, ../scss/vih.scss */
-#cboxContent table #morereasons { display: block; text-align: left; list-style-type: square; }
-/* line 433, ../scss/vih.scss */
-#cboxContent table #morereasons li { margin-bottom: 1em; }
-
-/* line 440, ../scss/vih.scss */
-#skemaeksempel { display: none; }
-
-/* line 444, ../scss/vih.scss */
-#morereasons { display: none; }
-
-/* line 448, ../scss/vih.scss */
 #content-main { /* HACK FOR ENGLISH PAGE */ }
-/* line 449, ../scss/vih.scss */
+/* line 394, ../scss/vih.scss */
 #content-main .pane-employees-context th { display: none; }
-/* line 454, ../scss/vih.scss */
+/* line 399, ../scss/vih.scss */
 #content-main .teacher-context table.views-table td, #content-main .teacher-context .views-table tr, #content-main .teacher-context table.views-table, #content-main .teacher-context .views-table th { border: none; background: none; }
-/* line 458, ../scss/vih.scss */
+/* line 403, ../scss/vih.scss */
 #content-main .teacher-context table.views-table td { vertical-align: middle; }
-/* line 463, ../scss/vih.scss */
+/* line 408, ../scss/vih.scss */
 #content-main .teacher-context-table h2.pane-title, #content-main #content-main .pane-employees-context h2.pane-title { padding: 10px 10px 0px 10px !important; }
-/* line 467, ../scss/vih.scss */
+/* line 412, ../scss/vih.scss */
 #content-main .teacher-context .views-content { padding: 10px; }
-/* line 471, ../scss/vih.scss */
+/* line 416, ../scss/vih.scss */
 #content-main .teacher-context table.views-table td { padding: 10px; }
-/* line 476, ../scss/vih.scss */
+/* line 421, ../scss/vih.scss */
 #content-main .calltoaction { margin-top: 1em; margin-bottom: 1em; background: #cbcbcb; -webkit-border-radius: 8px; -moz-border-radius: 8px; -ms-border-radius: 8px; -o-border-radius: 8px; border-radius: 8px; padding: 1em; width: 50%; float: right; }
 
-/* line 488, ../scss/vih.scss */
+/* line 433, ../scss/vih.scss */
 table.skema caption { font-weight: bold; text-transform: uppercase; }
-/* line 492, ../scss/vih.scss */
+/* line 437, ../scss/vih.scss */
 table.skema td, table.skema th { text-align: center; }
-/* line 495, ../scss/vih.scss */
+/* line 440, ../scss/vih.scss */
 table.skema tr { border-width: 1px 0 1px 0; border-style: solid; border-color: #bebfb9; }
-/* line 500, ../scss/vih.scss */
+/* line 445, ../scss/vih.scss */
 table.skema td { border-width: 0 1px 0 1px; border-style: solid; border-color: #bebfb9; }
 
-/* line 507, ../scss/vih.scss */
+/* line 452, ../scss/vih.scss */
 form.commerce-add-to-cart { margin-top: 1em; background: #cbcbcb; margin-bottom: 1em; padding: 1em; -webkit-border-radius: 8px; -moz-border-radius: 8px; -ms-border-radius: 8px; -o-border-radius: 8px; border-radius: 8px; }
-/* line 514, ../scss/vih.scss */
+/* line 459, ../scss/vih.scss */
 form.commerce-add-to-cart .views-table { margin-top: 1em; }
 
-/* line 519, ../scss/vih.scss */
+/* line 464, ../scss/vih.scss */
 .display-price-amount { font-size: 2em; }
