@@ -100,10 +100,9 @@ strong {
   border-right: 5px solid $branding-color;
   @include border-bottom-radius(10px);
   @include box-shadow(black 5px 5px 5px);
-  position: relative;
   width: 469px;
-  margin: -100px 0 0 623px;
-  float: left;
+  margin-top: -110px;
+  float: right;
 
   .region-highlighted {
     padding: 10px 10px 10px 20px;
