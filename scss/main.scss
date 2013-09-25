@@ -272,18 +272,7 @@ strong {
   @include border-bottom-right-radius(30px);
   @include background-image(linear-gradient($branding-color, darken($branding-color, $fade_percent)));
 
-  h2 {
-    color: #fff;
-    text-transform: uppercase;
-    font-weight: bold;
-    line-height: 16px;
-    font-size: 12px;
-    margin: 0 0 2px;
-    /*padding: 15px 30px 0 0;*/
-    padding: 15px 0 0 0;
-  }
-  
-  h3 {
+  h2, h3 {
     color: #fff;
     text-transform: uppercase;
     font-weight: bold;
@@ -292,7 +281,7 @@ strong {
     margin: 0 0 2px;
     padding: 15px 0 0 0;
   }
-  
+
   ul {
     padding-left: 15px;
   }
