@@ -53,77 +53,65 @@
     height: image-height($image);
     background: image-url($image) no-repeat 0 0;
   }
+  
+  @mixin prop-top($image) {
+    @include prop($image);
+    top: 110 - image-height($image);
+    left: 600 - image-width($image);
+  }
+  
+  @mixin prop-bottom($image) {
+    @include prop($image);
+    bottom: 50 - image-height($image);
+    left: image-width($image) - 80;
+  }
 
   /* big graphic at top of screen */
   .front ,.fodbold,.fodboldakademi {
     #prop {
-      @include prop("props/float_fodboldstoevle2.png");
-      top: -140px;
-      left: 50px;
+      @include prop-top("props/float_fodboldstoevle2.png");
     }
   }
 
   .adventure #prop,.adventurerejse #prop {
-    @include prop("props/float_vandrestoevle.png");
-    top: -125px;
-    left: 125px;
+    @include prop-top("props/float_vandrestoevle.png");
   }
 
   .haandbold #prop {
-    @include prop("props/float_haandbold.png");
-    top: -100px;
-    left: -20px;
+    @include prop-top("props/float_haandbold.png");
   }
 
   .outdoorenergy #prop {
-    @include prop("props/lobesko.png");
-    top: -10px;
-    left: -20px;
+    @include prop-top("props/lobesko.png");
   }
 
   .fodboldakademi #prop2 {
-    @include prop("props/float_lyseroedfodbold.png");
-    bottom: -350px;
-    right: -350px;
+    @include prop-bottom("props/float_lyseroedfodbold.png");
   }
 
   .bodymind #prop2 {
-    @include prop("props/float_bodymind.png");
-    bottom: -275px;
-    right: 250px;
+    @include prop-bottom("props/float_bodymind.png");
   }
 
   .teambuilder #prop2 {
-    @include prop("props/float_vandrestoevle.png");
-    bottom: -400px;
-    right: 0px;
+    @include prop-bottom("props/float_vandrestoevle.png");
   }
 
   .front #prop2,.fodbold #prop2 {
-    @include prop("props/float_fodbold.png");
-    bottom: -1200px;
-    left: 400px;
+    @include prop-bottom("props/float_fodbold.png");
   }
   .faciliteter #prop2,.fitness #prop2,.aerobic #prop2 {
-    @include prop("props/float_fitnesssko.png");
-    bottom: -300px;
-    left: 300px;
+    @include prop-bottom("props/float_fitnesssko.png");
   }
 
   .fitnessinstruktoer #prop2,.spinning-pump-boksning #prop2 {
-    @include prop("props/float_fitnesssko3.png");
-    bottom: -300px;
-    left: 300px;
+    @include prop-bottom("props/float_fitnesssko3.png");
   }
 
   .badminton #prop {
-    @include prop("props/float_fjerbold.png");
-    top: 0px;
-    left: 50px;
+    @include prop-top("props/float_fjerbold.png");
   }
 
   .volleyball #prop,.beachvolley #prop {
-    @include prop("props/volleyball.png");
-    top: 20px;
-    left: 50px;
+    @include prop-top("props/volleyball.png");
   }
