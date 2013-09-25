@@ -1,177 +1,147 @@
-/* flash specific */
-/* line 8, ../scss/vih.scss */
-.media-youtube-outer-wrapper { clear: both; background: #fff; margin: 10px auto; }
-/* line 12, ../scss/vih.scss */
-.media-youtube-outer-wrapper object { width: 600px; }
+/* line 38, ../scss/vih.scss */
+.sidebar-slide { height: 208px; width: 160px; overflow: hidden; }
+/* line 43, ../scss/vih.scss */
+.sidebar-slide div.views-field-title { position: relative; top: -100px; height: 0px; display: block; }
+/* line 25, ../scss/vih.scss */
+.sidebar-slide div.views-field-title a { color: white; text-decoration: none; font-size: 12px; background: black; padding: 5px 5px; width: "135px"; filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=70); opacity: 0.7; display: block; margin: 0; }
 
-/* line 17, ../scss/vih.scss */
-.field-name-field-picture img { float: right; margin-left: 1em; margin-bottom: 1em; }
-
-/* line 23, ../scss/vih.scss */
-.field-name-field-image img { float: right; margin-left: 5px; margin-bottom: 5px; }
-
-/* line 29, ../scss/vih.scss */
-.sidebar-slide { position: relative; top: 0; height: 208px; width: 160px; overflow: hidden; }
-/* line 36, ../scss/vih.scss */
-.sidebar-slide div.views-field-title a { position: absolute; top: 100px; display: block; font-size: 1em; text-decoration: none; font-weight: bold; background: black; padding: 5px 10px; color: white; filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=70); opacity: 0.7; }
-
-/* line 50, ../scss/vih.scss */
-.subject-packages { position: relative; }
+/* line 49, ../scss/vih.scss */
+.teachers td { margin: 0; padding: 0; }
 /* line 53, ../scss/vih.scss */
-.subject-packages .views-field-name { position: absolute; top: 300px; }
-/* line 56, ../scss/vih.scss */
-.subject-packages .views-field-name a { color: black; text-decoration: none; font-size: 20px; background: white; padding: 5px 10px; }
+.teachers .views-field-title { position: relative; top: -70px; height: 0px; display: block; }
+/* line 25, ../scss/vih.scss */
+.teachers .views-field-title a { color: white; text-decoration: none; font-size: 12px; background: black; padding: 5px 5px; width: 129px; filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=70); opacity: 0.7; display: block; margin: 0; }
+
+/* line 58, ../scss/vih.scss */
+.subject-packages .views-field-name { position: relative; top: -90px; height: 0px; }
+/* line 10, ../scss/vih.scss */
+.subject-packages .views-field-name a { color: black; text-decoration: none; font-size: 20px; background: white; padding: 5px 10px; width: 100px; }
+
+/* line 62, ../scss/vih.scss */
+.short-course-types .views-field-name { position: relative; top: -55px; height: 0px; }
+/* line 10, ../scss/vih.scss */
+.short-course-types .views-field-name a { color: black; text-decoration: none; font-size: "16px"; background: white; padding: 5px 10px; width: 100px; }
 
 /* line 66, ../scss/vih.scss */
-.short-course-types .views-field-name { position: relative; top: -55px; height: 0px; }
-/* line 70, ../scss/vih.scss */
-.short-course-types .views-field-name a { color: black; text-decoration: none; font-size: 16px; background: white; padding: 5px 10px; width: 100px; }
+.faciliteter .views-field-title { position: relative; top: -55px; height: 0px; }
+/* line 10, ../scss/vih.scss */
+.faciliteter .views-field-title a { color: black; text-decoration: none; font-size: "16px"; background: white; padding: 5px 10px; width: 100px; }
+
+/* line 71, ../scss/vih.scss */
+.subjects-page td { margin: 0; padding: 0; }
+/* line 75, ../scss/vih.scss */
+.subjects-page .views-field-title { position: relative; top: -60px; height: 0px; display: block; }
+/* line 25, ../scss/vih.scss */
+.subjects-page .views-field-title a { color: white; text-decoration: none; font-size: 12px; background: black; padding: 5px 5px; width: "135px"; filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=70); opacity: 0.7; display: block; margin: 0; }
 
 /* line 80, ../scss/vih.scss */
-.faciliteter .views-field-title { position: relative; top: -55px; height: 0px; }
-/* line 84, ../scss/vih.scss */
-.faciliteter .views-field-title a { color: black; text-decoration: none; font-size: 16px; background: white; padding: 5px 10px; width: 100px; }
-
-/* line 95, ../scss/vih.scss */
-.subjects-page td { margin: 0; padding: 0; }
-/* line 99, ../scss/vih.scss */
-.subjects-page .views-field-title { position: relative; top: -60px; height: 0px; }
-/* line 103, ../scss/vih.scss */
-.subjects-page .views-field-title a { color: white; text-decoration: none; font-size: 12px; background: black; padding: 5px 5px; width: 135px; filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=70); opacity: 0.7; display: block; margin: 0; }
-
-/* line 117, ../scss/vih.scss */
 .travel .views-field-title { position: relative; top: -140px; height: 0px; display: block; }
-/* line 122, ../scss/vih.scss */
-.travel .views-field-title a { color: black; text-decoration: none; font-size: 16px; background: white; padding: 5px 5px; width: 135px; filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=70); opacity: 0.7; display: block; }
+/* line 25, ../scss/vih.scss */
+.travel .views-field-title a { color: white; text-decoration: none; font-size: 12px; background: black; padding: 5px 5px; width: "135px"; filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=70); opacity: 0.7; display: block; margin: 0; }
 
-/* line 134, ../scss/vih.scss */
-.page-fag #content-main h2 { text-transform: uppercase; background: #41AD49; font-size: 30px; color: white; padding: 5px 10px; }
-
-/* line 142, ../scss/vih.scss */
-.views-table { clear: both; }
-
-/* line 146, ../scss/vih.scss */
-.lectures-appetizer { position: relative; height: 450px; overflow: hidden; padding: 0; }
-/* line 151, ../scss/vih.scss */
-.lectures-appetizer .views-slideshow-cycle-main-frame-row-item .views-field-field-picture { height: 448px; overflow: hidden; }
-/* line 155, ../scss/vih.scss */
-.lectures-appetizer .transparent { background: white; position: absolute; top: 200px; left: 0px; width: 300px; color: black; padding: 5px; font-size: 1.3em; }
-/* line 164, ../scss/vih.scss */
-.lectures-appetizer .transparent a { color: black; text-decoration: none; }
-/* line 169, ../scss/vih.scss */
-.lectures-appetizer .views-field-field-speaker { color: black; position: absolute; top: 75px; font-size: 0.8em; width: 115px; background: white; padding: 0 4px; }
-
-/* line 180, ../scss/vih.scss */
-.lectures-slideshow { float: left; display: block; width: 295px; margin-left: 10px; height: 305px; }
-/* line 186, ../scss/vih.scss */
-.lectures-slideshow .transparent { background: white; position: relative; top: -115px; left: 0px; width: 215px; color: black; padding: 5px; font-size: 1.1em; }
-/* line 195, ../scss/vih.scss */
-.lectures-slideshow .transparent a { color: black; text-decoration: none; }
-
-/* line 202, ../scss/vih.scss */
-.news-slideshow { float: left; display: block; width: 295px; height: 448px; }
-/* line 207, ../scss/vih.scss */
-.news-slideshow a { color: black; text-decoration: none; }
-/* line 211, ../scss/vih.scss */
-.news-slideshow .transparent { background: black; position: relative; top: -160px; left: 0px; width: 480px; color: white; padding: 10px; font-size: 1.1em; zoom: 1; filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=70); opacity: 0.7; }
-
-/* line 225, ../scss/vih.scss */
-#content-main .news-slideshow .transparent h2 { font-size: 1.1em; }
-
-/* line 229, ../scss/vih.scss */
-.field-name-field-registration { margin: 1em 0; }
-/* line 231, ../scss/vih.scss */
-.field-name-field-registration a { background: white url('../images/buttons.png?1377019142') 0 0 repeat-x; border: 1px solid #e4e4e4; border-bottom: 1px solid #b4b4b4; border-left-color: #d2d2d2; border-right-color: #d2d2d2; color: #3a3a3a; cursor: pointer; font-size: 0.929em; font-weight: normal; text-align: center; margin-bottom: 1em; margin-right: 0.6em; padding: 4px 17px; -webkit-border-radius: 15px; -moz-border-radius: 15px; -ms-border-radius: 15px; -o-border-radius: 15px; border-radius: 15px; text-decoration: none; }
-
-/* line 250, ../scss/vih.scss */
-div.field-name-field-register-at { display: inline-block; margin-top: 1em; background: white url('../images/buttons.png?1377019142') 0 0 repeat-x; border: 1px solid #e4e4e4; border-bottom: 1px solid #b4b4b4; border-left-color: #d2d2d2; border-right-color: #d2d2d2; color: #3a3a3a; cursor: pointer; /* font-size: 0.929em; */ font-weight: normal; text-align: center; margin-bottom: 1em; margin-right: 0.6em; padding: 4px 17px; -webkit-border-radius: 15px; -moz-border-radius: 15px; -ms-border-radius: 15px; -o-border-radius: 15px; border-radius: 15px; text-decoration: none; width: auto; }
-/* line 270, ../scss/vih.scss */
-div.field-name-field-register-at a { text-decoration: none; }
-
-/* line 275, ../scss/vih.scss */
-.user-picture { float: left; margin-right: 0.5em; }
-
-/* line 280, ../scss/vih.scss */
-.submitted { color: #ccc; margin-bottom: 1em; }
-/* line 284, ../scss/vih.scss */
-.submitted a { color: #ccc; }
-
-/* line 289, ../scss/vih.scss */
-.field-name-field-course-leader { background: #eee; border: #ccc 2px solid; padding: 10px 10px 5px 5px; margin: 1em 0; }
-/* line 295, ../scss/vih.scss */
-.field-name-field-course-leader .field-name-field-image .field-items { float: left; margin-right: 1em; }
-/* line 300, ../scss/vih.scss */
-.field-name-field-course-leader a { font-weight: bold; }
-/* line 304, ../scss/vih.scss */
-.field-name-field-course-leader h2 { font-size: 1em; }
-
-/* line 310, ../scss/vih.scss */
-.field-name-field-employee-reference .field-name-field-image .field-items { float: left; margin-right: 1em; }
-/* line 314, ../scss/vih.scss */
-.field-name-field-employee-reference a { font-weight: bold; }
-/* line 318, ../scss/vih.scss */
-.field-name-field-employee-reference h2 { font-size: 1em; }
-
-/* line 323, ../scss/vih.scss */
-.node-employee-context ul.inline, .node-employee ul.inline { display: none; }
-
-/* line 327, ../scss/vih.scss */
-.field-type-entityreference .node-webform h2 { font-size: 1em; }
-/* line 330, ../scss/vih.scss */
-.field-type-entityreference .node-webform h2 a { text-decoration: none; color: black; }
-
-/* line 336, ../scss/vih.scss */
-.node-type-vih-long-course div.field-name-field-course-time { margin-bottom: 1em; color: #bbb; }
-
-/* line 342, ../scss/vih.scss */
-#col3 .short-courses-sidebar ul { padding-left: 0; }
-/* line 345, ../scss/vih.scss */
-#col3 .short-courses-sidebar li { margin-bottom: 0.3em; padding-bottom: 0; }
-/* line 349, ../scss/vih.scss */
-#col3 .short-courses-sidebar h3 { font-weight: normal; text-transform: lowercase; }
-
-/* line 355, ../scss/vih.scss */
+/* line 84, ../scss/vih.scss */
 #views_slideshow_cycle_main_oneliners-block .views-field-title { position: absolute; top: 300px; }
-/* line 359, ../scss/vih.scss */
+/* line 88, ../scss/vih.scss */
 #views_slideshow_cycle_main_oneliners-block .views-field-title h3 { color: black; text-decoration: none; font-size: 25px; background: white; padding: 10px 15px; }
 
-/* line 369, ../scss/vih.scss */
-.teachers td { margin: 0; padding: 0; }
-/* line 373, ../scss/vih.scss */
-.teachers .views-field-title { position: relative; top: -70px; height: 0px; }
-/* line 378, ../scss/vih.scss */
-.teachers .views-field-title a { color: white; text-decoration: none; font-size: 12px; background: black; padding: 8px 8px; width: 129px; filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=70); opacity: 0.7; display: block; margin: 0; font-weight: bold; }
+/* line 98, ../scss/vih.scss */
+.news-slideshow a { color: black; text-decoration: none; }
+/* line 102, ../scss/vih.scss */
+.news-slideshow .transparent { background: black; position: relative; top: -160px; left: 0px; width: 480px; color: white; padding: 10px; font-size: 1.1em; zoom: 1; filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=70); opacity: 0.7; }
+/* line 114, ../scss/vih.scss */
+.news-slideshow .transparent h2 { font-size: 1.1em; }
 
-/* line 393, ../scss/vih.scss */
+/* line 120, ../scss/vih.scss */
+.media-youtube-outer-wrapper { clear: both; background: #fff; margin: 10px auto; }
+/* line 124, ../scss/vih.scss */
+.media-youtube-outer-wrapper object { width: 600px; }
+
+/* line 129, ../scss/vih.scss */
+.field-name-field-picture img, .field-name-field-image img { float: right; margin-left: 1em; margin-bottom: 1em; }
+
+/* line 135, ../scss/vih.scss */
+.page-fag #content-main h2 { text-transform: uppercase; background: #41AD49; font-size: 30px; color: white; padding: 5px 10px; }
+
+/* line 143, ../scss/vih.scss */
+.views-table { clear: both; }
+
+/* line 147, ../scss/vih.scss */
+.field-name-field-registration { margin: 1em 0; }
+/* line 149, ../scss/vih.scss */
+.field-name-field-registration a { background: white url('../images/buttons.png?1377019142') 0 0 repeat-x; border: 1px solid #e4e4e4; border-bottom: 1px solid #b4b4b4; border-left-color: #d2d2d2; border-right-color: #d2d2d2; color: #3a3a3a; cursor: pointer; font-size: 0.929em; font-weight: normal; text-align: center; margin-bottom: 1em; margin-right: 0.6em; padding: 4px 17px; -webkit-border-radius: 15px; -moz-border-radius: 15px; -ms-border-radius: 15px; -o-border-radius: 15px; border-radius: 15px; text-decoration: none; }
+
+/* line 168, ../scss/vih.scss */
+.user-picture { float: left; margin-right: 0.5em; }
+
+/* line 173, ../scss/vih.scss */
+.submitted { color: #ccc; margin-bottom: 1em; }
+/* line 177, ../scss/vih.scss */
+.submitted a { color: #ccc; }
+
+/* line 182, ../scss/vih.scss */
+.field-name-field-course-leader { background: #eee; border: #ccc 2px solid; padding: 10px 10px 5px 5px; margin: 1em 0; }
+/* line 188, ../scss/vih.scss */
+.field-name-field-course-leader .field-name-field-image .field-items { float: left; margin-right: 1em; }
+/* line 193, ../scss/vih.scss */
+.field-name-field-course-leader a { font-weight: bold; }
+/* line 197, ../scss/vih.scss */
+.field-name-field-course-leader h2 { font-size: 1em; }
+
+/* line 203, ../scss/vih.scss */
+.field-name-field-employee-reference .field-name-field-image .field-items { float: left; margin-right: 1em; }
+/* line 207, ../scss/vih.scss */
+.field-name-field-employee-reference a { font-weight: bold; }
+/* line 211, ../scss/vih.scss */
+.field-name-field-employee-reference h2 { font-size: 1em; }
+
+/* line 216, ../scss/vih.scss */
+.node-employee-context ul.inline, .node-employee ul.inline { display: none; }
+
+/* line 220, ../scss/vih.scss */
+.field-type-entityreference .node-webform h2 { font-size: 1em; }
+/* line 223, ../scss/vih.scss */
+.field-type-entityreference .node-webform h2 a { text-decoration: none; color: black; }
+
+/* line 229, ../scss/vih.scss */
+.node-type-vih-long-course div.field-name-field-course-time { margin-bottom: 1em; color: #bbb; }
+
+/* line 235, ../scss/vih.scss */
+#col3 .short-courses-sidebar ul { padding-left: 0; }
+/* line 238, ../scss/vih.scss */
+#col3 .short-courses-sidebar li { margin-bottom: 0.3em; padding-bottom: 0; }
+/* line 242, ../scss/vih.scss */
+#col3 .short-courses-sidebar h3 { font-weight: normal; text-transform: lowercase; }
+
+/* line 248, ../scss/vih.scss */
 #content-main { /* HACK FOR ENGLISH PAGE */ }
-/* line 394, ../scss/vih.scss */
+/* line 249, ../scss/vih.scss */
 #content-main .pane-employees-context th { display: none; }
-/* line 399, ../scss/vih.scss */
+/* line 254, ../scss/vih.scss */
 #content-main .teacher-context table.views-table td, #content-main .teacher-context .views-table tr, #content-main .teacher-context table.views-table, #content-main .teacher-context .views-table th { border: none; background: none; }
-/* line 403, ../scss/vih.scss */
+/* line 258, ../scss/vih.scss */
 #content-main .teacher-context table.views-table td { vertical-align: middle; }
-/* line 408, ../scss/vih.scss */
+/* line 263, ../scss/vih.scss */
 #content-main .teacher-context-table h2.pane-title, #content-main #content-main .pane-employees-context h2.pane-title { padding: 10px 10px 0px 10px !important; }
-/* line 412, ../scss/vih.scss */
+/* line 267, ../scss/vih.scss */
 #content-main .teacher-context .views-content { padding: 10px; }
-/* line 416, ../scss/vih.scss */
+/* line 271, ../scss/vih.scss */
 #content-main .teacher-context table.views-table td { padding: 10px; }
-/* line 421, ../scss/vih.scss */
+/* line 276, ../scss/vih.scss */
 #content-main .calltoaction { margin-top: 1em; margin-bottom: 1em; background: #cbcbcb; -webkit-border-radius: 8px; -moz-border-radius: 8px; -ms-border-radius: 8px; -o-border-radius: 8px; border-radius: 8px; padding: 1em; width: 50%; float: right; }
 
-/* line 433, ../scss/vih.scss */
+/* line 288, ../scss/vih.scss */
 table.skema caption { font-weight: bold; text-transform: uppercase; }
-/* line 437, ../scss/vih.scss */
+/* line 292, ../scss/vih.scss */
 table.skema td, table.skema th { text-align: center; }
-/* line 440, ../scss/vih.scss */
+/* line 295, ../scss/vih.scss */
 table.skema tr { border-width: 1px 0 1px 0; border-style: solid; border-color: #bebfb9; }
-/* line 445, ../scss/vih.scss */
+/* line 300, ../scss/vih.scss */
 table.skema td { border-width: 0 1px 0 1px; border-style: solid; border-color: #bebfb9; }
 
-/* line 452, ../scss/vih.scss */
+/* line 307, ../scss/vih.scss */
 form.commerce-add-to-cart { margin-top: 1em; background: #cbcbcb; margin-bottom: 1em; padding: 1em; -webkit-border-radius: 8px; -moz-border-radius: 8px; -ms-border-radius: 8px; -o-border-radius: 8px; border-radius: 8px; }
-/* line 459, ../scss/vih.scss */
+/* line 314, ../scss/vih.scss */
 form.commerce-add-to-cart .views-table { margin-top: 1em; }
 
-/* line 464, ../scss/vih.scss */
+/* line 319, ../scss/vih.scss */
 .display-price-amount { font-size: 2em; }

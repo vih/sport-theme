@@ -3,7 +3,119 @@
 
 $opacity: 0.7;
 
-/* flash specific */
+@mixin picture-button($top, $font-size: "16px") {
+  position: relative;
+  top: $top;
+  height: 0px;
+  a {
+    color: black;
+    text-decoration: none;
+    font-size: $font-size;
+    background: white;
+    padding: 5px 10px;
+    width: 100px;
+  }
+}
+
+@mixin picture-button-opaque($top, $width: "135px") {
+  position: relative;
+  top: $top;
+  height: 0px;
+  display: block; 
+  a {
+    color: white;
+    text-decoration: none;
+    font-size: 12px;
+    background: black;
+    padding: 5px 5px;
+    width: $width;
+    @include opacity($opacity);
+    display: block;
+    margin: 0;
+  }
+}
+
+.sidebar-slide {
+  height: 208px;
+  width: 160px;
+  overflow: hidden;
+  
+  div.views-field-title {
+    @include picture-button-opaque(-100px);
+  }
+}
+
+.teachers {
+  td {
+    margin: 0;
+    padding: 0;
+  }
+  .views-field-title {
+    @include picture-button-opaque(-70px, 129px);
+  }
+}
+
+.subject-packages .views-field-name {
+  @include picture-button(-90px, 20px);
+}
+
+.short-course-types .views-field-name {
+  @include picture-button(-55px);
+}
+
+.faciliteter .views-field-title {
+  @include picture-button(-55px);
+}
+
+.subjects-page {
+  td {
+    margin: 0;
+    padding: 0;
+  }
+  .views-field-title {
+    @include picture-button-opaque(-60px);
+  }
+}
+
+.travel .views-field-title {
+  @include picture-button-opaque(-140px);
+}
+
+#views_slideshow_cycle_main_oneliners-block .views-field-title {
+  position: absolute;
+  top: 300px;
+  
+  h3 {
+    color: black;
+    text-decoration: none;
+    font-size: 25px;
+    background: white;
+    padding: 10px 15px;
+  }
+}
+
+.news-slideshow {
+  a {
+    color: black;
+    text-decoration: none;
+  }
+  .transparent {
+    background: black;
+    position: relative;
+    top: -160px;
+    left: 0px;
+    width: 480px;
+    color: white;
+    padding: 10px;
+    font-size: 1.1em;
+    zoom: 1;
+    @include opacity($opacity);
+    
+    h2 {
+      font-size: 1.1em;
+    }
+  }
+}
 
 .media-youtube-outer-wrapper {
   clear: both;
@@ -14,121 +126,10 @@ $opacity: 0.7;
   }
 }
 
-.field-name-field-picture img {
+.field-name-field-picture img, .field-name-field-image img {
   float: right;
   margin-left: 1em;
   margin-bottom: 1em;
-}
-
-.field-name-field-image img {
-  float: right;
-  margin-left: 5px;
-  margin-bottom: 5px;
-}
-
-.sidebar-slide {
-  position: relative;
-  top: 0;
-  height: 208px;
-  width: 160px;
-  overflow: hidden;
-  
-  div.views-field-title a {
-    position: absolute;
-    top: 100px;
-    display: block;
-    font-size: 1em;
-    text-decoration: none;
-    font-weight: bold;
-    background: black;
-    padding: 5px 10px;
-    color: white;
-    @include opacity($opacity);
-  }
-}
-
-.subject-packages {
-  position: relative;
-  
-  .views-field-name {
-    position: absolute;
-    top: 300px;
-    a {
-      color: black;
-      text-decoration: none;
-      font-size: 20px;
-      background: white;
-      padding: 5px 10px;
-    }
-  }
-}
-
-.short-course-types .views-field-name {
-  position: relative;
-  top: -55px;
-  height: 0px;
-  a {
-    color: black;
-    text-decoration: none;
-    font-size: 16px;
-    background: white;
-    padding: 5px 10px;
-    width: 100px;
-  }
-}
-
-.faciliteter .views-field-title {
-  position: relative;
-  top: -55px;
-  height: 0px;
-  a {
-    color: black;
-    text-decoration: none;
-    font-size: 16px;
-    background: white;
-    padding: 5px 10px;
-    width: 100px;
-  }
-}
-
-.subjects-page {
-  td {
-    margin: 0;
-    padding: 0;
-  }
-  .views-field-title {
-    position: relative;
-    top: -60px;
-    height: 0px;
-    a {
-      color: white;
-      text-decoration: none;
-      font-size: 12px;
-      background: black;
-      padding: 5px 5px;
-      width: 135px;
-      @include opacity($opacity);
-      display: block;
-      margin: 0;
-    }
-  }
-}
-
-.travel .views-field-title {
-  position: relative;
-  top: -140px;
-  height: 0px;
-  display: block;
-  a {
-    color: black;
-    text-decoration: none;
-    font-size: 16px;
-    background: white;
-    padding: 5px 5px;
-    width: 135px;
-    @include opacity($opacity);
-    display: block;
-  }
 }
 
 .page-fag #content-main h2 {
@@ -141,89 +142,6 @@ $opacity: 0.7;
 
 .views-table {
   clear: both;
-}
-
-.lectures-appetizer {
-  position:relative;
-  height: 450px;
-  overflow: hidden;
-  padding: 0;
-  .views-slideshow-cycle-main-frame-row-item .views-field-field-picture {
-    height: 448px;
-    overflow: hidden;
-  }
-  .transparent {
-    background: white;
-    position: absolute;
-    top: 200px;
-    left: 0px;
-    width: 300px;
-    color: black;
-    padding: 5px;
-    font-size: 1.3em;
-    a {
-      color: black;
-      text-decoration: none;
-    }
-  }
-  .views-field-field-speaker {
-    color: black;
-    position: absolute;
-    top: 75px;
-    font-size: 0.8em;
-    width: 115px;
-    background: white;
-    padding: 0 4px;
-  }
-}
-
-.lectures-slideshow {
-  float: left;
-  display: block;
-  width: 295px;
-  margin-left: 10px;
-  height: 305px;
-  .transparent {
-    background: white;
-    position: relative;
-    top: -115px;
-    left: 0px;
-    width: 215px;
-    color: black;
-    padding: 5px;
-    font-size: 1.1em;
-    a {
-      color: black;
-      text-decoration: none;
-    }
-  }
-}
-
-.news-slideshow {
-  float: left;
-  display: block;
-  width: 295px;
-  height: 448px;
-  a {
-    color: black;
-    text-decoration:none;
-  }
-  .transparent {
-    background: black;
-    position: relative;
-    top: -160px;
-    left: 0px;
-    width: 480px;
-    color: white;
-    padding: 10px;
-    font-size: 1.1em;
-    zoom: 1;
-    @include opacity($opacity); 
-  }
-}
-
-#content-main .news-slideshow .transparent h2 {
-  font-size: 1.1em;
 }
 
 .field-name-field-registration {
@@ -243,31 +161,6 @@ $opacity: 0.7;
     margin-right: 0.6em;
     padding: 4px 17px;
     @include border-radius(15px);
-    text-decoration: none;
-  }
-}
-
-div.field-name-field-register-at {
-  display: inline-block;
-  margin-top: 1em;
-  background: #ffffff image-url("buttons.png") 0 0 repeat-x;
-  border: 1px solid #e4e4e4;
-  border-bottom: 1px solid #b4b4b4;
-  border-left-color: #d2d2d2;
-  border-right-color: #d2d2d2;
-  color: #3a3a3a;
-  cursor: pointer;
-  /* font-size: 0.929em; */
-  font-weight: normal;
-  text-align: center;
-  margin-bottom: 1em;
-  margin-right: 0.6em;
-  padding: 4px 17px;
-  @include border-radius(15px);
-  text-decoration: none;
-  width: auto;
-  
-  a {
     text-decoration: none;
   }
 }
@@ -349,44 +242,6 @@ div.field-name-field-register-at {
   h3 {
     font-weight: normal;
     text-transform: lowercase;
-  }
-}
-
-#views_slideshow_cycle_main_oneliners-block .views-field-title {
-  position: absolute;
-  top: 300px;
-  
-  h3 {
-    color: black;
-    text-decoration: none;
-    font-size: 25px;
-    background: white;
-    padding: 10px 15px;
-  }
-}
-
-.teachers {
-  td {
-    margin: 0;
-    padding: 0;
-  }
-  .views-field-title {
-    position: relative;
-    top: -70px;
-    height: 0px;
-    
-    a {
-      color: white;
-      text-decoration: none;
-      font-size: 12px;
-      background: black;
-      padding: 8px 8px;
-      width: 129px;
-      @include opacity($opacity);
-      display: block;
-      margin: 0;
-      font-weight: bold;
-    }
   }
 }
 
