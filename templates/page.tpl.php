@@ -2,7 +2,7 @@
   <div id="highlighted">
     <?php print render($page['highlighted']); ?>
   </div>
-  <div id="inner">
+  <div id="inner">  
     <div id="header">
       <div id="hd">
         <h2><a href="<?php print $front_page; ?>"><span><?php print $site_name; ?></span></a></h2>
@@ -48,7 +48,7 @@
         </div>
       </div>
     </div>
+    <div id="prop"></div>
+    <div id="prop2"></div>
   </div>
-  <div id="prop"></div>
-  <div id="prop2"></div>
 </div>
