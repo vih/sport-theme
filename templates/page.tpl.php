@@ -36,7 +36,7 @@
       </div>
     </div>
     <div id="footer">
-      <div id="inner">
+      <div class="inner">
         <div id="footer-first">
           <?php print render($page['footer_first']); ?> 
         </div>
