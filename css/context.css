@@ -36,37 +36,37 @@ body.skitur { background-image: url('../images/background/bgski.jpg?1377019142')
 
 /* big graphic at top of screen */
 /* line 71, ../scss/context.scss */
-.front #prop, .fodbold #prop, .fodboldakademi #prop { position: absolute; z-index: 100; width: 634px; height: 394px; background: url('../images/props/float_fodboldstoevle2.png?1377019144') no-repeat 0 0; top: -284px; left: -34px; }
+.front #prop, .fodbold #prop, .fodboldakademi #prop { position: absolute; z-index: 100; width: 634px; height: 394px; background: url('../images/props/float_fodboldstoevle2.png?1380144472') no-repeat 0 0; top: -284px; left: -34px; }
 
 /* line 76, ../scss/context.scss */
-.adventure #prop, .adventurerejse #prop { position: absolute; z-index: 100; width: 566px; height: 471px; background: url('../images/props/float_vandrestoevle.png?1377019144') no-repeat 0 0; top: -361px; left: 34px; }
+.adventure #prop, .adventurerejse #prop { position: absolute; z-index: 100; width: 566px; height: 471px; background: url('../images/props/float_vandrestoevle.png?1380144473') no-repeat 0 0; top: -361px; left: 34px; }
 
 /* line 80, ../scss/context.scss */
-.haandbold #prop { position: absolute; z-index: 100; width: 355px; height: 371px; background: url('../images/props/float_haandbold.png?1377019143') no-repeat 0 0; top: -261px; left: 245px; }
+.haandbold #prop { position: absolute; z-index: 100; width: 355px; height: 371px; background: url('../images/props/float_haandbold.png?1380144473') no-repeat 0 0; top: -261px; left: 245px; }
 
 /* line 84, ../scss/context.scss */
-.outdoorenergy #prop { position: absolute; z-index: 100; width: 300px; height: 300px; background: url('../images/props/lobesko.png?1377019144') no-repeat 0 0; top: -190px; left: 300px; }
+.outdoorenergy #prop { position: absolute; z-index: 100; width: 300px; height: 300px; background: url('../images/props/lobesko.png?1380144470') no-repeat 0 0; top: -190px; left: 300px; }
 
 /* line 88, ../scss/context.scss */
-.fodboldakademi #prop2 { position: absolute; z-index: 100; width: 442px; height: 470px; background: url('../images/props/float_lyseroedfodbold.png?1377019144') no-repeat 0 0; bottom: -420px; left: 362px; }
+.fodboldakademi #prop2 { position: absolute; z-index: 100; width: 442px; height: 470px; background: url('../images/props/float_lyseroedfodbold.png?1380144472') no-repeat 0 0; bottom: -420px; left: 362px; }
 
 /* line 92, ../scss/context.scss */
-.bodymind #prop2 { position: absolute; z-index: 100; width: 300px; height: 314px; background: url('../images/props/float_bodymind.png?1377019143') no-repeat 0 0; bottom: -264px; left: 220px; }
+.bodymind #prop2 { position: absolute; z-index: 100; width: 300px; height: 314px; background: url('../images/props/float_bodymind.png?1380144473') no-repeat 0 0; bottom: -264px; left: 220px; }
 
 /* line 96, ../scss/context.scss */
-.teambuilder #prop2 { position: absolute; z-index: 100; width: 566px; height: 471px; background: url('../images/props/float_vandrestoevle.png?1377019144') no-repeat 0 0; bottom: -421px; left: 486px; }
+.teambuilder #prop2 { position: absolute; z-index: 100; width: 566px; height: 471px; background: url('../images/props/float_vandrestoevle.png?1380144473') no-repeat 0 0; bottom: -421px; left: 486px; }
 
 /* line 100, ../scss/context.scss */
-.front #prop2, .fodbold #prop2 { position: absolute; z-index: 100; width: 567px; height: 425px; background: url('../images/props/float_fodbold.png?1377019144') no-repeat 0 0; bottom: -375px; left: 487px; }
+.front #prop2, .fodbold #prop2 { position: absolute; z-index: 100; width: 567px; height: 425px; background: url('../images/props/float_fodbold.png?1380144472') no-repeat 0 0; bottom: -375px; left: 487px; }
 
 /* line 103, ../scss/context.scss */
-.faciliteter #prop2, .fitness #prop2, .aerobic #prop2 { position: absolute; z-index: 100; width: 567px; height: 425px; background: url('../images/props/float_fitnesssko.png?1377019144') no-repeat 0 0; bottom: -375px; left: 487px; }
+.faciliteter #prop2, .fitness #prop2, .aerobic #prop2 { position: absolute; z-index: 100; width: 567px; height: 425px; background: url('../images/props/float_fitnesssko.png?1380144472') no-repeat 0 0; bottom: -375px; left: 487px; }
 
 /* line 107, ../scss/context.scss */
-.fitnessinstruktoer #prop2, .spinning-pump-boksning #prop2 { position: absolute; z-index: 100; width: 567px; height: 331px; background: url('../images/props/float_fitnesssko3.png?1377019143') no-repeat 0 0; bottom: -281px; left: 487px; }
+.fitnessinstruktoer #prop2, .spinning-pump-boksning #prop2 { position: absolute; z-index: 100; width: 567px; height: 331px; background: url('../images/props/float_fitnesssko3.png?1380144471') no-repeat 0 0; bottom: -281px; left: 487px; }
 
 /* line 111, ../scss/context.scss */
-.badminton #prop { position: absolute; z-index: 100; width: 256px; height: 262px; background: url('../images/props/float_fjerbold.png?1377019143') no-repeat 0 0; top: -152px; left: 344px; }
+.badminton #prop { position: absolute; z-index: 100; width: 256px; height: 262px; background: url('../images/props/float_fjerbold.png?1380144472') no-repeat 0 0; top: -152px; left: 344px; }
 
 /* line 115, ../scss/context.scss */
-.volleyball #prop, .beachvolley #prop { position: absolute; z-index: 100; width: 200px; height: 169px; background: url('../images/props/volleyball.png?1377019142') no-repeat 0 0; top: -59px; left: 400px; }
+.volleyball #prop, .beachvolley #prop { position: absolute; z-index: 100; width: 200px; height: 169px; background: url('../images/props/volleyball.png?1380144471') no-repeat 0 0; top: -59px; left: 400px; }
