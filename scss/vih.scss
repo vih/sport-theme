@@ -17,7 +17,7 @@ $opacity: 0.7;
   }
 }
 
-@mixin picture-button-opaque($top, $width: "135px") {
+@mixin picture-button-opaque($top, $width: "135px", $font-size: "12px") {
   position: relative;
   top: $top;
   height: 0px;
@@ -25,7 +25,8 @@ $opacity: 0.7;
   a {
     color: white;
     text-decoration: none;
-    font-size: 12px;
+    font-size: $font-size;
+    font-weight: 600;
     background: black;
     padding: 5px 5px;
     width: $width;
@@ -78,7 +79,7 @@ $opacity: 0.7;
 }
 
 .travel .views-field-title {
-  @include picture-button-opaque(-140px);
+  @include picture-button-opaque(-140px, 135px, 16px);
 }
 
 #views_slideshow_cycle_main_oneliners-block .views-field-title {

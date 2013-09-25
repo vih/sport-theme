@@ -1,147 +1,147 @@
-/* line 38, ../scss/vih.scss */
+/* line 39, ../scss/vih.scss */
 .sidebar-slide { height: 208px; width: 160px; overflow: hidden; }
-/* line 43, ../scss/vih.scss */
+/* line 44, ../scss/vih.scss */
 .sidebar-slide div.views-field-title { position: relative; top: -100px; height: 0px; display: block; }
 /* line 25, ../scss/vih.scss */
-.sidebar-slide div.views-field-title a { color: white; text-decoration: none; font-size: 12px; background: black; padding: 5px 5px; width: "135px"; filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=70); opacity: 0.7; display: block; margin: 0; }
+.sidebar-slide div.views-field-title a { color: white; text-decoration: none; font-size: "12px"; font-weight: 600; background: black; padding: 5px 5px; width: "135px"; filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=70); opacity: 0.7; display: block; margin: 0; }
 
-/* line 49, ../scss/vih.scss */
+/* line 50, ../scss/vih.scss */
 .teachers td { margin: 0; padding: 0; }
-/* line 53, ../scss/vih.scss */
+/* line 54, ../scss/vih.scss */
 .teachers .views-field-title { position: relative; top: -70px; height: 0px; display: block; }
 /* line 25, ../scss/vih.scss */
-.teachers .views-field-title a { color: white; text-decoration: none; font-size: 12px; background: black; padding: 5px 5px; width: 129px; filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=70); opacity: 0.7; display: block; margin: 0; }
+.teachers .views-field-title a { color: white; text-decoration: none; font-size: "12px"; font-weight: 600; background: black; padding: 5px 5px; width: 129px; filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=70); opacity: 0.7; display: block; margin: 0; }
 
-/* line 58, ../scss/vih.scss */
+/* line 59, ../scss/vih.scss */
 .subject-packages .views-field-name { position: relative; top: -90px; height: 0px; }
 /* line 10, ../scss/vih.scss */
 .subject-packages .views-field-name a { color: black; text-decoration: none; font-size: 20px; background: white; padding: 5px 10px; width: 100px; }
 
-/* line 62, ../scss/vih.scss */
+/* line 63, ../scss/vih.scss */
 .short-course-types .views-field-name { position: relative; top: -55px; height: 0px; }
 /* line 10, ../scss/vih.scss */
 .short-course-types .views-field-name a { color: black; text-decoration: none; font-size: "16px"; background: white; padding: 5px 10px; width: 100px; }
 
-/* line 66, ../scss/vih.scss */
+/* line 67, ../scss/vih.scss */
 .faciliteter .views-field-title { position: relative; top: -55px; height: 0px; }
 /* line 10, ../scss/vih.scss */
 .faciliteter .views-field-title a { color: black; text-decoration: none; font-size: "16px"; background: white; padding: 5px 10px; width: 100px; }
 
-/* line 71, ../scss/vih.scss */
+/* line 72, ../scss/vih.scss */
 .subjects-page td { margin: 0; padding: 0; }
-/* line 75, ../scss/vih.scss */
+/* line 76, ../scss/vih.scss */
 .subjects-page .views-field-title { position: relative; top: -60px; height: 0px; display: block; }
 /* line 25, ../scss/vih.scss */
-.subjects-page .views-field-title a { color: white; text-decoration: none; font-size: 12px; background: black; padding: 5px 5px; width: "135px"; filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=70); opacity: 0.7; display: block; margin: 0; }
+.subjects-page .views-field-title a { color: white; text-decoration: none; font-size: "12px"; font-weight: 600; background: black; padding: 5px 5px; width: "135px"; filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=70); opacity: 0.7; display: block; margin: 0; }
 
-/* line 80, ../scss/vih.scss */
+/* line 81, ../scss/vih.scss */
 .travel .views-field-title { position: relative; top: -140px; height: 0px; display: block; }
 /* line 25, ../scss/vih.scss */
-.travel .views-field-title a { color: white; text-decoration: none; font-size: 12px; background: black; padding: 5px 5px; width: "135px"; filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=70); opacity: 0.7; display: block; margin: 0; }
+.travel .views-field-title a { color: white; text-decoration: none; font-size: 16px; font-weight: 600; background: black; padding: 5px 5px; width: 135px; filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=70); opacity: 0.7; display: block; margin: 0; }
 
-/* line 84, ../scss/vih.scss */
+/* line 85, ../scss/vih.scss */
 #views_slideshow_cycle_main_oneliners-block .views-field-title { position: absolute; top: 300px; }
-/* line 88, ../scss/vih.scss */
+/* line 89, ../scss/vih.scss */
 #views_slideshow_cycle_main_oneliners-block .views-field-title h3 { color: black; text-decoration: none; font-size: 25px; background: white; padding: 10px 15px; }
 
-/* line 98, ../scss/vih.scss */
+/* line 99, ../scss/vih.scss */
 .news-slideshow a { color: black; text-decoration: none; }
-/* line 102, ../scss/vih.scss */
+/* line 103, ../scss/vih.scss */
 .news-slideshow .transparent { background: black; position: relative; top: -160px; left: 0px; width: 480px; color: white; padding: 10px; font-size: 1.1em; zoom: 1; filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=70); opacity: 0.7; }
-/* line 114, ../scss/vih.scss */
+/* line 115, ../scss/vih.scss */
 .news-slideshow .transparent h2 { font-size: 1.1em; }
 
-/* line 120, ../scss/vih.scss */
+/* line 121, ../scss/vih.scss */
 .media-youtube-outer-wrapper { clear: both; background: #fff; margin: 10px auto; }
-/* line 124, ../scss/vih.scss */
+/* line 125, ../scss/vih.scss */
 .media-youtube-outer-wrapper object { width: 600px; }
 
-/* line 129, ../scss/vih.scss */
+/* line 130, ../scss/vih.scss */
 .field-name-field-picture img, .field-name-field-image img { float: right; margin-left: 1em; margin-bottom: 1em; }
 
-/* line 135, ../scss/vih.scss */
+/* line 136, ../scss/vih.scss */
 .page-fag #content-main h2 { text-transform: uppercase; background: #41AD49; font-size: 30px; color: white; padding: 5px 10px; }
 
-/* line 143, ../scss/vih.scss */
+/* line 144, ../scss/vih.scss */
 .views-table { clear: both; }
 
-/* line 147, ../scss/vih.scss */
+/* line 148, ../scss/vih.scss */
 .field-name-field-registration { margin: 1em 0; }
-/* line 149, ../scss/vih.scss */
+/* line 150, ../scss/vih.scss */
 .field-name-field-registration a { background: white url('../images/buttons.png?1377019142') 0 0 repeat-x; border: 1px solid #e4e4e4; border-bottom: 1px solid #b4b4b4; border-left-color: #d2d2d2; border-right-color: #d2d2d2; color: #3a3a3a; cursor: pointer; font-size: 0.929em; font-weight: normal; text-align: center; margin-bottom: 1em; margin-right: 0.6em; padding: 4px 17px; -webkit-border-radius: 15px; -moz-border-radius: 15px; -ms-border-radius: 15px; -o-border-radius: 15px; border-radius: 15px; text-decoration: none; }
 
-/* line 168, ../scss/vih.scss */
+/* line 169, ../scss/vih.scss */
 .user-picture { float: left; margin-right: 0.5em; }
 
-/* line 173, ../scss/vih.scss */
+/* line 174, ../scss/vih.scss */
 .submitted { color: #ccc; margin-bottom: 1em; }
-/* line 177, ../scss/vih.scss */
+/* line 178, ../scss/vih.scss */
 .submitted a { color: #ccc; }
 
-/* line 182, ../scss/vih.scss */
+/* line 183, ../scss/vih.scss */
 .field-name-field-course-leader { background: #eee; border: #ccc 2px solid; padding: 10px 10px 5px 5px; margin: 1em 0; }
-/* line 188, ../scss/vih.scss */
+/* line 189, ../scss/vih.scss */
 .field-name-field-course-leader .field-name-field-image .field-items { float: left; margin-right: 1em; }
-/* line 193, ../scss/vih.scss */
+/* line 194, ../scss/vih.scss */
 .field-name-field-course-leader a { font-weight: bold; }
-/* line 197, ../scss/vih.scss */
+/* line 198, ../scss/vih.scss */
 .field-name-field-course-leader h2 { font-size: 1em; }
 
-/* line 203, ../scss/vih.scss */
+/* line 204, ../scss/vih.scss */
 .field-name-field-employee-reference .field-name-field-image .field-items { float: left; margin-right: 1em; }
-/* line 207, ../scss/vih.scss */
+/* line 208, ../scss/vih.scss */
 .field-name-field-employee-reference a { font-weight: bold; }
-/* line 211, ../scss/vih.scss */
+/* line 212, ../scss/vih.scss */
 .field-name-field-employee-reference h2 { font-size: 1em; }
 
-/* line 216, ../scss/vih.scss */
+/* line 217, ../scss/vih.scss */
 .node-employee-context ul.inline, .node-employee ul.inline { display: none; }
 
-/* line 220, ../scss/vih.scss */
+/* line 221, ../scss/vih.scss */
 .field-type-entityreference .node-webform h2 { font-size: 1em; }
-/* line 223, ../scss/vih.scss */
+/* line 224, ../scss/vih.scss */
 .field-type-entityreference .node-webform h2 a { text-decoration: none; color: black; }
 
-/* line 229, ../scss/vih.scss */
+/* line 230, ../scss/vih.scss */
 .node-type-vih-long-course div.field-name-field-course-time { margin-bottom: 1em; color: #bbb; }
 
-/* line 235, ../scss/vih.scss */
+/* line 236, ../scss/vih.scss */
 #col3 .short-courses-sidebar ul { padding-left: 0; }
-/* line 238, ../scss/vih.scss */
+/* line 239, ../scss/vih.scss */
 #col3 .short-courses-sidebar li { margin-bottom: 0.3em; padding-bottom: 0; }
-/* line 242, ../scss/vih.scss */
+/* line 243, ../scss/vih.scss */
 #col3 .short-courses-sidebar h3 { font-weight: normal; text-transform: lowercase; }
 
-/* line 248, ../scss/vih.scss */
-#content-main { /* HACK FOR ENGLISH PAGE */ }
 /* line 249, ../scss/vih.scss */
+#content-main { /* HACK FOR ENGLISH PAGE */ }
+/* line 250, ../scss/vih.scss */
 #content-main .pane-employees-context th { display: none; }
-/* line 254, ../scss/vih.scss */
+/* line 255, ../scss/vih.scss */
 #content-main .teacher-context table.views-table td, #content-main .teacher-context .views-table tr, #content-main .teacher-context table.views-table, #content-main .teacher-context .views-table th { border: none; background: none; }
-/* line 258, ../scss/vih.scss */
+/* line 259, ../scss/vih.scss */
 #content-main .teacher-context table.views-table td { vertical-align: middle; }
-/* line 263, ../scss/vih.scss */
+/* line 264, ../scss/vih.scss */
 #content-main .teacher-context-table h2.pane-title, #content-main #content-main .pane-employees-context h2.pane-title { padding: 10px 10px 0px 10px !important; }
-/* line 267, ../scss/vih.scss */
+/* line 268, ../scss/vih.scss */
 #content-main .teacher-context .views-content { padding: 10px; }
-/* line 271, ../scss/vih.scss */
+/* line 272, ../scss/vih.scss */
 #content-main .teacher-context table.views-table td { padding: 10px; }
-/* line 276, ../scss/vih.scss */
+/* line 277, ../scss/vih.scss */
 #content-main .calltoaction { margin-top: 1em; margin-bottom: 1em; background: #cbcbcb; -webkit-border-radius: 8px; -moz-border-radius: 8px; -ms-border-radius: 8px; -o-border-radius: 8px; border-radius: 8px; padding: 1em; width: 50%; float: right; }
 
-/* line 288, ../scss/vih.scss */
+/* line 289, ../scss/vih.scss */
 table.skema caption { font-weight: bold; text-transform: uppercase; }
-/* line 292, ../scss/vih.scss */
+/* line 293, ../scss/vih.scss */
 table.skema td, table.skema th { text-align: center; }
-/* line 295, ../scss/vih.scss */
+/* line 296, ../scss/vih.scss */
 table.skema tr { border-width: 1px 0 1px 0; border-style: solid; border-color: #bebfb9; }
-/* line 300, ../scss/vih.scss */
+/* line 301, ../scss/vih.scss */
 table.skema td { border-width: 0 1px 0 1px; border-style: solid; border-color: #bebfb9; }
 
-/* line 307, ../scss/vih.scss */
+/* line 308, ../scss/vih.scss */
 form.commerce-add-to-cart { margin-top: 1em; background: #cbcbcb; margin-bottom: 1em; padding: 1em; -webkit-border-radius: 8px; -moz-border-radius: 8px; -ms-border-radius: 8px; -o-border-radius: 8px; border-radius: 8px; }
-/* line 314, ../scss/vih.scss */
+/* line 315, ../scss/vih.scss */
 form.commerce-add-to-cart .views-table { margin-top: 1em; }
 
-/* line 319, ../scss/vih.scss */
+/* line 320, ../scss/vih.scss */
 .display-price-amount { font-size: 2em; }
