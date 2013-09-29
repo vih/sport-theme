@@ -1,106 +1,54 @@
 /* Welcome to Compass. Use this file to define print styles. Import this file using the following HTML or equivalent: <link href="/stylesheets/print.css" media="print" rel="stylesheet" type="text/css" /> */
-html, body {
-  color: black;
-  background: white;
-  width: auto;
-  padding: 10px;
-  text-align: left;
-  font: 10px/1.5 Verdana, Arial, Helvetica, sans-serif;
-}
+/* Welcome to Compass. Use this file to define print styles. Import this file using the following HTML or equivalent: <link href="/stylesheets/print.css" media="print" rel="stylesheet" type="text/css" /> */
+/* line 5, ../scss/print.scss */
+html, body { color: black; background: white; width: auto; padding: 10px; text-align: left; font: 10px/1.5 Verdana, Arial, Helvetica, sans-serif; }
 
-#outer {
-  padding: 0;
-  width: 100%;
-}
+/* line 14, ../scss/print.scss */
+#outer { padding: 0; width: 100%; }
 
-#highlighted {
-  display: none;
-}
+/* line 19, ../scss/print.scss */
+#highlighted { display: none; }
 
-#header {
-  position: static;
-  height: auto;
-  width: auto;
-  background: none;
-}
+/* line 23, ../scss/print.scss */
+#header { position: static; height: auto; width: auto; background: none; }
 
-#hd {
-  position: static;
-  padding: 0;
-  margin: 0;
-  height: 83px;
-  background: url(../images/logo/logo.gif) right no-repeat;
-  
-  h2 {
-    position: static;
-    width: auto;
-    height: auto;
-    font-size: 2em;
-    margin-left: 0;
-    padding-left: 0;
-    
-    a {
-      width: auto;
-      height: auto;
-      
-      span {
-        position: static;
-        color: black;
-      }
-    }
-  }
-}
+/* line 30, ../scss/print.scss */
+#hd { position: static; padding: 0; margin: 0; height: 83px; background: url('../images/logo/logo.gif?1371591343') right no-repeat; }
+/* line 37, ../scss/print.scss */
+#hd h2 { position: static; width: auto; height: auto; font-size: 2em; margin-left: 0; padding-left: 0; }
+/* line 45, ../scss/print.scss */
+#hd h2 a { width: auto; height: auto; }
+/* line 49, ../scss/print.scss */
+#hd h2 a span { position: static; color: black; }
 
-#inner {
-  background: none;
-  padding: 0;
-  width: 100%;
-}
+/* line 57, ../scss/print.scss */
+#inner { background: none; padding: 0; width: 100%; }
 
-#main {
-  background: none;
-  width: 100%;
-}
+/* line 63, ../scss/print.scss */
+#main { background: none; width: 100%; }
 
-#col1, #col3 {
-  display: none;
-}
+/* line 68, ../scss/print.scss */
+#col1, #col3 { display: none; }
 
-#footer {
-  display: none;
-}
+/* line 72, ../scss/print.scss */
+#footer { display: none; }
 
-#breadcrumb {
-  display: none
-}
+/* line 76, ../scss/print.scss */
+#breadcrumb { display: none; }
 
-#prop, #base {
-  display: none
-}
+/* line 80, ../scss/print.scss */
+#prop, #base { display: none; }
 
-#content-main {
-  width: 100%;
-  margin: 0;
-  float: none;
-  background: none;
-  position: static;
-  
-  img {
-    float: right;
-    margin: 5px;
-  }
-}
+/* line 84, ../scss/print.scss */
+#content-main { width: 100%; margin: 0; float: none; background: none; position: static; }
+/* line 91, ../scss/print.scss */
+#content-main img { float: right; margin: 5px; }
 
-p {
-  font-size: 8pt;
-}
+/* line 97, ../scss/print.scss */
+p { font-size: 8pt; }
 
-a:link, a:visited {
-  color: #06c;
-  font-weight: bold;
-  text-decoration: underline;
-}
+/* line 101, ../scss/print.scss */
+a:link, a:visited { color: #06c; font-weight: bold; text-decoration: underline; }
 
-#toolbar, iframe, .action-links {
-  display: none;
-}
+/* line 107, ../scss/print.scss */
+#toolbar, iframe, .action-links { display: none; }
