@@ -16,7 +16,7 @@ $plugin =  array(
     'hook theme'    => array(
       'vih_box_highlight_theme_pane' => array(
         'template' => 'vih_box_highlight-pane',
-         'path' => drupal_get_path('module', 'vih_styles') .'/plugins/styles/vih_box_highlight',
+         'path' => drupal_get_path('theme', 'sport') .'/plugins/styles/vih_box_highlight',
          'variables' => array(
            'content' => NULL,
            'settings' => NULL,
@@ -24,7 +24,7 @@ $plugin =  array(
        ),
       'vih_box_highlight_theme_region' => array(
         'template' => 'vih_box_highlight-region',
-         'path' => drupal_get_path('module', 'vih_styles') .'/plugins/styles/vih_box_highlight',
+         'path' => drupal_get_path('theme', 'sport') .'/plugins/styles/vih_box_highlight',
          'variables' => array(
            'content' => NULL,
          ),

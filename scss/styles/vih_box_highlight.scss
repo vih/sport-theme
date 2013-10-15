@@ -1,7 +1,9 @@
+@import "modules/_base";
+
 .vih-box-highlight-pane {
   background: #cbcbcb;
-  -moz-border-radius: 8px;
-  border-radius: 8px;
+  @include border-radius(8px);
+  @include clearfix;
   margin-bottom: 1em;
   padding: 1em;
 }

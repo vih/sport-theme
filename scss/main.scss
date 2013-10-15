@@ -1,15 +1,9 @@
-@import "compass/css3";
-@import "compass/utilities/text/replacement";
-@import "compass/utilities/general/clearfix";
+@import "modules/_base";
+@import "compass/typography/text/replacement";
 @import "compass/reset/utilities";
 @import "compass/layout/stretching";
 @import "compass/utilities";
 @import "sassy-buttons";
-
-$branding-color: #41AD49;
-$background-color: #5f7283;
-$link-color: #4278AE;
-$fade_percent: 18%;
 
 /* reset*/
 body,div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,pre,code,form,fieldset,legend,input,textarea,p,blockquote,th,td {
