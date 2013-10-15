@@ -30,7 +30,7 @@
 /* line 72, ../scss/vih.scss */
 .subjects-page td { margin: 0; padding: 0; }
 /* line 76, ../scss/vih.scss */
-.subjects-page .views-field-title { position: relative; top: -60px; height: 0px; display: block; }
+.subjects-page .views-field-title { position: relative; top: 15px; height: 0px; display: block; }
 /* line 25, ../scss/vih.scss */
 .subjects-page .views-field-title a { color: white; text-decoration: none; font-size: "12px"; font-weight: 600; background: black; padding: 5px 5px; width: "135px"; filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=70); opacity: 0.7; display: block; margin: 0; }
 
@@ -57,91 +57,88 @@
 .media-youtube-outer-wrapper object { width: 600px; }
 
 /* line 130, ../scss/vih.scss */
-.field-name-field-picture img, .field-name-field-image img { float: right; margin-left: 1em; margin-bottom: 1em; }
-
-/* line 136, ../scss/vih.scss */
 .page-fag #content-main h2 { text-transform: uppercase; background: #41AD49; font-size: 30px; color: white; padding: 5px 10px; }
 
-/* line 144, ../scss/vih.scss */
+/* line 138, ../scss/vih.scss */
 .views-table { clear: both; }
 
-/* line 148, ../scss/vih.scss */
+/* line 142, ../scss/vih.scss */
 .field-name-field-registration { margin: 1em 0; }
-/* line 150, ../scss/vih.scss */
-.field-name-field-registration a { background: white url('../images/buttons.png?1377019142') 0 0 repeat-x; border: 1px solid #e4e4e4; border-bottom: 1px solid #b4b4b4; border-left-color: #d2d2d2; border-right-color: #d2d2d2; color: #3a3a3a; cursor: pointer; font-size: 0.929em; font-weight: normal; text-align: center; margin-bottom: 1em; margin-right: 0.6em; padding: 4px 17px; -webkit-border-radius: 15px; -moz-border-radius: 15px; -ms-border-radius: 15px; -o-border-radius: 15px; border-radius: 15px; text-decoration: none; }
+/* line 144, ../scss/vih.scss */
+.field-name-field-registration a { background: white url('../images/buttons.png?1380144469') 0 0 repeat-x; border: 1px solid #e4e4e4; border-bottom: 1px solid #b4b4b4; border-left-color: #d2d2d2; border-right-color: #d2d2d2; color: #3a3a3a; cursor: pointer; font-size: 0.929em; font-weight: normal; text-align: center; margin-bottom: 1em; margin-right: 0.6em; padding: 4px 17px; -webkit-border-radius: 15px; -moz-border-radius: 15px; -ms-border-radius: 15px; -o-border-radius: 15px; border-radius: 15px; text-decoration: none; }
 
-/* line 169, ../scss/vih.scss */
+/* line 163, ../scss/vih.scss */
 .user-picture { float: left; margin-right: 0.5em; }
 
-/* line 174, ../scss/vih.scss */
+/* line 168, ../scss/vih.scss */
 .submitted { color: #ccc; margin-bottom: 1em; }
-/* line 178, ../scss/vih.scss */
+/* line 172, ../scss/vih.scss */
 .submitted a { color: #ccc; }
 
-/* line 183, ../scss/vih.scss */
+/* line 177, ../scss/vih.scss */
 .field-name-field-course-leader { background: #eee; border: #ccc 2px solid; padding: 10px 10px 5px 5px; margin: 1em 0; }
-/* line 189, ../scss/vih.scss */
+/* line 183, ../scss/vih.scss */
 .field-name-field-course-leader .field-name-field-image .field-items { float: left; margin-right: 1em; }
-/* line 194, ../scss/vih.scss */
+/* line 188, ../scss/vih.scss */
 .field-name-field-course-leader a { font-weight: bold; }
-/* line 198, ../scss/vih.scss */
+/* line 192, ../scss/vih.scss */
 .field-name-field-course-leader h2 { font-size: 1em; }
 
-/* line 204, ../scss/vih.scss */
+/* line 198, ../scss/vih.scss */
 .field-name-field-employee-reference .field-name-field-image .field-items { float: left; margin-right: 1em; }
-/* line 208, ../scss/vih.scss */
+/* line 202, ../scss/vih.scss */
 .field-name-field-employee-reference a { font-weight: bold; }
-/* line 212, ../scss/vih.scss */
+/* line 206, ../scss/vih.scss */
 .field-name-field-employee-reference h2 { font-size: 1em; }
 
-/* line 217, ../scss/vih.scss */
+/* line 211, ../scss/vih.scss */
 .node-employee-context ul.inline, .node-employee ul.inline { display: none; }
 
-/* line 221, ../scss/vih.scss */
+/* line 215, ../scss/vih.scss */
 .field-type-entityreference .node-webform h2 { font-size: 1em; }
-/* line 224, ../scss/vih.scss */
+/* line 218, ../scss/vih.scss */
 .field-type-entityreference .node-webform h2 a { text-decoration: none; color: black; }
 
-/* line 230, ../scss/vih.scss */
+/* line 224, ../scss/vih.scss */
 .node-type-vih-long-course div.field-name-field-course-time { margin-bottom: 1em; color: #bbb; }
 
-/* line 236, ../scss/vih.scss */
+/* line 230, ../scss/vih.scss */
 #col3 .short-courses-sidebar ul { padding-left: 0; }
-/* line 239, ../scss/vih.scss */
+/* line 233, ../scss/vih.scss */
 #col3 .short-courses-sidebar li { margin-bottom: 0.3em; padding-bottom: 0; }
-/* line 243, ../scss/vih.scss */
+/* line 237, ../scss/vih.scss */
 #col3 .short-courses-sidebar h3 { font-weight: normal; text-transform: lowercase; }
 
-/* line 249, ../scss/vih.scss */
+/* line 243, ../scss/vih.scss */
 #content-main { /* HACK FOR ENGLISH PAGE */ }
-/* line 250, ../scss/vih.scss */
+/* line 244, ../scss/vih.scss */
 #content-main .pane-employees-context th { display: none; }
-/* line 255, ../scss/vih.scss */
+/* line 249, ../scss/vih.scss */
 #content-main .teacher-context table.views-table td, #content-main .teacher-context .views-table tr, #content-main .teacher-context table.views-table, #content-main .teacher-context .views-table th { border: none; background: none; }
-/* line 259, ../scss/vih.scss */
+/* line 253, ../scss/vih.scss */
 #content-main .teacher-context table.views-table td { vertical-align: middle; }
-/* line 264, ../scss/vih.scss */
+/* line 258, ../scss/vih.scss */
 #content-main .teacher-context-table h2.pane-title, #content-main #content-main .pane-employees-context h2.pane-title { padding: 10px 10px 0px 10px !important; }
-/* line 268, ../scss/vih.scss */
+/* line 262, ../scss/vih.scss */
 #content-main .teacher-context .views-content { padding: 10px; }
-/* line 272, ../scss/vih.scss */
+/* line 266, ../scss/vih.scss */
 #content-main .teacher-context table.views-table td { padding: 10px; }
-/* line 277, ../scss/vih.scss */
+/* line 271, ../scss/vih.scss */
 #content-main .calltoaction { margin-top: 1em; margin-bottom: 1em; background: #cbcbcb; -webkit-border-radius: 8px; -moz-border-radius: 8px; -ms-border-radius: 8px; -o-border-radius: 8px; border-radius: 8px; padding: 1em; width: 50%; float: right; }
 
-/* line 289, ../scss/vih.scss */
+/* line 283, ../scss/vih.scss */
 table.skema caption { font-weight: bold; text-transform: uppercase; }
-/* line 293, ../scss/vih.scss */
+/* line 287, ../scss/vih.scss */
 table.skema td, table.skema th { text-align: center; }
-/* line 296, ../scss/vih.scss */
+/* line 290, ../scss/vih.scss */
 table.skema tr { border-width: 1px 0 1px 0; border-style: solid; border-color: #bebfb9; }
-/* line 301, ../scss/vih.scss */
+/* line 295, ../scss/vih.scss */
 table.skema td { border-width: 0 1px 0 1px; border-style: solid; border-color: #bebfb9; }
 
-/* line 308, ../scss/vih.scss */
+/* line 302, ../scss/vih.scss */
 form.commerce-add-to-cart { margin-top: 1em; background: #cbcbcb; margin-bottom: 1em; padding: 1em; -webkit-border-radius: 8px; -moz-border-radius: 8px; -ms-border-radius: 8px; -o-border-radius: 8px; border-radius: 8px; }
-/* line 315, ../scss/vih.scss */
+/* line 309, ../scss/vih.scss */
 form.commerce-add-to-cart .views-table { margin-top: 1em; }
 
-/* line 320, ../scss/vih.scss */
+/* line 314, ../scss/vih.scss */
 .display-price-amount { font-size: 2em; }
