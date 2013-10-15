@@ -21,7 +21,8 @@ $opacity: 0.7;
   position: relative;
   top: $top;
   height: 0px;
-  display: block; 
+  display: block;
+  width: $width;
   a {
     color: white;
     text-decoration: none;
@@ -72,9 +73,10 @@ $opacity: 0.7;
   td {
     margin: 0;
     padding: 0;
+    width: 135px;
   }
   .views-field-title {
-    @include picture-button-opaque(15px);
+    @include picture-button-opaque(-60px);
   }
 }
 
