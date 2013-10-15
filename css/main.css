@@ -219,7 +219,7 @@ strong { font-weight: bold; }
 #skip-link { display: none; }
 
 /* line 484, ../scss/main.scss */
-blockquote { background: url('../images/blockquote.png?1380144469') no-repeat; padding: 5px 5px 5px 42px; }
+#content-main blockquote { background: url('../images/blockquote.png?1380144469') no-repeat; padding: 5px 5px 5px 42px; }
 
 /** Tables. */
 /* line 493, ../scss/main.scss */
