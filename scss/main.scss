@@ -606,12 +606,11 @@ ul.action-links {
   overflow: hidden;
   
   li a {
-    @include sassy-button("flat", 10px, 16px, #DADEDD);
-    color: #3a3a3a;
+    @include sassy-button("matte", 5px, 16px, $branding-color, darken($branding-color, 8%), white, "inset");
     text-decoration: none;
   }
 }
 
 input.form-submit, a.button {
-  @include sassy-button("flat", 10px, 16px, #DADEDD);
+  @include sassy-button("matte", 5px, 16px, $branding-color, darken($branding-color, 8%), white, "inset");
 }
