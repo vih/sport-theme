@@ -73,12 +73,11 @@ pre,code,kbd,samp,tt {
 }
 
 p,h1 {
-  margin: 0 0 0.5em 0;
+  margin: 0 0 1em 0;
 }
 
 strong {
   font-weight: bold;
-  font-style: normal;
 }
 
 #outer {
@@ -188,12 +187,14 @@ strong {
   
   #{headings()} {
     font-weight: bold;
+    margin-bottom: 0.5em;
   }
   
   h1 {
     font-size: 1.5em;
     border-bottom: 1px solid #ccc;
     letter-spacing: 0.1em;
+    margin-bottom: 0.8em;
   }
   
   h2 {
@@ -252,11 +253,15 @@ strong {
   
   dt {
     font-weight: bold;
-    margin-top: 0.5em;
+    margin-top: 0.8em;
   }
 
   dd {
     margin-left: 1em;
+  }
+  
+  p {
+    margin-bottom: 0.5em;
   }
 }
 
