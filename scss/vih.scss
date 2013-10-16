@@ -53,7 +53,7 @@ $opacity: 0.7;
     padding: 0;
   }
   .views-field-title {
-    @include picture-button-opaque(-70px, 129px);
+    @include picture-button-opaque(-70px, 134px);
   }
 }
 
@@ -302,12 +302,6 @@ table.skema {
 }
 
 form.commerce-add-to-cart {
-  margin-top: 1em;
-  background: #cbcbcb;
-  margin-bottom: 1em;  
-  padding: 1em;
-  @include border-radius(8px);
-  
   .views-table {
     margin-top: 1em;  
   }
