@@ -546,10 +546,19 @@ table.views-view-grid {
 
 /* Action links */
 ul.action-links {
-  margin: 0 !important;
+  @include clearfix;
   padding: 0 !important;
-  list-style-type: none;
+  list-style-type: none !important;
   overflow: hidden;
+  margin-left: 0 !important;
+  margin-bottom: 1em;
+  
+  li {
+    margin-left: 0 !important;
+    float: left;
+    margin-right: 1em;
+    list-style-type: none !important;
+  }
   
   li a {
     @include sassy-button("matte", 5px, 16px, $branding-color, darken($branding-color, 8%), white, "inset");

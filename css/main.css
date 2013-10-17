@@ -245,8 +245,10 @@ table.views-view-grid tr td:last-child { border-right: none !important; /* LTR *
 
 /* Action links */
 /* line 548, ../scss/main.scss */
-ul.action-links { margin: 0 !important; padding: 0 !important; list-style-type: none; overflow: hidden; }
-/* line 554, ../scss/main.scss */
+ul.action-links { overflow: hidden; *zoom: 1; padding: 0 !important; list-style-type: none !important; overflow: hidden; margin-left: 0 !important; margin-bottom: 1em; }
+/* line 556, ../scss/main.scss */
+ul.action-links li { margin-left: 0 !important; float: left; margin-right: 1em; list-style-type: none !important; }
+/* line 563, ../scss/main.scss */
 ul.action-links li a { font-size: 16px; padding: 0.5em 1.5em; display: inline-block; cursor: pointer; -webkit-border-radius: 5px; -moz-border-radius: 5px; -ms-border-radius: 5px; -o-border-radius: 5px; border-radius: 5px; *zoom: 1; filter: progid:DXImageTransform.Microsoft.gradient(gradientType=0, startColorstr='#FF41AD49', endColorstr='#FF25632A'); background: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #41ad49), color-stop(70%, #368f3c)); background: -webkit-linear-gradient(#41ad49, #368f3c 70%); background: -moz-linear-gradient(#41ad49, #368f3c 70%); background: -o-linear-gradient(#41ad49, #368f3c 70%); background: linear-gradient(#41ad49, #368f3c 70%); -webkit-box-shadow: #71ca77 0 1px 0 inset; -moz-box-shadow: #71ca77 0 1px 0 inset; box-shadow: #71ca77 0 1px 0 inset; border: 1px solid #2f7d35; color: white; text-shadow: #1d4d21 0 -1px 0; text-decoration: none; }
 /* line 15, ../../../../../Library/Ruby/Gems/1.8/gems/sassy-buttons-0.2.6/stylesheets/sassy-buttons/_sassy-button-pseudo-states.sass */
 ul.action-links li a:hover { text-decoration: none; }
@@ -259,7 +261,7 @@ ul.action-links li a.disabled, ul.action-links li a[disabled] { filter: progid:D
 /* line 74, ../../../../../Library/Ruby/Gems/1.8/gems/sassy-buttons-0.2.6/stylesheets/_sassy-buttons.sass */
 ul.action-links li a::-moz-focus-inner { padding: 0 !important; margin: -1px !important; }
 
-/* line 560, ../scss/main.scss */
+/* line 569, ../scss/main.scss */
 input.form-submit, a.button { font-size: 16px; padding: 0.5em 1.5em; display: inline-block; cursor: pointer; -webkit-border-radius: 5px; -moz-border-radius: 5px; -ms-border-radius: 5px; -o-border-radius: 5px; border-radius: 5px; *zoom: 1; filter: progid:DXImageTransform.Microsoft.gradient(gradientType=0, startColorstr='#FF41AD49', endColorstr='#FF25632A'); background: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #41ad49), color-stop(70%, #368f3c)); background: -webkit-linear-gradient(#41ad49, #368f3c 70%); background: -moz-linear-gradient(#41ad49, #368f3c 70%); background: -o-linear-gradient(#41ad49, #368f3c 70%); background: linear-gradient(#41ad49, #368f3c 70%); -webkit-box-shadow: #71ca77 0 1px 0 inset; -moz-box-shadow: #71ca77 0 1px 0 inset; box-shadow: #71ca77 0 1px 0 inset; border: 1px solid #2f7d35; color: white; text-shadow: #1d4d21 0 -1px 0; }
 /* line 15, ../../../../../Library/Ruby/Gems/1.8/gems/sassy-buttons-0.2.6/stylesheets/sassy-buttons/_sassy-button-pseudo-states.sass */
 input.form-submit:hover, a.button:hover { text-decoration: none; }
