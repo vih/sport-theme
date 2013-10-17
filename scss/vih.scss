@@ -281,26 +281,6 @@ $opacity: 0.7;
   }
 }
 
-table.skema {
-  caption {
-    font-weight: bold;
-    text-transform: uppercase;
-  }
-  td, th {
-    text-align: center;
-  }
-  tr {
-    border-width: 1px 0 1px 0;
-    border-style: solid;
-    border-color: #bebfb9;
-  }
-  td {
-    border-width: 0 1px 0 1px;
-    border-style: solid;
-    border-color: #bebfb9;
-  }
-}
-
 form.commerce-add-to-cart {
   .views-table {
     margin-top: 1em;  

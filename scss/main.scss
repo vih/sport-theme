@@ -486,10 +486,6 @@ strong {
   padding: 5px 5px 5px 42px;
 }
 
-/**
- * Tables.
- */
-
 table {
   border-collapse: collapse;
   border-spacing: 0;
@@ -513,75 +509,20 @@ table {
     border-style: solid;
     border-color: #bebfb9;
     padding: 3px 10px;
-    
-    .active {
-      background: #bdbeb9;
-      
-      a {
-        padding: 0 25px 0 0; /* LTR */
-      }
-      
-      img {
-        position: absolute;
-        top: 3px;
-        right: 3px; /* LTR */
-      }
-    }
-    
+  }
+  td {
     a {
-      display: block;
-      position: relative;
+      text-decoration: none;
+    }
+
+    a:hover {
+      text-decoration: underline;
     }
   }
   
-  td.active {
-    background: #e9e9dd;
-  }
-  
-  tr.odd td.active {
-    background: #f3f4ee;
-  }
-  
-  tr.selected td.active, tr.selected td {
-    background: #ffc;
-    border-color: #eeb;
-  }
-}
-
-td {
-  a {
-    text-decoration: none
-  }
-
-  a:hover {
-    text-decoration: underline
-  }
-}
-
-tr {
-  .even, .odd {
-    border-width: 0 1px 0 1px;
-    border-style: solid;
-    border-color: #bebfb9;
-    background: #f3f4ee;
-  }
-  
-  .odd {
-    background: #fff;
-  }
-  .drag {
-    background: #fe7;
-  }
-  .drag-previous {
-    background: #ffb;
-  }
-  
-  /**
-   * Exception for webkit bug with the right border of the last cell
-   * in some tables, since it's webkit only, we can use :last-child
-   */
-  td:last-child {
-    border-right: 1px solid #bebfb9; /* LTR */
+  tr:nth-of-type(even) td{
+   background-color:#ddd;
+   color: black;
   }
 }
 

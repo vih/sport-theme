@@ -221,59 +221,32 @@ strong { font-weight: bold; }
 /* line 484, ../scss/main.scss */
 #content-main blockquote { background: url('../images/blockquote.png?1380144469') no-repeat; padding: 5px 5px 5px 42px; }
 
-/** Tables. */
-/* line 493, ../scss/main.scss */
+/* line 489, ../scss/main.scss */
 table { border-collapse: collapse; border-spacing: 0; width: 100%; font-size: 0.923em; margin: 0 0 10px; border: 1px solid #bebfb9; }
-/* line 501, ../scss/main.scss */
+/* line 497, ../scss/main.scss */
 table td, table th { vertical-align: middle; padding: 8px 10px; border: 0; color: #000; }
-/* line 508, ../scss/main.scss */
+/* line 504, ../scss/main.scss */
 table th { text-transform: uppercase; background: #e1e2dc; font-weight: normal; border-width: 1px; border-style: solid; border-color: #bebfb9; padding: 3px 10px; }
-/* line 517, ../scss/main.scss */
-table th .active { background: #bdbeb9; }
-/* line 520, ../scss/main.scss */
-table th .active a { padding: 0 25px 0 0; /* LTR */ }
-/* line 524, ../scss/main.scss */
-table th .active img { position: absolute; top: 3px; right: 3px; /* LTR */ }
-/* line 531, ../scss/main.scss */
-table th a { display: block; position: relative; }
-/* line 537, ../scss/main.scss */
-table td.active { background: #e9e9dd; }
-/* line 541, ../scss/main.scss */
-table tr.odd td.active { background: #f3f4ee; }
-/* line 545, ../scss/main.scss */
-table tr.selected td.active, table tr.selected td { background: #ffc; border-color: #eeb; }
+/* line 514, ../scss/main.scss */
+table td a { text-decoration: none; }
+/* line 518, ../scss/main.scss */
+table td a:hover { text-decoration: underline; }
+/* line 523, ../scss/main.scss */
+table tr:nth-of-type(even) td { background-color: #ddd; color: black; }
 
-/* line 552, ../scss/main.scss */
-td a { text-decoration: none; }
-/* line 556, ../scss/main.scss */
-td a:hover { text-decoration: underline; }
-
-/* line 561, ../scss/main.scss */
-tr { /** Exception for webkit bug with the right border of the last cell in some tables, since it's webkit only, we can use :last-child */ }
-/* line 562, ../scss/main.scss */
-tr .even, tr .odd { border-width: 0 1px 0 1px; border-style: solid; border-color: #bebfb9; background: #f3f4ee; }
-/* line 569, ../scss/main.scss */
-tr .odd { background: #fff; }
-/* line 572, ../scss/main.scss */
-tr .drag { background: #fe7; }
-/* line 575, ../scss/main.scss */
-tr .drag-previous { background: #ffb; }
-/* line 583, ../scss/main.scss */
-tr td:last-child { border-right: 1px solid #bebfb9; /* LTR */ }
-
-/* line 588, ../scss/main.scss */
+/* line 529, ../scss/main.scss */
 table.views-view-grid { width: auto !important; border: none !important; }
-/* line 592, ../scss/main.scss */
+/* line 533, ../scss/main.scss */
 table.views-view-grid th, table.views-view-grid td { padding: 0 10px 0 0 !important; border: none !important; }
-/* line 597, ../scss/main.scss */
+/* line 538, ../scss/main.scss */
 table.views-view-grid tr.odd, table.views-view-grid tr.even { border: none !important; }
-/* line 601, ../scss/main.scss */
+/* line 542, ../scss/main.scss */
 table.views-view-grid tr td:last-child { border-right: none !important; /* LTR */ }
 
 /* Action links */
-/* line 607, ../scss/main.scss */
+/* line 548, ../scss/main.scss */
 ul.action-links { margin: 0 !important; padding: 0 !important; list-style-type: none; overflow: hidden; }
-/* line 613, ../scss/main.scss */
+/* line 554, ../scss/main.scss */
 ul.action-links li a { font-size: 16px; padding: 0.5em 1.5em; display: inline-block; cursor: pointer; -webkit-border-radius: 5px; -moz-border-radius: 5px; -ms-border-radius: 5px; -o-border-radius: 5px; border-radius: 5px; *zoom: 1; filter: progid:DXImageTransform.Microsoft.gradient(gradientType=0, startColorstr='#FF41AD49', endColorstr='#FF25632A'); background: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #41ad49), color-stop(70%, #368f3c)); background: -webkit-linear-gradient(#41ad49, #368f3c 70%); background: -moz-linear-gradient(#41ad49, #368f3c 70%); background: -o-linear-gradient(#41ad49, #368f3c 70%); background: linear-gradient(#41ad49, #368f3c 70%); -webkit-box-shadow: #71ca77 0 1px 0 inset; -moz-box-shadow: #71ca77 0 1px 0 inset; box-shadow: #71ca77 0 1px 0 inset; border: 1px solid #2f7d35; color: white; text-shadow: #1d4d21 0 -1px 0; text-decoration: none; }
 /* line 15, ../../../../../Library/Ruby/Gems/1.8/gems/sassy-buttons-0.2.6/stylesheets/sassy-buttons/_sassy-button-pseudo-states.sass */
 ul.action-links li a:hover { text-decoration: none; }
@@ -286,7 +259,7 @@ ul.action-links li a.disabled, ul.action-links li a[disabled] { filter: progid:D
 /* line 74, ../../../../../Library/Ruby/Gems/1.8/gems/sassy-buttons-0.2.6/stylesheets/_sassy-buttons.sass */
 ul.action-links li a::-moz-focus-inner { padding: 0 !important; margin: -1px !important; }
 
-/* line 619, ../scss/main.scss */
+/* line 560, ../scss/main.scss */
 input.form-submit, a.button { font-size: 16px; padding: 0.5em 1.5em; display: inline-block; cursor: pointer; -webkit-border-radius: 5px; -moz-border-radius: 5px; -ms-border-radius: 5px; -o-border-radius: 5px; border-radius: 5px; *zoom: 1; filter: progid:DXImageTransform.Microsoft.gradient(gradientType=0, startColorstr='#FF41AD49', endColorstr='#FF25632A'); background: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #41ad49), color-stop(70%, #368f3c)); background: -webkit-linear-gradient(#41ad49, #368f3c 70%); background: -moz-linear-gradient(#41ad49, #368f3c 70%); background: -o-linear-gradient(#41ad49, #368f3c 70%); background: linear-gradient(#41ad49, #368f3c 70%); -webkit-box-shadow: #71ca77 0 1px 0 inset; -moz-box-shadow: #71ca77 0 1px 0 inset; box-shadow: #71ca77 0 1px 0 inset; border: 1px solid #2f7d35; color: white; text-shadow: #1d4d21 0 -1px 0; }
 /* line 15, ../../../../../Library/Ruby/Gems/1.8/gems/sassy-buttons-0.2.6/stylesheets/sassy-buttons/_sassy-button-pseudo-states.sass */
 input.form-submit:hover, a.button:hover { text-decoration: none; }

@@ -127,16 +127,7 @@
 #content-main .calltoaction { margin-top: 1em; margin-bottom: 1em; background: #cbcbcb; -webkit-border-radius: 8px; -moz-border-radius: 8px; -ms-border-radius: 8px; -o-border-radius: 8px; border-radius: 8px; padding: 1em; width: 50%; float: right; }
 
 /* line 285, ../scss/vih.scss */
-table.skema caption { font-weight: bold; text-transform: uppercase; }
-/* line 289, ../scss/vih.scss */
-table.skema td, table.skema th { text-align: center; }
-/* line 292, ../scss/vih.scss */
-table.skema tr { border-width: 1px 0 1px 0; border-style: solid; border-color: #bebfb9; }
-/* line 297, ../scss/vih.scss */
-table.skema td { border-width: 0 1px 0 1px; border-style: solid; border-color: #bebfb9; }
-
-/* line 305, ../scss/vih.scss */
 form.commerce-add-to-cart .views-table { margin-top: 1em; }
 
-/* line 310, ../scss/vih.scss */
+/* line 290, ../scss/vih.scss */
 .display-price-amount { font-size: 2em; }
