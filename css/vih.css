@@ -109,8 +109,6 @@
 /* line 239, ../scss/vih.scss */
 #col3 .short-courses-sidebar h3 { font-weight: normal; text-transform: lowercase; }
 
-/* line 245, ../scss/vih.scss */
-#content-main { /* HACK FOR ENGLISH PAGE */ }
 /* line 246, ../scss/vih.scss */
 #content-main .pane-employees-context th { display: none; }
 /* line 251, ../scss/vih.scss */
@@ -123,11 +121,9 @@
 #content-main .teacher-context .views-content { padding: 10px; }
 /* line 268, ../scss/vih.scss */
 #content-main .teacher-context table.views-table td { padding: 10px; }
-/* line 273, ../scss/vih.scss */
-#content-main .calltoaction { margin-top: 1em; margin-bottom: 1em; background: #cbcbcb; -webkit-border-radius: 8px; -moz-border-radius: 8px; -ms-border-radius: 8px; -o-border-radius: 8px; border-radius: 8px; padding: 1em; width: 50%; float: right; }
 
-/* line 285, ../scss/vih.scss */
+/* line 274, ../scss/vih.scss */
 form.commerce-add-to-cart .views-table { margin-top: 1em; }
 
-/* line 290, ../scss/vih.scss */
+/* line 279, ../scss/vih.scss */
 .display-price-amount { font-size: 2em; }
