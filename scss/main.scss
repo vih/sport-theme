@@ -249,6 +249,10 @@ strong {
     padding: 1em;
     margin-bottom: 1em;
     clear: both;
+    
+    legend {
+      font-weight: bold;
+    }
   }
   
   dt {
