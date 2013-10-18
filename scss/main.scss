@@ -536,12 +536,9 @@ table.views-view-grid {
     border: none !important;
   }
   
-  tr.odd, tr.even {
-    border: none !important;
-  }
-  
-  tr td:last-child {
-    border-right: none !important; /* LTR */
+  tr:nth-of-type(even) td{
+    background-color: white;
+    color: black;
   }
 }
 
