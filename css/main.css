@@ -275,3 +275,287 @@ input.form-submit:active, a.button:active { -webkit-box-shadow: #2b7230 0 1px 2p
 input.form-submit.disabled, input.form-submit[disabled], a.button.disabled, a.button[disabled] { filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=60); opacity: 0.6; background: #368f3c; cursor: default; -webkit-box-shadow: none; -moz-box-shadow: none; box-shadow: none; }
 /* line 74, ../../../../../Library/Ruby/Gems/1.8/gems/sassy-buttons-0.2.6/stylesheets/_sassy-buttons.sass */
 input.form-submit::-moz-focus-inner, a.button::-moz-focus-inner { padding: 0 !important; margin: -1px !important; }
+
+/* line 1, ../scss/context.scss */
+body.faciliteter, body.bodymind { background-image: url('../images/background/gulv.jpg?1377019142'); }
+
+/* line 5, ../scss/context.scss */
+body.photogallery, body.haandbold { background-image: url('../images/background/hallen.jpg?1377019142'); }
+
+/* line 9, ../scss/context.scss */
+body.fag, body.badminton, body.volleyball { background-image: url('../images/background/net3.jpg?1377019143'); }
+
+/* line 13, ../scss/context.scss */
+body.langekurser, body.fitness, body.spinning-pump-boksning { background-image: url('../images/background/ribber2.jpg?1377019143'); }
+
+/* line 17, ../scss/context.scss */
+body.underviser, body.adventure { background-image: url('../images/background/klatre.jpg?1377019142'); }
+
+/* line 21, ../scss/context.scss */
+body.kortekurser, body.teambuilder { background-image: url('../images/background/ropes.jpg?1371591343'); }
+
+/* line 25, ../scss/context.scss */
+body.organisation, body.fitnessinstruktoer { background-image: url('../images/background/haandvaegte.jpg?1377019142'); }
+
+/* line 29, ../scss/context.scss */
+body.bestilling { background-image: url('../images/background/pool.jpg?1377019143'); }
+
+/* line 33, ../scss/context.scss */
+body.aerobic { background-image: none; }
+
+/* line 37, ../scss/context.scss */
+body.musiklinje { background-image: url('../images/background/bgNoder.jpg?1377019142'); }
+
+/* line 41, ../scss/context.scss */
+body.politilinje { background-image: url('../images/background/bgpoliti.jpg?1377019142'); }
+
+/* line 45, ../scss/context.scss */
+body.skitur { background-image: url('../images/background/bgski.jpg?1377019142'); }
+
+/* big graphic at top of screen */
+/* line 71, ../scss/context.scss */
+.front #prop, .fodbold #prop, .fodboldakademi #prop { position: absolute; z-index: 100; width: 634px; height: 394px; background: url('../images/props/float_fodboldstoevle2.png?1380144472') no-repeat 0 0; top: -284px; left: -34px; }
+
+/* line 76, ../scss/context.scss */
+.adventure #prop, .adventurerejse #prop { position: absolute; z-index: 100; width: 566px; height: 471px; background: url('../images/props/float_vandrestoevle.png?1380144473') no-repeat 0 0; top: -361px; left: 34px; }
+
+/* line 80, ../scss/context.scss */
+.haandbold #prop { position: absolute; z-index: 100; width: 355px; height: 371px; background: url('../images/props/float_haandbold.png?1380144473') no-repeat 0 0; top: -261px; left: 245px; }
+
+/* line 84, ../scss/context.scss */
+.outdoorenergy #prop { position: absolute; z-index: 100; width: 300px; height: 300px; background: url('../images/props/lobesko.png?1380144470') no-repeat 0 0; top: -190px; left: 300px; }
+
+/* line 88, ../scss/context.scss */
+.fodboldakademi #prop2 { position: absolute; z-index: 100; width: 442px; height: 470px; background: url('../images/props/float_lyseroedfodbold.png?1380144472') no-repeat 0 0; bottom: -420px; left: 362px; }
+
+/* line 92, ../scss/context.scss */
+.bodymind #prop2 { position: absolute; z-index: 100; width: 300px; height: 314px; background: url('../images/props/float_bodymind.png?1380144473') no-repeat 0 0; bottom: -264px; left: 220px; }
+
+/* line 96, ../scss/context.scss */
+.teambuilder #prop2 { position: absolute; z-index: 100; width: 566px; height: 471px; background: url('../images/props/float_vandrestoevle.png?1380144473') no-repeat 0 0; bottom: -421px; left: 486px; }
+
+/* line 100, ../scss/context.scss */
+.front #prop2, .fodbold #prop2 { position: absolute; z-index: 100; width: 567px; height: 425px; background: url('../images/props/float_fodbold.png?1380144472') no-repeat 0 0; bottom: -375px; left: 487px; }
+
+/* line 103, ../scss/context.scss */
+.faciliteter #prop2, .fitness #prop2, .aerobic #prop2 { position: absolute; z-index: 100; width: 567px; height: 425px; background: url('../images/props/float_fitnesssko.png?1380144472') no-repeat 0 0; bottom: -375px; left: 487px; }
+
+/* line 107, ../scss/context.scss */
+.fitnessinstruktoer #prop2, .spinning-pump-boksning #prop2 { position: absolute; z-index: 100; width: 567px; height: 331px; background: url('../images/props/float_fitnesssko3.png?1380144471') no-repeat 0 0; bottom: -281px; left: 487px; }
+
+/* line 111, ../scss/context.scss */
+.badminton #prop { position: absolute; z-index: 100; width: 256px; height: 262px; background: url('../images/props/float_fjerbold.png?1380144472') no-repeat 0 0; top: -152px; left: 344px; }
+
+/* line 115, ../scss/context.scss */
+.volleyball #prop, .beachvolley #prop { position: absolute; z-index: 100; width: 200px; height: 169px; background: url('../images/props/volleyball.png?1380144471') no-repeat 0 0; top: -59px; left: 400px; }
+
+/* line 40, ../scss/vih.scss */
+.sidebar-slide { height: 208px; width: 160px; overflow: hidden; }
+/* line 45, ../scss/vih.scss */
+.sidebar-slide div.views-field-title { position: relative; top: -100px; height: 0px; display: block; width: "135px"; }
+/* line 26, ../scss/vih.scss */
+.sidebar-slide div.views-field-title a { color: white; text-decoration: none; font-size: "12px"; font-weight: 600; background: black; padding: 5px 5px; width: "135px"; filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=70); opacity: 0.7; display: block; margin: 0; }
+
+/* line 51, ../scss/vih.scss */
+.teachers td { margin: 0; padding: 0; }
+/* line 55, ../scss/vih.scss */
+.teachers .views-field-title { position: relative; top: -70px; height: 0px; display: block; width: 134px; }
+/* line 26, ../scss/vih.scss */
+.teachers .views-field-title a { color: white; text-decoration: none; font-size: "12px"; font-weight: 600; background: black; padding: 5px 5px; width: 134px; filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=70); opacity: 0.7; display: block; margin: 0; }
+
+/* line 60, ../scss/vih.scss */
+.subject-packages .views-field-name { position: relative; top: -90px; height: 0px; }
+/* line 10, ../scss/vih.scss */
+.subject-packages .views-field-name a { color: black; text-decoration: none; font-size: 20px; background: white; padding: 5px 10px; width: 100px; }
+
+/* line 64, ../scss/vih.scss */
+.short-course-types .views-field-name { position: relative; top: -55px; height: 0px; }
+/* line 10, ../scss/vih.scss */
+.short-course-types .views-field-name a { color: black; text-decoration: none; font-size: "16px"; background: white; padding: 5px 10px; width: 100px; }
+
+/* line 68, ../scss/vih.scss */
+.faciliteter .views-field-title { position: relative; top: -55px; height: 0px; }
+/* line 10, ../scss/vih.scss */
+.faciliteter .views-field-title a { color: black; text-decoration: none; font-size: "16px"; background: white; padding: 5px 10px; width: 100px; }
+
+/* line 73, ../scss/vih.scss */
+.subjects-page td { margin: 0; padding: 0; width: 135px; }
+/* line 78, ../scss/vih.scss */
+.subjects-page .views-field-title { position: relative; top: -60px; height: 0px; display: block; width: "135px"; }
+/* line 26, ../scss/vih.scss */
+.subjects-page .views-field-title a { color: white; text-decoration: none; font-size: "12px"; font-weight: 600; background: black; padding: 5px 5px; width: "135px"; filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=70); opacity: 0.7; display: block; margin: 0; }
+
+/* line 83, ../scss/vih.scss */
+.travel .views-field-title { position: relative; top: -140px; height: 0px; display: block; width: 135px; }
+/* line 26, ../scss/vih.scss */
+.travel .views-field-title a { color: white; text-decoration: none; font-size: 16px; font-weight: 600; background: black; padding: 5px 5px; width: 135px; filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=70); opacity: 0.7; display: block; margin: 0; }
+
+/* line 87, ../scss/vih.scss */
+#views_slideshow_cycle_main_oneliners-block .views-field-title { position: absolute; top: 300px; }
+/* line 91, ../scss/vih.scss */
+#views_slideshow_cycle_main_oneliners-block .views-field-title h3 { color: black; text-decoration: none; font-size: 25px; background: white; padding: 10px 15px; }
+
+/* line 101, ../scss/vih.scss */
+.news-slideshow a { color: black; text-decoration: none; }
+/* line 105, ../scss/vih.scss */
+.news-slideshow .transparent { background: black; position: relative; top: -160px; left: 0px; width: 480px; color: white; padding: 10px; font-size: 1.1em; zoom: 1; filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=70); opacity: 0.7; }
+/* line 117, ../scss/vih.scss */
+.news-slideshow .transparent h2 { font-size: 1.1em; }
+
+/* line 123, ../scss/vih.scss */
+.media-youtube-outer-wrapper { clear: both; background: #fff; margin: 10px auto; }
+/* line 127, ../scss/vih.scss */
+.media-youtube-outer-wrapper object { width: 600px; }
+
+/* line 132, ../scss/vih.scss */
+.page-fag #content-main h2 { text-transform: uppercase; background: #41AD49; font-size: 30px; color: white; padding: 5px 10px; }
+
+/* line 140, ../scss/vih.scss */
+.views-table { clear: both; }
+
+/* line 144, ../scss/vih.scss */
+.field-name-field-registration { margin: 1em 0; }
+/* line 146, ../scss/vih.scss */
+.field-name-field-registration a { background: white url('../images/buttons.png?1380144469') 0 0 repeat-x; border: 1px solid #e4e4e4; border-bottom: 1px solid #b4b4b4; border-left-color: #d2d2d2; border-right-color: #d2d2d2; color: #3a3a3a; cursor: pointer; font-size: 0.929em; font-weight: normal; text-align: center; margin-bottom: 1em; margin-right: 0.6em; padding: 4px 17px; -webkit-border-radius: 15px; -moz-border-radius: 15px; -ms-border-radius: 15px; -o-border-radius: 15px; border-radius: 15px; text-decoration: none; }
+
+/* line 165, ../scss/vih.scss */
+.user-picture { float: left; margin-right: 0.5em; }
+
+/* line 170, ../scss/vih.scss */
+.submitted { color: #ccc; margin-bottom: 1em; }
+/* line 174, ../scss/vih.scss */
+.submitted a { color: #ccc; }
+
+/* line 179, ../scss/vih.scss */
+.field-name-field-course-leader { background: #eee; border: #ccc 2px solid; padding: 10px 10px 5px 5px; margin: 1em 0; }
+/* line 185, ../scss/vih.scss */
+.field-name-field-course-leader .field-name-field-image .field-items { float: left; margin-right: 1em; }
+/* line 190, ../scss/vih.scss */
+.field-name-field-course-leader a { font-weight: bold; }
+/* line 194, ../scss/vih.scss */
+.field-name-field-course-leader h2 { font-size: 1em; }
+
+/* line 200, ../scss/vih.scss */
+.field-name-field-employee-reference .field-name-field-image .field-items { float: left; margin-right: 1em; }
+/* line 204, ../scss/vih.scss */
+.field-name-field-employee-reference a { font-weight: bold; }
+/* line 208, ../scss/vih.scss */
+.field-name-field-employee-reference h2 { font-size: 1em; }
+
+/* line 213, ../scss/vih.scss */
+.node-employee-context ul.inline, .node-employee ul.inline { display: none; }
+
+/* line 217, ../scss/vih.scss */
+.field-type-entityreference .node-webform h2 { font-size: 1em; }
+/* line 220, ../scss/vih.scss */
+.field-type-entityreference .node-webform h2 a { text-decoration: none; color: black; }
+
+/* line 226, ../scss/vih.scss */
+.node-type-vih-long-course div.field-name-field-course-time { margin-bottom: 1em; color: #bbb; }
+
+/* line 232, ../scss/vih.scss */
+#col3 .short-courses-sidebar ul { padding-left: 0; }
+/* line 235, ../scss/vih.scss */
+#col3 .short-courses-sidebar li { margin-bottom: 0.3em; padding-bottom: 0; }
+/* line 239, ../scss/vih.scss */
+#col3 .short-courses-sidebar h3 { font-weight: normal; text-transform: lowercase; }
+
+/* line 246, ../scss/vih.scss */
+#content-main .pane-employees-context th { display: none; }
+/* line 251, ../scss/vih.scss */
+#content-main .teacher-context table.views-table td, #content-main .teacher-context .views-table tr, #content-main .teacher-context table.views-table, #content-main .teacher-context .views-table th { border: none; background: none; }
+/* line 255, ../scss/vih.scss */
+#content-main .teacher-context table.views-table td { vertical-align: middle; }
+/* line 260, ../scss/vih.scss */
+#content-main .teacher-context-table h2.pane-title, #content-main #content-main .pane-employees-context h2.pane-title { padding: 10px 10px 0px 10px !important; }
+/* line 264, ../scss/vih.scss */
+#content-main .teacher-context .views-content { padding: 10px; }
+/* line 268, ../scss/vih.scss */
+#content-main .teacher-context table.views-table td { padding: 10px; }
+
+/* line 274, ../scss/vih.scss */
+form.commerce-add-to-cart .views-table { margin-top: 1em; }
+
+/* line 279, ../scss/vih.scss */
+.display-price-amount { font-size: 2em; }
+
+/* line 1, ../scss/mail.scss */
+.message-wrapper { width: 800px; }
+
+/* line 5, ../scss/mail.scss */
+.message-wrapper .header, .message-wrapper .body { padding: 10px; }
+
+/* line 8, ../scss/mail.scss */
+.message-wrapper a { text-decoration: none; }
+
+/* line 11, ../scss/mail.scss */
+.message-wrapper .header { background-color: #FFF; color: #000000; height: 100px; }
+
+/* line 16, ../scss/mail.scss */
+.message-wrapper .header .logo { float: left; }
+
+/* line 19, ../scss/mail.scss */
+.message-wrapper .header .thank-you { float: right; font-size: 25px; font-weight: bold; }
+
+/* line 24, ../scss/mail.scss */
+.message-wrapper .body { border: solid 1px #E9E9E9; padding: 10px; }
+
+/* line 28, ../scss/mail.scss */
+.message-wrapper .detail span.order a { color: #009BD4; }
+
+/* line 31, ../scss/mail.scss */
+.message-wrapper .detail { color: #b2b2b2; padding-bottom: 15px; font-size: 18px; }
+
+/* line 36, ../scss/mail.scss */
+.message-wrapper .detail span { color: #00a0da; }
+
+/* line 39, ../scss/mail.scss */
+.message-wrapper .view-order-status { margin-bottom: 30px; }
+
+/* line 42, ../scss/mail.scss */
+.message-wrapper .view-order-status a { background-color: #009bd4; width: auto; color: white; font-weight: bold; padding: 10px 30px; border-radius: 50px; }
+
+/* line 50, ../scss/mail.scss */
+.message-wrapper .ship-to { float: left; margin-bottom: 30px; }
+
+/* line 56, ../scss/mail.scss */
+.message-wrapper .ship-to .ship-to-title, .message-wrapper .ship-method .ship-method-title, .message-wrapper .order-summary-wrapper p.items-title { font-weight: bold; font-size: 20px; color: black; }
+
+/* line 65, ../scss/mail.scss */
+.message-wrapper .ship-method .express-delivery, .message-wrapper .ship-method p, .message-wrapper .ship-to .addressfield-container-inline *, .message-wrapper .ship-to .street-block, .message-wrapper .ship-to .country { color: #90847c; font-size: 17px; }
+
+/* line 69, ../scss/mail.scss */
+.message-wrapper .shipping-wrapper p { margin-top: 0px; }
+
+/* line 75, ../scss/mail.scss */
+.message-wrapper .ship-to .first-name, .message-wrapper .ship-to .last-name, .message-wrapper .ship-to .name-block, .message-wrapper .ship-method .express-delivery { font-weight: bold; }
+
+/* line 78, ../scss/mail.scss */
+.message-wrapper .ship-method { float: right; /* LTR */ }
+
+/* line 83, ../scss/mail.scss */
+.message-wrapper .shipping-wrapper, .message-wrapper .order-summary-wrapper { clear: both; }
+
+/* line 86, ../scss/mail.scss */
+.message-wrapper .order-summary-wrapper .view-commerce-cart-summary table { border: none; border-collapse: collapse; width: 100%; }
+
+/* line 91, ../scss/mail.scss */
+.message-wrapper .order-summary-wrapper .view-commerce-cart-summary th { border: none; background: transparent; border-bottom: #AAAAAA solid 1px; text-transform: none; font-weight: bold; text-align: left; color: black; }
+
+/* line 100, ../scss/mail.scss */
+.message-wrapper .order-summary-wrapper .view-commerce-cart-summary tr { border: none; background: transparent; padding: 10px; text-align: left; }
+
+/* line 106, ../scss/mail.scss */
+.view-commerce-cart-summary .views-table tbody td { padding: 20px 10px; }
+
+/* line 109, ../scss/mail.scss */
+.message-wrapper .order-summary-wrapper table.commerce-price-formatted-components { width: auto; float: right; /* LTR */ margin-bottom: 30px; }
+
+/* line 115, ../scss/mail.scss */
+.message-wrapper .order-summary-wrapper table.commerce-price-formatted-components td { text-align: right; /* LTR */ padding: 10px; }
+
+/* line 120, ../scss/mail.scss */
+.message-wrapper .question { clear: both; }
+
+/* line 123, ../scss/mail.scss */
+.message-wrapper .question a { color: #009BD4; }
