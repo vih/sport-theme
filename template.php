@@ -1,5 +1,22 @@
 <?php
 /**
+ * @file
+ */
+
+/**
+ * Rewrites author and date information.
+ *
+ * Implements hook_preprocess_node().
+ */
+function sport_preprocess_node(&$variables) {
+  $variables['submitted'] = t('!datetime | <em>af !username</em>',
+    array(
+      '!username' => $variables['name'],
+      '!datetime' => strtolower(format_date($variables['created'], 'custom', 'l, j. F Y')),
+    ));
+}
+
+/**
  * Implements hook_breadcrumb()
  */
 function sport_breadcrumb($variables) {
