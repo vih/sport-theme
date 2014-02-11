@@ -188,28 +188,28 @@ strong {
   .inner {
     padding: 1em;
   }
-  
+
   #{headings()} {
     font-weight: bold;
     margin-bottom: 0.5em;
   }
-  
+
   h1 {
     font-size: 1.5em;
     border-bottom: 1px solid #ccc;
     letter-spacing: 0.1em;
     margin-bottom: 0.8em;
   }
-  
+
   h2 {
     font-size: 1.2em;
     margin-bottom: 0.5em;
   }
-  
+
   h3 {
     font-size: 1em;
   }
-  
+
   h4 {
     font-size: 1em;
   }
@@ -220,32 +220,34 @@ strong {
       list-style: none;
     }
   }
-  
-  ul,ol {
-    margin: 0.5em 1em;
-  }
-  
-  ul {
-    li {
-      list-style: square;
+
+  .field-type-text-long, .field-type-text-with-summary {
+    ul,ol {
+      margin: 0.5em 1em;
     }
-    .links {
-      margin-left: 0;
-      padding-left: 0;
-      margin-bottom: 1em;  
-      margin-top: 2em;
-      font-size: 0.8em;
-      
+
+    ul {
       li {
+        list-style: square;
+      }
+      .links {
         margin-left: 0;
         padding-left: 0;
-        padding-right: 1em;
+        margin-bottom: 1em;  
+        margin-top: 2em;
+        font-size: 0.8em;
+
+        li {
+          margin-left: 0;
+          padding-left: 0;
+          padding-right: 1em;
+        }
       }
     }
-  }
-  
-  li {
-    margin: 0.5em 0.5em;
+
+    li {
+      margin: 0.5em 0.5em;
+    }
   }
   
   fieldset {

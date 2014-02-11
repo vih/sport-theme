@@ -4,51 +4,54 @@
 html, body { color: black; background: white; width: auto; padding: 10px; text-align: left; font: 10px/1.5 Verdana, Arial, Helvetica, sans-serif; }
 
 /* line 14, ../scss/print.scss */
+#navbar-administration, #navbar-bar, #navbar-tray { display: none; }
+
+/* line 18, ../scss/print.scss */
 #outer { padding: 0; width: 100%; }
 
-/* line 19, ../scss/print.scss */
+/* line 23, ../scss/print.scss */
 #highlighted { display: none; }
 
-/* line 23, ../scss/print.scss */
+/* line 27, ../scss/print.scss */
 #header { position: static; height: auto; width: auto; background: none; }
 
-/* line 30, ../scss/print.scss */
+/* line 34, ../scss/print.scss */
 #hd { position: static; padding: 0; margin: 0; height: 83px; background: url('../images/logo/logo.gif?1371591343') right no-repeat; }
-/* line 37, ../scss/print.scss */
+/* line 41, ../scss/print.scss */
 #hd h2 { position: static; width: auto; height: auto; font-size: 2em; margin-left: 0; padding-left: 0; }
-/* line 45, ../scss/print.scss */
-#hd h2 a { width: auto; height: auto; }
 /* line 49, ../scss/print.scss */
+#hd h2 a { width: auto; height: auto; }
+/* line 53, ../scss/print.scss */
 #hd h2 a span { position: static; color: black; }
 
-/* line 57, ../scss/print.scss */
-#inner { background: none; padding: 0; width: 100%; }
-
-/* line 63, ../scss/print.scss */
-#main { background: none; width: 100%; }
+/* line 61, ../scss/print.scss */
+#inner { background: none; padding: 0; width: 100%; border: none; }
 
 /* line 68, ../scss/print.scss */
+#main { background: none; width: 100%; }
+
+/* line 73, ../scss/print.scss */
 #col1, #col3 { display: none; }
 
-/* line 72, ../scss/print.scss */
+/* line 77, ../scss/print.scss */
 #footer { display: none; }
 
-/* line 76, ../scss/print.scss */
+/* line 81, ../scss/print.scss */
 #breadcrumb { display: none; }
 
-/* line 80, ../scss/print.scss */
+/* line 85, ../scss/print.scss */
 #prop, #base { display: none; }
 
-/* line 84, ../scss/print.scss */
+/* line 89, ../scss/print.scss */
 #content-main { width: 100%; margin: 0; float: none; background: none; position: static; }
-/* line 91, ../scss/print.scss */
+/* line 96, ../scss/print.scss */
 #content-main img { float: right; margin: 5px; }
 
-/* line 97, ../scss/print.scss */
+/* line 102, ../scss/print.scss */
 p { font-size: 8pt; }
 
-/* line 101, ../scss/print.scss */
+/* line 106, ../scss/print.scss */
 a:link, a:visited { color: #06c; font-weight: bold; text-decoration: underline; }
 
-/* line 107, ../scss/print.scss */
+/* line 112, ../scss/print.scss */
 #toolbar, iframe, .action-links { display: none; }
