@@ -17,6 +17,14 @@ function sport_preprocess_node(&$variables) {
 }
 
 /**
+ * Implements hook_css_alter().
+ */
+function sport_css_alter(&$css) {
+  // Remove Panopoly Images CSS as it messes up the layout.
+  unset($css[drupal_get_path('module', 'panopoly_images') . '/panopoly-images.css']);
+}
+
+/**
  * Implements hook_breadcrumb()
  */
 function sport_breadcrumb($variables) {
