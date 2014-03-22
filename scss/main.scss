@@ -185,6 +185,11 @@ strong {
     padding: 1em;
   }
 
+  img {
+    max-width: 610px;
+    height: auto;
+  }
+
   #{headings()} {
     font-weight: bold;
     margin-bottom: 0.5em;
