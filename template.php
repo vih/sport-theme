@@ -22,6 +22,7 @@ function sport_preprocess_node(&$variables) {
 function sport_css_alter(&$css) {
   // Remove Panopoly Images CSS as it messes up the layout.
   unset($css[drupal_get_path('module', 'panopoly_images') . '/panopoly-images.css']);
+  unset($css[drupal_get_path('module', 'vih_images') . '/vih-images.css']);
 }
 
 /**
