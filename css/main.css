@@ -15,7 +15,7 @@ a img { border: none; }
 
 article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section, summary { display: block; }
 
-body { text-align: center; font: 13px/1.5 Verdana, Arial, Helvetica, sans-serif; height: 100%; background-color: #5f7283; background-image: url('../images/background/soccerfield2.jpg?1395494642'); }
+body { text-align: center; font: 13px/1.5 Verdana, Arial, Helvetica, sans-serif; height: 100%; background-color: #5f7283; background-image: url('../images/background/soccerfield2.jpg?1398689239'); }
 
 a { color: #4278ae; }
 
@@ -55,7 +55,7 @@ strong { font-weight: bold !important; }
 #header { overflow: hidden; *zoom: 1; }
 
 #hd { margin: 20px; }
-#hd h2 a { color: gray; text-decoration: none; display: block; float: right; text-indent: -119988px; overflow: hidden; text-align: left; background-image: url('../images/logo/logo.gif?1395494642'); background-repeat: no-repeat; background-position: 50% 50%; width: 182px; height: 83px; }
+#hd h2 a { color: gray; text-decoration: none; display: block; float: right; text-indent: -119988px; overflow: hidden; text-align: left; background-image: url('../images/logo/logo.gif?1398689239'); background-repeat: no-repeat; background-position: 50% 50%; width: 182px; height: 83px; }
 
 .field-name-field-pictures { overflow: hidden; *zoom: 1; }
 .field-name-field-pictures .colorbox { margin-right: 8px; float: left; }
@@ -79,6 +79,7 @@ strong { font-weight: bold !important; }
 #content-main ul.contextual-links { margin: 0; }
 #content-main ul.contextual-links li { list-style: none; }
 #content-main .field-type-text-long ul, #content-main .field-type-text-long ol, #content-main .field-type-text-with-summary ul, #content-main .field-type-text-with-summary ol { margin: 0.5em 1em; }
+#content-main .field-type-text-long ol li, #content-main .field-type-text-with-summary ol li { list-style: decimal; }
 #content-main .field-type-text-long ul li, #content-main .field-type-text-with-summary ul li { list-style: square; }
 #content-main .field-type-text-long ul .links, #content-main .field-type-text-with-summary ul .links { margin-left: 0; padding-left: 0; margin-bottom: 1em; margin-top: 2em; font-size: 0.8em; }
 #content-main .field-type-text-long ul .links li, #content-main .field-type-text-with-summary ul .links li { margin-left: 0; padding-left: 0; padding-right: 1em; }
@@ -129,13 +130,13 @@ strong { font-weight: bold !important; }
 #block-search-form, #search-form { padding-bottom: 7px; }
 #block-search-form .content, #search-form .content { margin-top: 0; }
 #block-search-form input#edit-keys, #block-search-form .form-item-search-block-form input, #search-form input#edit-keys, #search-form .form-item-search-block-form input { float: left; font-size: 1em; height: 1.143em; margin-right: 5px; width: 9em; }
-#block-search-form input.form-submit, #search-form input.form-submit { margin-left: 0; margin-right: 0; height: 25px; width: 34px; padding: 0; cursor: pointer; text-indent: -9999px; border-color: #e4e4e4 #d2d2d2 #b4b4b4; background: url('../images/search-button.png?1395494642') no-repeat center top; overflow: hidden; }
+#block-search-form input.form-submit, #search-form input.form-submit { margin-left: 0; margin-right: 0; height: 25px; width: 34px; padding: 0; cursor: pointer; text-indent: -9999px; border-color: #e4e4e4 #d2d2d2 #b4b4b4; background: url('../images/search-button.png?1398689239') no-repeat center top; overflow: hidden; }
 #block-search-form input.form-submit:hover, #block-search-form input.form-submit:focus, #search-form input.form-submit:hover, #search-form input.form-submit:focus { background-position: center bottom; }
 #block-search-form .form-item-keys label, #search-form .form-item-keys label { display: block; }
 
 #skip-link { display: none; }
 
-#content-main blockquote { background: url('../images/blockquote.png?1395494642') no-repeat; padding: 5px 5px 5px 42px; }
+#content-main blockquote { background: url('../images/blockquote.png?1398689239') no-repeat; padding: 5px 5px 5px 42px; }
 
 table { border-collapse: collapse; border-spacing: 0; width: 100%; font-size: 0.923em; margin: 0 0 10px; border: 1px solid #bebfb9; }
 table td, table th { vertical-align: middle; padding: 8px 10px; border: 0; color: #000; }
@@ -165,54 +166,54 @@ input.form-submit:active, a.button:active { -webkit-box-shadow: #2b7230 0 1px 2p
 input.form-submit.disabled, input.form-submit[disabled], a.button.disabled, a.button[disabled] { filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=60); opacity: 0.6; background: #368f3c; cursor: default; -webkit-box-shadow: none; -moz-box-shadow: none; box-shadow: none; }
 input.form-submit::-moz-focus-inner, a.button::-moz-focus-inner { padding: 0 !important; margin: -1px !important; }
 
-body.faciliteter, body.bodymind { background-image: url('../images/background/gulv.jpg?1395494642'); }
+body.faciliteter, body.bodymind { background-image: url('../images/background/gulv.jpg?1398689239'); }
 
-body.photogallery, body.haandbold { background-image: url('../images/background/hallen.jpg?1395494642'); }
+body.photogallery, body.haandbold { background-image: url('../images/background/hallen.jpg?1398689239'); }
 
-body.fag, body.badminton, body.volleyball { background-image: url('../images/background/net3.jpg?1395494642'); }
+body.fag, body.badminton, body.volleyball { background-image: url('../images/background/net3.jpg?1398689239'); }
 
-body.langekurser, body.fitness, body.spinning-pump-boksning { background-image: url('../images/background/ribber2.jpg?1395494642'); }
+body.langekurser, body.fitness, body.spinning-pump-boksning { background-image: url('../images/background/ribber2.jpg?1398689239'); }
 
-body.underviser, body.adventure { background-image: url('../images/background/klatre.jpg?1395494642'); }
+body.underviser, body.adventure { background-image: url('../images/background/klatre.jpg?1398689239'); }
 
-body.kortekurser, body.teambuilder { background-image: url('../images/background/ropes.jpg?1395494642'); }
+body.kortekurser, body.teambuilder { background-image: url('../images/background/ropes.jpg?1398689239'); }
 
-body.organisation, body.fitnessinstruktoer { background-image: url('../images/background/haandvaegte.jpg?1395494642'); }
+body.organisation, body.fitnessinstruktoer { background-image: url('../images/background/haandvaegte.jpg?1398689239'); }
 
-body.bestilling { background-image: url('../images/background/pool.jpg?1395494642'); }
+body.bestilling { background-image: url('../images/background/pool.jpg?1398689239'); }
 
 body.aerobic { background-image: none; }
 
-body.musiklinje { background-image: url('../images/background/bgNoder.jpg?1395494642'); }
+body.musiklinje { background-image: url('../images/background/bgNoder.jpg?1398689239'); }
 
-body.politilinje { background-image: url('../images/background/bgpoliti.jpg?1395494642'); }
+body.politilinje { background-image: url('../images/background/bgpoliti.jpg?1398689239'); }
 
-body.skitur { background-image: url('../images/background/bgski.jpg?1395494642'); }
+body.skitur { background-image: url('../images/background/bgski.jpg?1398689239'); }
 
 /* big graphic at top of screen */
-.front #prop, .fodbold #prop, .fodboldakademi #prop { position: absolute; z-index: 100; width: 634px; height: 394px; background: url('../images/props/float_fodboldstoevle2.png?1395494642') no-repeat 0 0; top: -284px; left: -34px; }
+.front #prop, .fodbold #prop, .fodboldakademi #prop { position: absolute; z-index: 100; width: 634px; height: 394px; background: url('../images/props/float_fodboldstoevle2.png?1398689239') no-repeat 0 0; top: -284px; left: -34px; }
 
-.adventure #prop, .adventurerejse #prop { position: absolute; z-index: 100; width: 566px; height: 471px; background: url('../images/props/float_vandrestoevle.png?1395494642') no-repeat 0 0; top: -361px; left: 34px; }
+.adventure #prop, .adventurerejse #prop { position: absolute; z-index: 100; width: 566px; height: 471px; background: url('../images/props/float_vandrestoevle.png?1398689239') no-repeat 0 0; top: -361px; left: 34px; }
 
-.haandbold #prop { position: absolute; z-index: 100; width: 355px; height: 371px; background: url('../images/props/float_haandbold.png?1395494642') no-repeat 0 0; top: -261px; left: 245px; }
+.haandbold #prop { position: absolute; z-index: 100; width: 355px; height: 371px; background: url('../images/props/float_haandbold.png?1398689239') no-repeat 0 0; top: -261px; left: 245px; }
 
-.outdoorenergy #prop { position: absolute; z-index: 100; width: 300px; height: 300px; background: url('../images/props/lobesko.png?1395494642') no-repeat 0 0; top: -190px; left: 300px; }
+.outdoorenergy #prop { position: absolute; z-index: 100; width: 300px; height: 300px; background: url('../images/props/lobesko.png?1398689239') no-repeat 0 0; top: -190px; left: 300px; }
 
-.fodboldakademi #prop2 { position: absolute; z-index: 100; width: 442px; height: 470px; background: url('../images/props/float_lyseroedfodbold.png?1395494642') no-repeat 0 0; bottom: -420px; left: 362px; }
+.fodboldakademi #prop2 { position: absolute; z-index: 100; width: 442px; height: 470px; background: url('../images/props/float_lyseroedfodbold.png?1398689239') no-repeat 0 0; bottom: -420px; left: 362px; }
 
-.bodymind #prop2 { position: absolute; z-index: 100; width: 300px; height: 314px; background: url('../images/props/float_bodymind.png?1395494642') no-repeat 0 0; bottom: -264px; left: 220px; }
+.bodymind #prop2 { position: absolute; z-index: 100; width: 300px; height: 314px; background: url('../images/props/float_bodymind.png?1398689239') no-repeat 0 0; bottom: -264px; left: 220px; }
 
-.teambuilder #prop2 { position: absolute; z-index: 100; width: 566px; height: 471px; background: url('../images/props/float_vandrestoevle.png?1395494642') no-repeat 0 0; bottom: -421px; left: 486px; }
+.teambuilder #prop2 { position: absolute; z-index: 100; width: 566px; height: 471px; background: url('../images/props/float_vandrestoevle.png?1398689239') no-repeat 0 0; bottom: -421px; left: 486px; }
 
-.front #prop2, .fodbold #prop2 { position: absolute; z-index: 100; width: 567px; height: 425px; background: url('../images/props/float_fodbold.png?1395494642') no-repeat 0 0; bottom: -375px; left: 487px; }
+.front #prop2, .fodbold #prop2 { position: absolute; z-index: 100; width: 567px; height: 425px; background: url('../images/props/float_fodbold.png?1398689239') no-repeat 0 0; bottom: -375px; left: 487px; }
 
-.faciliteter #prop2, .fitness #prop2, .aerobic #prop2 { position: absolute; z-index: 100; width: 567px; height: 425px; background: url('../images/props/float_fitnesssko.png?1395494642') no-repeat 0 0; bottom: -375px; left: 487px; }
+.faciliteter #prop2, .fitness #prop2, .aerobic #prop2 { position: absolute; z-index: 100; width: 567px; height: 425px; background: url('../images/props/float_fitnesssko.png?1398689239') no-repeat 0 0; bottom: -375px; left: 487px; }
 
-.fitnessinstruktoer #prop2, .spinning-pump-boksning #prop2 { position: absolute; z-index: 100; width: 567px; height: 331px; background: url('../images/props/float_fitnesssko3.png?1395494642') no-repeat 0 0; bottom: -281px; left: 487px; }
+.fitnessinstruktoer #prop2, .spinning-pump-boksning #prop2 { position: absolute; z-index: 100; width: 567px; height: 331px; background: url('../images/props/float_fitnesssko3.png?1398689239') no-repeat 0 0; bottom: -281px; left: 487px; }
 
-.badminton #prop { position: absolute; z-index: 100; width: 256px; height: 262px; background: url('../images/props/float_fjerbold.png?1395494642') no-repeat 0 0; top: -152px; left: 344px; }
+.badminton #prop { position: absolute; z-index: 100; width: 256px; height: 262px; background: url('../images/props/float_fjerbold.png?1398689239') no-repeat 0 0; top: -152px; left: 344px; }
 
-.volleyball #prop, .beachvolley #prop { position: absolute; z-index: 100; width: 200px; height: 169px; background: url('../images/props/volleyball.png?1395494642') no-repeat 0 0; top: -59px; left: 400px; }
+.volleyball #prop, .beachvolley #prop { position: absolute; z-index: 100; width: 200px; height: 169px; background: url('../images/props/volleyball.png?1398689239') no-repeat 0 0; top: -59px; left: 400px; }
 
 .sidebar-slide { height: 208px; width: 160px; overflow: hidden; }
 .sidebar-slide div.views-field-title { position: relative; top: -100px; height: 0px; display: block; width: "135px"; }
@@ -253,7 +254,7 @@ body.skitur { background-image: url('../images/background/bgski.jpg?1395494642')
 .views-table { clear: both; }
 
 .field-name-field-registration { margin: 1em 0; }
-.field-name-field-registration a { background: white url('../images/buttons.png?1395494642') 0 0 repeat-x; border: 1px solid #e4e4e4; border-bottom: 1px solid #b4b4b4; border-left-color: #d2d2d2; border-right-color: #d2d2d2; color: #3a3a3a; cursor: pointer; font-size: 0.929em; font-weight: normal; text-align: center; margin-bottom: 1em; margin-right: 0.6em; padding: 4px 17px; -webkit-border-radius: 15px; -moz-border-radius: 15px; -ms-border-radius: 15px; -o-border-radius: 15px; border-radius: 15px; text-decoration: none; }
+.field-name-field-registration a { background: white url('../images/buttons.png?1398689239') 0 0 repeat-x; border: 1px solid #e4e4e4; border-bottom: 1px solid #b4b4b4; border-left-color: #d2d2d2; border-right-color: #d2d2d2; color: #3a3a3a; cursor: pointer; font-size: 0.929em; font-weight: normal; text-align: center; margin-bottom: 1em; margin-right: 0.6em; padding: 4px 17px; -webkit-border-radius: 15px; -moz-border-radius: 15px; -ms-border-radius: 15px; -o-border-radius: 15px; border-radius: 15px; text-decoration: none; }
 
 .user-picture { float: left; margin-right: 0.5em; }
 
