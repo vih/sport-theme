@@ -266,3 +266,10 @@ form.commerce-add-to-cart {
   font-size: 2em;
 }
 
+.vih-box-highlight-pane {
+  background: #cbcbcb;
+  @include border-radius(8px);
+  @include clearfix;
+  margin-bottom: 1em;
+  padding: 1em;
+}

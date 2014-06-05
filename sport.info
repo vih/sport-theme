@@ -14,5 +14,3 @@ regions[sidebar_first] = Left sidebar
 regions[sidebar_second] = Right sidebar
 regions[footer_first] = Footer first
 regions[footer_second] = Footer second
-
-plugins[panels][styles] = plugins/styles
