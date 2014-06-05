@@ -266,10 +266,43 @@ form.commerce-add-to-cart {
   font-size: 2em;
 }
 
-.vih-box-highlight-pane {
+.alternate {
   background: #cbcbcb;
   @include border-radius(8px);
   @include clearfix;
   margin-bottom: 1em;
   padding: 1em;
+}
+
+div.emphasis {
+  background: black;
+  color: white;
+  @include border-radius(8px);
+  @include clearfix;
+  margin-bottom: 1em;
+  padding: 1em;
+}
+
+.jumbotron {
+  background: #ddd;
+  @include border-radius(8px);
+  @include clearfix;
+  margin-bottom: 1em;
+  padding:2em;
+  border: 1px solid #cbcbcb;
+}
+
+.boxed {
+  background: #f6e49c;
+  @include border-radius(8px);
+  @include clearfix;
+  width: 90%;
+  margin: auto;
+  margin-bottom: 1em;
+  padding: 2em;
+  @include box-shadow(darken(#f6e49c, 20%) 6px 6px 13px);
+}
+
+h2.pane-title.emphasis {
+  color: #36a4ef;
 }

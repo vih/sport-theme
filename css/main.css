@@ -288,4 +288,12 @@ form.commerce-add-to-cart .views-table { margin-top: 1em; }
 
 .display-price-amount { font-size: 2em; }
 
-.vih-box-highlight-pane { background: #cbcbcb; -webkit-border-radius: 8px; -moz-border-radius: 8px; -ms-border-radius: 8px; -o-border-radius: 8px; border-radius: 8px; overflow: hidden; *zoom: 1; margin-bottom: 1em; padding: 1em; }
+.alternate { background: #cbcbcb; -webkit-border-radius: 8px; -moz-border-radius: 8px; -ms-border-radius: 8px; -o-border-radius: 8px; border-radius: 8px; overflow: hidden; *zoom: 1; margin-bottom: 1em; padding: 1em; }
+
+div.emphasis { background: black; color: white; -webkit-border-radius: 8px; -moz-border-radius: 8px; -ms-border-radius: 8px; -o-border-radius: 8px; border-radius: 8px; overflow: hidden; *zoom: 1; margin-bottom: 1em; padding: 1em; }
+
+.jumbotron { background: #ddd; -webkit-border-radius: 8px; -moz-border-radius: 8px; -ms-border-radius: 8px; -o-border-radius: 8px; border-radius: 8px; overflow: hidden; *zoom: 1; margin-bottom: 1em; padding: 2em; border: 1px solid #cbcbcb; }
+
+.boxed { background: #f6e49c; -webkit-border-radius: 8px; -moz-border-radius: 8px; -ms-border-radius: 8px; -o-border-radius: 8px; border-radius: 8px; overflow: hidden; *zoom: 1; width: 90%; margin: auto; margin-bottom: 1em; padding: 2em; -webkit-box-shadow: #eecb3e 6px 6px 13px; -moz-box-shadow: #eecb3e 6px 6px 13px; box-shadow: #eecb3e 6px 6px 13px; }
+
+h2.pane-title.emphasis { color: #36a4ef; }
