@@ -558,7 +558,7 @@ table.views-view-grid {
 }
 
 /* Action links */
-ul.action-links {
+ul.action-links, div.btn-links ul {
   @include clearfix;
   padding: 0 !important;
   list-style-type: none !important;
@@ -566,7 +566,7 @@ ul.action-links {
   margin-left: 0 !important;
   margin-bottom: 1em;
   
-  li {
+  li, li.first {
     margin-left: 0 !important;
     float: left;
     margin-right: 1em;
