@@ -235,29 +235,23 @@ $opacity: 0.7;
 }
 
 #content-main {
-  .pane-employees-context th {
-    display: none;
-  }
-  
-  .teacher-context {
-    table.views-table td, .views-table tr, table.views-table, .views-table th {
-      border: none;
-      background: none;
-    }
-    table.views-table td {
-      vertical-align: middle;
-    }
-  }
-  
-  .teacher-context-table h2.pane-title, #content-main .pane-employees-context h2.pane-title {
+  .pane-employees-context h2.pane-title {
     padding: 10px 10px 0px 10px !important;
+  }
+
+  .teacher-context {
+    div.media {
+      @include clearfix;
+
+      img {
+        float: left;
+        margin-right: 1em;
+        margin-bottom: 1em;
+      }
+    }
   }
   
   .teacher-context .views-content {
-    padding: 10px;
-  }
-  
-  .teacher-context table.views-table td {
     padding: 10px;
   }
 }
@@ -271,3 +265,4 @@ form.commerce-add-to-cart {
 .display-price-amount {
   font-size: 2em;
 }
+

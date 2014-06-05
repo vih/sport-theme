@@ -279,12 +279,10 @@ body.skitur { background-image: url('../images/background/bgski.jpg?1401438238')
 #col3 .short-courses-sidebar li { margin-bottom: 0.3em; padding-bottom: 0; }
 #col3 .short-courses-sidebar h3 { font-weight: normal; text-transform: lowercase; }
 
-#content-main .pane-employees-context th { display: none; }
-#content-main .teacher-context table.views-table td, #content-main .teacher-context .views-table tr, #content-main .teacher-context table.views-table, #content-main .teacher-context .views-table th { border: none; background: none; }
-#content-main .teacher-context table.views-table td { vertical-align: middle; }
-#content-main .teacher-context-table h2.pane-title, #content-main #content-main .pane-employees-context h2.pane-title { padding: 10px 10px 0px 10px !important; }
+#content-main .pane-employees-context h2.pane-title { padding: 10px 10px 0px 10px !important; }
+#content-main .teacher-context div.media { overflow: hidden; *zoom: 1; }
+#content-main .teacher-context div.media img { float: left; margin-right: 1em; margin-bottom: 1em; }
 #content-main .teacher-context .views-content { padding: 10px; }
-#content-main .teacher-context table.views-table td { padding: 10px; }
 
 form.commerce-add-to-cart .views-table { margin-top: 1em; }
 
