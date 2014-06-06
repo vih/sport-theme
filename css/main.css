@@ -297,3 +297,9 @@ div.emphasis { background: black; color: white; -webkit-border-radius: 8px; -moz
 .boxed { background: #f6e49c; -webkit-border-radius: 8px; -moz-border-radius: 8px; -ms-border-radius: 8px; -o-border-radius: 8px; border-radius: 8px; overflow: hidden; *zoom: 1; width: 90%; margin: auto; margin-bottom: 1em; padding: 2em; -webkit-box-shadow: #eecb3e 6px 6px 13px; -moz-box-shadow: #eecb3e 6px 6px 13px; box-shadow: #eecb3e 6px 6px 13px; }
 
 h2.pane-title.emphasis { color: #36a4ef; }
+
+.call-to-action-block { text-align: center; background: black; color: white; padding: 2em; margin-bottom: 1em; }
+.call-to-action-block h2, .call-to-action-block h3 { font-size: 1.8em !important; }
+.call-to-action-block h3 { font-size: 1.6em !important; }
+.call-to-action-block h4 { font-size: 1.4em !important; }
+.call-to-action-block p { text-transform: uppercase !important; font-size: 1.2em; }
