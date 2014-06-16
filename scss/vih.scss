@@ -327,3 +327,7 @@ h2.pane-title.emphasis {
   }
   margin-bottom: 1em;
 }
+
+.pane-bundle-image h2 {
+  @include picture-button(25px, 2em);
+}
