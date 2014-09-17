@@ -308,6 +308,22 @@ h2.pane-title.emphasis {
   color: #36a4ef;
 }
 
+.pane-bundle-image h2 {
+  @include picture-button(25px, 2em);
+}
+
+/* Subject packages */
+.cols-5 {
+  img {
+    width: 120px;
+  }
+  .views-field-name a {
+    font-size: 16px;
+  }
+}
+
+/* VIH Plugins */
+
 .call-to-action-block {
   text-align: center;
   background: black;
@@ -329,16 +345,20 @@ h2.pane-title.emphasis {
   margin-bottom: 1em;
 }
 
-.pane-bundle-image h2 {
-  @include picture-button(25px, 2em);
-}
-
-/* Subject packages */
-.cols-5 {
+.quote {
+  border: 2px solid #ddd;
+  padding: 2em;
+  @include border-radius(10px);
+  margin-bottom: 1em;
+  
   img {
-    width: 120px;
+    float: left; 
+    margin-right: 20px;
+    vertical-align: center;
   }
-  .views-field-name a {
-    font-size: 16px;
+  .caption {
+    padding-top: 1em;
+    padding-right: 30px;
+    background: image-url("blockquote.png") top right no-repeat;
   }
 }
