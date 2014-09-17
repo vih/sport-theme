@@ -26,19 +26,6 @@ function sport_css_alter(&$css) {
 }
 
 /**
- * Implements hook_breadcrumb()
- */
-function sport_breadcrumb($variables) {
-  $breadcrumb = $variables['breadcrumb'];
-  if (!empty($variables['breadcrumb'])) {
-    $breadcrumb[] = drupal_get_title();
-    $output = '<h2 class="element-invisible">'.t('You are here').'</h2>';
-    $output .= '<div class="breadcrumb">'.implode(' ~ ', $breadcrumb).'</div>';
-    return $output;
-  }
-}
-
-/**
  * Implements hook_menu_local_task()
  */
 function sport_menu_local_task($variables) {
