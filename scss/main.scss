@@ -133,14 +133,6 @@ strong {
   }
 }
 
-.field-name-field-pictures {
-  @include clearfix;
-  .colorbox {
-    margin-right: 8px;
-    float: left;
-  }
-}
-
 #main {
   @include clearfix;
   display: table;

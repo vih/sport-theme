@@ -57,9 +57,6 @@ strong { font-weight: bold !important; }
 #hd { margin: 20px; }
 #hd h2 a { color: gray; text-decoration: none; display: block; float: right; text-indent: -119988px; overflow: hidden; text-align: left; text-transform: capitalize; background-image: url('../images/logo/logo.gif?1410803237'); background-repeat: no-repeat; background-position: 50% 50%; width: 182px; height: 83px; }
 
-.field-name-field-pictures { overflow: hidden; *zoom: 1; }
-.field-name-field-pictures .colorbox { margin-right: 8px; float: left; }
-
 #main { overflow: hidden; *zoom: 1; display: table; margin: 1em; }
 
 #col1, #content-main, #col3 { display: table-cell; vertical-align: top; margin-left: 14px; color: #fff; padding: 15px 0 15px 0; min-height: 200px; }
@@ -277,11 +274,18 @@ body.skitur { background-image: url('../images/background/bgski.jpg?1410803237')
 #content-main .teacher-context div.media, #content-main .student-quotes div.media { overflow: hidden; *zoom: 1; }
 #content-main .teacher-context div.media img, #content-main .student-quotes div.media img { float: left; margin-right: 1em; margin-bottom: 1em; }
 #content-main .teacher-context .views-content { padding: 10px; }
+#content-main .field-name-field-pictures { overflow: hidden; *zoom: 1; }
+#content-main .field-name-field-pictures .colorbox { margin-right: 8px; float: left; }
 
 form.commerce-add-to-cart .views-table { margin-top: 1em; }
 
 .display-price-amount { font-size: 2em; }
 
+/* Subject packages */
+.cols-5 img { width: 120px; }
+.cols-5 .views-field-name a { font-size: 16px; }
+
+/* VIH Plugins */
 .alternate { background: #cbcbcb; -moz-border-radius: 8px; -webkit-border-radius: 8px; border-radius: 8px; overflow: hidden; *zoom: 1; margin-bottom: 1em; padding: 1em; }
 
 div.emphasis { background: black; color: white; -moz-border-radius: 8px; -webkit-border-radius: 8px; border-radius: 8px; overflow: hidden; *zoom: 1; margin-bottom: 1em; padding: 1em; }
@@ -294,10 +298,6 @@ h2.pane-title.emphasis { color: #36a4ef; }
 
 .pane-bundle-image h2 { position: relative; top: 25px; height: 0px; }
 .pane-bundle-image h2 a { color: black; text-decoration: none; font-size: 2em; background: white; padding: 5px 10px; width: 100px; }
-
-/* Subject packages */
-.cols-5 img { width: 120px; }
-.cols-5 .views-field-name a { font-size: 16px; }
 
 /* VIH Plugins */
 .call-to-action-block { text-align: center; background: black; color: white; padding: 2em; margin-bottom: 1em; }
