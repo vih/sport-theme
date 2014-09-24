@@ -78,6 +78,7 @@ strong { font-weight: bold !important; }
 #content-main h4 { font-size: 1em; }
 #content-main ul.contextual-links { margin: 0; }
 #content-main ul.contextual-links li { list-style: none; }
+#content-main .panel-pane { margin-bottom: 1em; }
 #content-main .field-type-text-long ul, #content-main .field-type-text-long ol, #content-main .field-type-text-with-summary ul, #content-main .field-type-text-with-summary ol { margin: 0.5em 1em; }
 #content-main .field-type-text-long ol li, #content-main .field-type-text-with-summary ol li { list-style: decimal; }
 #content-main .field-type-text-long ul li, #content-main .field-type-text-with-summary ul li { list-style: square; }
