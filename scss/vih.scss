@@ -42,7 +42,7 @@ $opacity: 0.7;
   height: 208px;
   width: 160px;
   overflow: hidden;
-  
+
   div.views-field-title {
     @include picture-button-opaque(-100px);
   }
@@ -83,42 +83,6 @@ $opacity: 0.7;
 
 .travel .views-field-title {
   @include picture-button-opaque(-140px, 135px, 16px);
-}
-
-#views_slideshow_cycle_main_oneliners-block .views-field-title {
-  position: absolute;
-  top: 300px;
-  
-  h3 {
-    color: black;
-    text-decoration: none;
-    font-size: 25px;
-    background: white;
-    padding: 10px 15px;
-  }
-}
-
-.news-slideshow {
-  a {
-    color: black;
-    text-decoration: none;
-  }
-  .transparent {
-    background: black;
-    position: relative;
-    top: -160px;
-    left: 0px;
-    width: 480px;
-    color: white;
-    padding: 10px;
-    font-size: 1.1em;
-    zoom: 1;
-    @include opacity($opacity);
-    
-    h2 {
-      font-size: 1.1em;
-    }
-  }
 }
 
 .media-youtube-outer-wrapper {
@@ -163,7 +127,7 @@ $opacity: 0.7;
 .submitted {
   color: #ccc;
   margin-bottom: 1em;
-  
+
   a {
     color: #ccc;
   }
@@ -174,16 +138,16 @@ $opacity: 0.7;
   border: #ccc 2px solid;
   padding: 10px 10px 5px 5px;
   margin: 1em 0;
-  
+
   .field-name-field-image .field-items {
     float: left;
     margin-right: 1em;
   }
-  
+
   a {
     font-weight: bold;
   }
-  
+
   h2 {
     font-size: 1em;
   }
@@ -197,7 +161,7 @@ $opacity: 0.7;
   a {
     font-weight: bold;
   }
-  
+
   h2 {
     font-size: 1em;
   }
@@ -209,7 +173,7 @@ $opacity: 0.7;
 
 .field-type-entityreference .node-webform h2 {
   font-size: 1em;
-  
+
   a {
     text-decoration: none;
     color: black;
@@ -251,7 +215,7 @@ $opacity: 0.7;
       }
     }
   }
-  
+
   .teacher-context .views-content {
     padding: 10px;
   }
@@ -259,7 +223,7 @@ $opacity: 0.7;
 
 form.commerce-add-to-cart {
   .views-table {
-    margin-top: 1em;  
+    margin-top: 1em;
   }
 }
 
@@ -350,9 +314,9 @@ h2.pane-title.emphasis {
   padding: 2em;
   @include border-radius(10px);
   margin-bottom: 1em;
-  
+
   img {
-    float: left; 
+    float: left;
     margin-right: 20px;
     vertical-align: center;
   }

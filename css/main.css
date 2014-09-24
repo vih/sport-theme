@@ -240,13 +240,6 @@ body.skitur { background-image: url('../images/background/bgski.jpg?1410803237')
 .travel .views-field-title { position: relative; top: -140px; height: 0px; display: block; width: 135px; }
 .travel .views-field-title a { color: white; text-decoration: none; font-size: 16px; font-weight: 600; background: black; padding: 5px 5px; width: 135px; filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=70); opacity: 0.7; display: block; margin: 0; }
 
-#views_slideshow_cycle_main_oneliners-block .views-field-title { position: absolute; top: 300px; }
-#views_slideshow_cycle_main_oneliners-block .views-field-title h3 { color: black; text-decoration: none; font-size: 25px; background: white; padding: 10px 15px; }
-
-.news-slideshow a { color: black; text-decoration: none; }
-.news-slideshow .transparent { background: black; position: relative; top: -160px; left: 0px; width: 480px; color: white; padding: 10px; font-size: 1.1em; zoom: 1; filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=70); opacity: 0.7; }
-.news-slideshow .transparent h2 { font-size: 1.1em; }
-
 .media-youtube-outer-wrapper { clear: both; background: #fff; margin: 10px auto; }
 .media-youtube-outer-wrapper object { width: 600px; }
 
