@@ -278,8 +278,7 @@ body.skitur { background-image: url('../images/background/bgski.jpg?1410803237')
 #content-main .field-name-field-pictures .colorbox { margin-right: 8px; float: left; }
 
 form.commerce-add-to-cart .views-table { margin-top: 1em; }
-
-.display-price-amount { font-size: 2em; }
+form.commerce-add-to-cart .field-name-commerce-price .price-amount { font-size: 2em; }
 
 /* Subject packages */
 .cols-5 img { width: 120px; }
