@@ -38,16 +38,6 @@ $opacity: 0.7;
   }
 }
 
-.sidebar-slide {
-  height: 208px;
-  width: 160px;
-  overflow: hidden;
-
-  div.views-field-title {
-    @include picture-button-opaque(-100px);
-  }
-}
-
 .teachers {
   td {
     margin: 0;
@@ -185,17 +175,22 @@ $opacity: 0.7;
   color: #bbb;
 }
 
-#col3 .short-courses-sidebar {
-  ul {
-    padding-left: 0;
+#col3 {
+  .links.inline {
+    display: none;
   }
-  li	 {
-    margin-bottom: 0.3em;
-    padding-bottom: 0;
-  }
-  h3 {
-    font-weight: normal;
-    text-transform: lowercase;
+  .short-courses-sidebar {
+    ul {
+      padding-left: 0;
+    }
+    li	 {
+      margin-bottom: 0.3em;
+      padding-bottom: 0;
+    }
+    h3 {
+      font-weight: normal;
+      text-transform: lowercase;
+    }
   }
 }
 

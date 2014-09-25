@@ -213,10 +213,6 @@ body.skitur { background-image: url('../images/background/bgski.jpg?1410803237')
 
 .volleyball #prop, .beachvolley #prop { position: absolute; z-index: 100; width: 200px; height: 169px; background: url('../images/props/volleyball.png?1410803237') no-repeat 0 0; top: -59px; left: 400px; }
 
-.sidebar-slide { height: 208px; width: 160px; overflow: hidden; }
-.sidebar-slide div.views-field-title { position: relative; top: -100px; height: 0px; display: block; width: "135px"; }
-.sidebar-slide div.views-field-title a { color: white; text-decoration: none; font-size: "12px"; font-weight: 600; background: black; padding: 5px 5px; width: "135px"; filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=70); opacity: 0.7; display: block; margin: 0; }
-
 .teachers td { margin: 0; padding: 0; }
 .teachers .views-field-title { position: relative; top: -70px; height: 0px; display: block; width: 134px; }
 .teachers .views-field-title a { color: white; text-decoration: none; font-size: "12px"; font-weight: 600; background: black; padding: 5px 5px; width: 134px; filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=70); opacity: 0.7; display: block; margin: 0; }
@@ -266,6 +262,7 @@ body.skitur { background-image: url('../images/background/bgski.jpg?1410803237')
 
 .node-type-vih-long-course div.field-name-field-course-time { margin-bottom: 1em; color: #bbb; }
 
+#col3 .links.inline { display: none; }
 #col3 .short-courses-sidebar ul { padding-left: 0; }
 #col3 .short-courses-sidebar li { margin-bottom: 0.3em; padding-bottom: 0; }
 #col3 .short-courses-sidebar h3 { font-weight: normal; text-transform: lowercase; }
