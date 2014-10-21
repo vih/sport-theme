@@ -3,7 +3,7 @@ description = Fixed layout for vih.dk from 2008 created by Anders Bo Jensen, etw
 version = 7.x-0.1
 core = 7.x
 engine = phptemplate
-stylesheets[all][] = css/main.css
+stylesheets[all][] = css/styles.css
 stylesheets[print][] = css/print.css
 
 regions[header] = Header

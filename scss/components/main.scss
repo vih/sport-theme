@@ -1,9 +1,6 @@
-@import "modules/_base";
-@import "compass/typography/text/replacement";
-@import "compass/reset/utilities";
-@import "compass/layout/stretching";
-@import "compass/utilities";
-@import "sassy-buttons";
+// Main SCSS
+//
+// Styleguide 1.1
 
 @include global-reset;
 
@@ -73,110 +70,7 @@ strong {
   font-weight: bold !important;
 }
 
-#outer {
-  width: 1098px;
-  margin: auto;
-  text-align: left;
-  padding: 100px 0 0 0;
-}
-
-/* top highlight */
-#highlighted {
-  display: inline;
-  font-size: 1em;
-  line-height: 1.4;
-  background: white;
-  border-left: 5px solid $branding-color;
-  border-bottom: 5px solid $branding-color;
-  border-right: 5px solid $branding-color;
-  @include border-bottom-radius(10px);
-  @include box-shadow(black 5px 5px 5px);
-  width: 469px;
-  margin-top: -110px;
-  float: right;
-
-  .region-highlighted {
-    padding: 10px 10px 10px 20px;
-  }
-
-  h2 {
-    margin-bottom: 0;
-    font-weight: bold;
-  }
-}
-
-#inner {
-  position: relative;
-  background: white;
-  border: 5px solid white;
-  margin-top: 20px;
-  @include border-bottom-right-radius(40px);
-  @include border-top-left-radius(40px);
-  @include box-shadow(black 5px 5px 5px);
-}
-
-#header {
-  @include clearfix;
-}
-
-#hd {
-  margin: 20px;
-
-  h2 {
-    a {
-      color: gray;
-      text-decoration: none;
-      display: block;
-      float: right;
-      @include replace-text-with-dimensions("logo/logo.gif");
-    }
-  }
-}
-
-#main {
-  @include clearfix;
-  display: table;
-  margin: 1em;
-}
-
-#col1, #content-main, #col3 {
-  display: table-cell;
-  vertical-align: top;
-  margin-left: 14px;
-  color: #fff;
-  padding: 15px 0 15px 0;
-  min-height: 200px;
-}
-
-#col1 {
-  width: 227px;
-  padding-top: 50px;
-  margin-left: 16px;
-  margin-right: 10px;
-  background: $branding-color;
-  @include border-top-left-radius(30px);
-  @include background-image(linear-gradient($branding-color, darken($branding-color, $fade_percent)));
-
-  div.region-sidebar-first {
-    padding-left: 12px;
-  }
-
-  .region-sidebar-first {
-    margin: 0 15px;
-  }
-}
-
 #content-main {
-  padding-top: 0;
-  width: 644px;
-  margin-left: 9px;
-  color: #000;
-  overflow: hidden;
-
-  .inner {
-    padding: 1em;
-  }
-
   img {
     max-width: 610px;
     height: auto;
@@ -278,14 +172,6 @@ strong {
 }
 
 #col3 {
-  padding-top: 10px;
-  width: 190px;
-  font-size: 11px;
-  margin-right: 16px;
-  background: $branding-color;
-  @include border-bottom-right-radius(30px);
-  @include background-image(linear-gradient($branding-color, darken($branding-color, $fade_percent)));
-
   h2, h3 {
     color: #fff;
     text-transform: uppercase;
@@ -451,7 +337,15 @@ strong {
   }
 }
 
-/* SEARCH FORM */
+// Search form
+//
+// Markup:
+// <div id="block-search-form">
+//   <input type="text" id="edit-keys">
+//   <input type="submit" class="form-submit">
+// </div>
+//
+// Styleguide 5.0.0
 #block-search-form, #search-form {
   padding-bottom: 7px;
 
@@ -493,11 +387,29 @@ strong {
   display: none;
 }
 
+// Blockquote
+//
+// Markup:
+// <div id="content-main"><blockquote>My quote rocks</blockquote></div>
+//
+// Styleguide 4.0.0
 #content-main blockquote {
   background: image-url("blockquote.png") no-repeat;
   padding: 5px 5px 5px 42px;
 }
 
+// Table
+//
+// Markup:
+// <table>
+//   <caption>My caption</caption>
+//   <tr>
+//     <th>My stuff</th>
+//     <td>Your stuff</td>
+//   </tr>
+// </table>
+//
+// Styleguide 4.1.0
 table {
   border-collapse: collapse;
   border-spacing: 0;
@@ -553,7 +465,14 @@ table.views-view-grid {
   }
 }
 
-/* Action links */
+// Action links
+//
+// Markup:
+// <ul class="action-links">
+//   <li><a href="#">My action link</a></li>
+// </ul>
+//
+// Styleguide 4.2.0
 ul.action-links, div.btn-links ul {
   @include clearfix;
   padding: 0 !important;
@@ -575,9 +494,12 @@ ul.action-links, div.btn-links ul {
   }
 }
 
+// Buttons
+//
+// Markup:
+// <input type="submit" class="form-submit" />
+//
+// Styleguide 4.3.0
 input.form-submit, a.button {
   @include sassy-button("matte", 5px, 16px, $branding-color, darken($branding-color, 8%), white, "inset");
 }
-
-@import "context";
-@import "vih";
