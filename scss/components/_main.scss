@@ -5,7 +5,6 @@
 @include global-reset;
 
 body {
-  text-align: center;
   font: 13px/1.5 Verdana, Arial, Helvetica, sans-serif;
   height: 100%;
   background-color: $background-color;
@@ -400,9 +399,15 @@ strong {
 
 // Table
 //
+// .views-view-grid - special css for views grids
+//
 // Markup:
 // <table>
 //   <caption>My caption</caption>
+//   <tr>
+//     <th>My stuff</th>
+//     <td>Your stuff</td>
+//   </tr>
 //   <tr>
 //     <th>My stuff</th>
 //     <td>Your stuff</td>
@@ -444,24 +449,24 @@ table {
     }
   }
 
-  tr:nth-of-type(even) td{
+  tr:nth-of-type(odd) td{
    background-color:#ddd;
    color: black;
   }
-}
 
-table.views-view-grid {
-  width: auto !important;
-  border: none !important;
-
-  th, td {
-    padding: 0 10px 0 0 !important;
+  &.views-view-grid {
+    width: auto !important;
     border: none !important;
-  }
 
-  tr:nth-of-type(even) td {
-    background-color: white;
-    color: black;
+    th, td {
+      padding: 0 10px 0 0 !important;
+      border: none !important;
+    }
+
+    tr:nth-of-type(odd) td {
+      background-color: white;
+      color: black;
+    }
   }
 }
 

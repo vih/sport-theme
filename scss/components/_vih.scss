@@ -13,6 +13,7 @@ $opacity: 0.7;
 // $top       - How long from the top of the image
 // $font-size - Font size to user
 //
+// Styleguide 8.0.0
 @mixin picture-button($top, $font-size: "16px") {
   position: relative;
   top: $top;
@@ -33,6 +34,7 @@ $opacity: 0.7;
 // $width     - How wide should the text be
 // $font-size - Font size to user
 //
+// Styleguide 8.1.0
 @mixin picture-button-opaque($top, $width: "135px", $font-size: "12px") {
   position: relative;
   top: $top;
@@ -103,6 +105,12 @@ $opacity: 0.7;
   clear: both;
 }
 
+// Transform the registration field to a button
+//
+// Markup:
+// <div class="field-name-field-registration"><a href="#">Registration</a></div>
+//
+// Styleguide 7.0.0
 .field-name-field-registration {
   margin: 1em 0;
   a {
@@ -259,8 +267,18 @@ form.commerce-add-to-cart {
   }
 }
 
-/* VIH Plugins */
-
+// VIH Plugins
+//
+// Stying used for panels styles plugins provided by VIH Plugins module
+//
+// .alternate - be different from the background
+// .emphasis - emphasis on the div
+// .jumbotron - emphasis on the div
+// .boxed - put a box around the div
+// .call-to-action-block - make any links in the pane into a cta button
+// .quote - style the image div as a quote
+//
+// Styleguide 6.0.0
 .alternate {
   background: #cbcbcb;
   @include border-radius(8px);
@@ -276,6 +294,10 @@ div.emphasis {
   @include clearfix;
   margin-bottom: 1em;
   padding: 1em;
+}
+
+h2.pane-title.emphasis {
+  color: #36a4ef;
 }
 
 .jumbotron {
@@ -298,15 +320,9 @@ div.emphasis {
   @include box-shadow(darken(#f6e49c, 20%) 6px 6px 13px);
 }
 
-h2.pane-title.emphasis {
-  color: #36a4ef;
-}
-
 .pane-bundle-image h2 {
   @include picture-button(25px, 2em);
 }
-
-/* VIH Plugins */
 
 .call-to-action-block {
   text-align: center;
