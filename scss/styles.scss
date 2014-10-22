@@ -1,11 +1,15 @@
 /* Import Sass mixins, variables, Compass modules, etc. */
 @import "init";
 @import "variables";
+@import "base";
 
 /* Import layouts */
 @import "layouts/layout";
 
 /* Import components */
-@import "components/main";
+// @import "components/main";
+@import "components/menu";
+@import "components/search";
+@import "components/tables";
 @import "components/context";
 @import "components/vih";

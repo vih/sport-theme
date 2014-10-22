@@ -1,0 +1,53 @@
+#block-system-main-menu {
+  h2 {
+    display: none;
+  }
+
+  .menu {
+    padding-bottom: 20px;
+    font-size: 12px;
+
+    li {
+      text-transform: uppercase;
+      font-weight: bold;
+      letter-spacing: 0.1em;
+      padding: 7px 0 7px 0;
+      list-style-image: none;
+      list-style-type: none;
+
+      ul {
+        padding: 0 0;
+        margin-left: 5px;
+      }
+
+      li {
+        padding: 0 0;
+        margin-left: 10px;
+        text-transform: none;
+        font-weight: normal;
+        letter-spacing: 0em;
+        list-style-type: square;
+      }
+    }
+
+    a {
+      color: white;
+      text-decoration: none;
+      background: transparent;
+    }
+    a:hover {
+      color: #005511;
+      text-decoration: none;
+    }
+
+    li#current a {
+      color: #005511;
+      text-decoration: none;
+    }
+
+    a.active-trail {
+      color: #005511;
+      text-decoration: none;
+    }
+  }
+}

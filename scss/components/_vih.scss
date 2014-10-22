@@ -132,6 +132,9 @@ $opacity: 0.7;
   }
 }
 
+// Styling for stories
+//
+// Styleguide 8.0.0
 .user-picture {
   float: left;
   margin-right: 0.5em;
@@ -146,6 +149,9 @@ $opacity: 0.7;
   }
 }
 
+// Styling for the course leader
+//
+// Styleguide 9.0.0
 .field-name-field-course-leader {
   background: #eee;
   border: #ccc 2px solid;
@@ -257,7 +263,11 @@ form.commerce-add-to-cart {
   }
 }
 
-/* Subject packages */
+// Styling for subject packages
+//
+// Used on the frontpage
+//
+// Styleguide 10.0.0
 .cols-5 {
   img {
     width: 120px;

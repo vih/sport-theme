@@ -1,0 +1,72 @@
+// Table
+//
+// .views-view-grid - special css for views grids
+//
+// Markup:
+// <table class="{$modifiers}">
+//   <caption>My caption</caption>
+//   <tr>
+//     <th>My stuff</th>
+//     <td>Your stuff</td>
+//   </tr>
+//   <tr>
+//     <th>My stuff</th>
+//     <td>Your stuff</td>
+//   </tr>
+// </table>
+//
+// Styleguide 4.1.0
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+  width: 100%;
+  font-size: 0.923em;
+  margin: 0 0 10px;
+  border: 1px solid #bebfb9;
+
+  td, th {
+    vertical-align: middle;
+    padding: 8px 10px;
+    border: 0;
+    color: black;
+  }
+
+  th {
+    text-transform: uppercase;
+    background: #e1e2dc;
+    font-weight: normal;
+    border-width: 1px;
+    border-style: solid;
+    border-color: #bebfb9;
+    padding: 3px 10px;
+  }
+  td {
+    a {
+      text-decoration: none;
+    }
+
+    a:hover {
+      text-decoration: underline;
+    }
+  }
+
+  tr:nth-of-type(odd) td{
+   background-color:#ddd;
+   color: black;
+  }
+
+  &.views-view-grid {
+    width: auto !important;
+    border: none !important;
+
+    th, td {
+      padding: 0 10px 0 0 !important;
+      border: none !important;
+    }
+
+    tr:nth-of-type(odd) td {
+      background-color: white;
+      color: black;
+    }
+  }
+}

@@ -1,0 +1,66 @@
+@include global-reset;
+
+body {
+  font: 13px/1.5 Verdana, Arial, Helvetica, sans-serif;
+  height: 100%;
+  background-color: $background-color;
+  background-image: image-url("background/soccerfield2.jpg");
+}
+
+a {
+  color: $link-color;
+}
+
+img {
+  border: 0;
+}
+
+address,caption,cite,code,em,dfn,th,var {
+  font-weight: normal;
+}
+
+ul li {
+  list-style: none;
+}
+
+#{headings()} {
+  font-size: 100%;
+  font-weight: normal;
+  margin: 8px 0 4px 0;
+}
+
+q:before,q:after {
+  content: '';
+}
+
+abbr,acronym {
+  border: 0;
+  font-variant: normal;
+}
+
+sup {
+  vertical-align: text-top;
+}
+
+sub {
+  vertical-align: text-bottom;
+}
+
+input,textarea,select {
+  font-family: inherit;
+  font-size: inherit;
+  font-weight: inherit;
+}
+
+pre,code,kbd,samp,tt {
+  font-family: monospace;
+  line-height: 100%;
+}
+
+p,h1 {
+  margin: 0 0 1em 0;
+}
+
+strong {
+  font-weight: bold !important;
+}
