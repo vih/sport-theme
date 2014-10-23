@@ -1,0 +1,95 @@
+// VIH Plugins
+//
+// Stying used for panels styles plugins provided by VIH Plugins module
+//
+// .alternate - be different from the background
+// .emphasis - emphasis on the div
+// .jumbotron - emphasis on the div
+// .boxed - put a box around the div
+// .call-to-action-block - make any links in the pane into a cta button
+// .quote - style the image div as a quote
+//
+// Styleguide 6.0.0
+.alternate {
+  background: #cbcbcb;
+  @include border-radius(8px);
+  @include clearfix;
+  margin-bottom: 1em;
+  padding: 1em;
+}
+
+div.emphasis {
+  background: black;
+  color: white;
+  @include border-radius(8px);
+  @include clearfix;
+  margin-bottom: 1em;
+  padding: 1em;
+}
+
+h2.pane-title.emphasis {
+  color: #36a4ef;
+}
+
+.jumbotron {
+  background: #ddd;
+  @include border-radius(8px);
+  @include clearfix;
+  margin-bottom: 1em;
+  padding:2em;
+  border: 1px solid #cbcbcb;
+}
+
+.boxed {
+  background: #f6e49c;
+  @include border-radius(8px);
+  @include clearfix;
+  width: 90%;
+  margin: auto;
+  margin-bottom: 1em;
+  padding: 2em;
+  @include box-shadow(darken(#f6e49c, 20%) 6px 6px 13px);
+}
+
+.pane-bundle-image h2 {
+  @include picture-button(25px, 2em);
+}
+
+.call-to-action-block {
+  text-align: center;
+  background: black;
+  color: white;
+  padding: 2em;
+  h2, h3 {
+    font-size: 1.8em !important;
+  }
+  h3 {
+    font-size: 1.6em !important;
+  }
+  h4 {
+    font-size: 1.4em !important;
+  }
+  p {
+    text-transform: uppercase !important;
+    font-size: 1.2em;
+  }
+  margin-bottom: 1em;
+}
+
+.quote {
+  border: 2px solid #ddd;
+  padding: 2em;
+  @include border-radius(10px);
+  margin-bottom: 1em;
+
+  img {
+    float: left;
+    margin-right: 20px;
+    vertical-align: center;
+  }
+  .caption {
+    padding-top: 1em;
+    padding-right: 30px;
+    background: image-url("blockquote.png") top right no-repeat;
+  }
+}

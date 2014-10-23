@@ -2,6 +2,15 @@
 //
 // Styleguide 1.0.0
 
+// Colors
+//
+// Markup:
+// <div style="background: #{$branding-color};" class="styleguide-color">$branding-color</div>
+// <div style="background: #{$background-color};" class="styleguide-color">$background-color</div>
+// <div style="background: #{$link-color};" class="styleguide-color">$link-red</div>
+//
+// Styleguide 1.1.0
+
 // $branding-color - main branding color
 $branding-color: #41AD49;
 

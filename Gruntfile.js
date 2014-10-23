@@ -5,7 +5,7 @@ module.exports = function(grunt) {
     pkg: grunt.file.readJSON('package.json'),
     watch: {
 		 	compass: {
-	    	files: ['**/*.{scss,sass}'],
+	    	files: ['scss/**/*.{scss,sass}'],
 	    	tasks: ['compass']
 	    },
 	    js: {
@@ -19,24 +19,34 @@ module.exports = function(grunt) {
         cssDir: ['css']
 		  }
     },
-    uglify: {
-		  all: {
-//			  files: {
-//	        	'JS/min/main.min.js': [
-//	        	'JS/libs/jquery.js',
-//	        	'JS/main.js'
-//	        ]
-//	    	}
-		  },
-	  },
+    styleguide: {
+      options: {
+        framework: {
+          name: 'kss',
+          options: {
+            'css': 'css/styles.css'
+          }
+        },
+        name: 'VIH Style Guide',
+      },
+      your_target: {
+        options: {
+          // task options
+        },
+        files: {
+          // files to process
+          'styleguide': 'scss/**/*.{scss,sass}'
+        }
+      }
+    },
   });
 
   // Load the plugin
   grunt.loadNpmTasks('grunt-contrib-watch');
   grunt.loadNpmTasks('grunt-contrib-compass');
-  grunt.loadNpmTasks('grunt-contrib-uglify');
+  grunt.loadNpmTasks('grunt-styleguide');
 
   // Default task(s).
-  grunt.registerTask('default', ['compass' , 'uglify' , 'watch']);
+  grunt.registerTask('default', ['watch']);
 
 };

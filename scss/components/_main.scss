@@ -8,44 +8,12 @@
     height: auto;
   }
 
-  #{headings()} {
-    font-weight: bold;
-    margin-bottom: 0.5em;
-  }
-
-  h1 {
-    font-size: 1.5em;
-    border-bottom: 1px solid #ccc;
-    letter-spacing: 0.1em;
-    margin-bottom: 0.8em;
-  }
-
-  h2 {
-    font-size: 1.2em;
-    margin-bottom: 0.5em;
-  }
-
-  h3 {
-    font-size: 1em;
-  }
-
-  h4 {
-    font-size: 1em;
-  }
-
-  ul.contextual-links {
-    margin: 0;
-    li {
-      list-style: none;
-    }
-  }
-
   .panel-pane {
     margin-bottom: 1em;
   }
 
   .field-type-text-long, .field-type-text-with-summary {
-    ul,ol {
+    ul, ol {
       margin: 0.5em 1em;
     }
 
@@ -58,7 +26,6 @@
         list-style: square;
       }
       .links {
-        margin-left: 0;
         padding-left: 0;
         margin-bottom: 1em;
         margin-top: 2em;
@@ -74,18 +41,6 @@
 
     li {
       margin: 0.5em 0.5em;
-    }
-  }
-
-  fieldset {
-    border: 1px solid #ddd;
-    padding: 1em;
-    margin-bottom: 1em;
-    clear: both;
-
-    legend {
-      font-weight: bold;
-      color: black;
     }
   }
 
@@ -107,10 +62,6 @@
   h2, h3 {
     color: #fff;
     text-transform: uppercase;
-    font-weight: bold;
-    line-height: 16px;
-    font-size: 12px;
-    margin: 0 0 2px;
     padding: 15px 0 0 0;
   }
 
@@ -126,10 +77,10 @@
   a {
     color: white;
     text-decoration: none;
-  }
-  a:hover {
-    color: white;
-    text-decoration: underline;
+    &:hover {
+      color: white;
+      text-decoration: underline;
+    }
   }
 
   .inner {
@@ -137,64 +88,12 @@
     padding: 1em;
 
     h3 {
-      font-weight: bold;
       margin: 12px 0 0;
     }
 
     .last {
       margin: 0
     }
-  }
-}
-
-#footer {
-  @include clearfix;
-  padding-bottom: 2em;
-
-  p {
-    padding: 0 15px;
-  }
-
-  ul {
-    line-height: 1.2;
-  }
-
-  li {
-    list-style: square;
-
-    a {
-      color: #898989;
-      text-decoration: none;
-      text-transform: uppercase;
-      font-size: 10px;
-      letter-spacing: 0.2em;
-    }
-    a:hover {
-      color: #898989;
-      text-decoration: underline;
-    }
-  }
-}
-
-#footer-first {
-  width: 200px;
-  float: left;
-  margin: 0 0 0 32px;
-}
-
-#footer-second {
-  width: 185px;
-  float: right;
-  color: black;
-  margin-right: 10px;
-  display: inline;
-  color: #898989;
-  font-size: 12px;
-  line-height: 1.2;
-
-  a {
-    color: #898989;
-    text-decoration: none;
   }
 }
 
@@ -213,10 +112,6 @@
       font-style: italic
     }
   }
-}
-
-#skip-link {
-  display: none;
 }
 
 // Blockquote
@@ -257,14 +152,4 @@ ul.action-links, div.btn-links ul {
     @include sassy-button("matte", 5px, 16px, $branding-color, darken($branding-color, 8%), white, "inset");
     text-decoration: none;
   }
-}
-
-// Buttons
-//
-// Markup:
-// <input type="submit" class="form-submit" />
-//
-// Styleguide 4.3.0
-input.form-submit, a.button {
-  @include sassy-button("matte", 5px, 16px, $branding-color, darken($branding-color, 8%), white, "inset");
 }
