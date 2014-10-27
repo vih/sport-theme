@@ -15,14 +15,12 @@ body {
 
 #highlighted {
   display: inline;
-  font-size: 1em;
-  line-height: 1.4;
-  background: white;
+  background: $background-color;
   border-left: 5px solid $branding-color;
   border-bottom: 5px solid $branding-color;
   border-right: 5px solid $branding-color;
   @include border-bottom-radius(10px);
-  @include box-shadow(black 5px 5px 5px);
+  @include box-shadow($shadow-color 5px 5px 5px);
   width: 469px;
   margin-top: -110px;
   float: right;
@@ -39,12 +37,12 @@ body {
 
 #inner {
   position: relative;
-  background: white;
+  background: $background-color;
   border: 5px solid white;
   margin-top: 20px;
   @include border-bottom-right-radius(40px);
   @include border-top-left-radius(40px);
-  @include box-shadow(black 5px 5px 5px);
+  @include box-shadow($shadow-color 5px 5px 5px);
 }
 
 #header {
@@ -75,7 +73,6 @@ body {
   display: table-cell;
   vertical-align: top;
   margin-left: 14px;
-  color: #fff;
   padding: 15px 0 15px 0;
   min-height: 200px;
 }
@@ -102,7 +99,7 @@ body {
   padding-top: 0;
   width: 644px;
   margin-left: 9px;
-  color: #000;
+  color: $text-color;
   overflow: hidden;
 
   .inner {

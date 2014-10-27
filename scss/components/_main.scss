@@ -100,19 +100,29 @@
 #breadcrumb {
   width: 550px;
   float: left;
-  color: #bbb;
+  color: $faded-text-color;
   margin: 0 0 0 10px;
   padding: 0 15px;
 
   a {
-    color: #898989;
+    color: $faded-text-color;
     text-decoration: none;
 
     em {
-      font-style: italic
+      font-style: italic;
     }
   }
 }
+
+.media-youtube-outer-wrapper {
+  clear: both;
+  background: $background-color;
+  margin: 10px auto;
+  object {
+    width: 600px;
+  }
+}
+
 
 // Blockquote
 //

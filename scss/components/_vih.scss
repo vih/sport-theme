@@ -51,14 +51,26 @@ $opacity: 0.7;
   }
 }
 
-.teachers {
-  td {
-    margin: 0;
-    padding: 0;
-  }
+.sidebar-slide {
   .views-field-title {
     @include picture-button-opaque(-70px, 134px);
   }
+}
+
+.teachers {
+  .views-field-title {
+    @include picture-button-opaque(-70px, 134px);
+  }
+}
+
+.subjects-page {
+  .views-field-title {
+    @include picture-button-opaque(-60px);
+  }
+}
+
+.travel .views-field-title {
+  @include picture-button-opaque(-140px, 135px, 16px);
 }
 
 .subject-packages .views-field-name {
@@ -71,30 +83,6 @@ $opacity: 0.7;
 
 .faciliteter .views-field-title {
   @include picture-button(-55px);
-}
-
-.subjects-page {
-  td {
-    margin: 0;
-    padding: 0;
-    width: 135px;
-  }
-  .views-field-title {
-    @include picture-button-opaque(-60px);
-  }
-}
-
-.travel .views-field-title {
-  @include picture-button-opaque(-140px, 135px, 16px);
-}
-
-.media-youtube-outer-wrapper {
-  clear: both;
-  background: #fff;
-  margin: 10px auto;
-  object {
-    width: 600px;
-  }
 }
 
 // Styling for stories
@@ -110,63 +98,33 @@ $opacity: 0.7;
   margin-bottom: 1em;
 
   a {
-    color: #ccc;
+    color: $faded-text-color;
   }
 }
 
-// Styling for the course leader
+// Styling for webform headlines
 //
-// Styleguide 9.0.0
-.field-name-field-course-leader {
-  background: #eee;
-  border: #ccc 2px solid;
-  padding: 10px 10px 5px 5px;
-  margin: 1em 0;
-
-  .field-name-field-image .field-items {
-    float: left;
-    margin-right: 1em;
-  }
-
-  a {
-    font-weight: bold;
-  }
-
-  h2 {
-    font-size: 1em;
-  }
-}
-
-.field-name-field-employee-reference {
-  .field-name-field-image .field-items {
-    float: left;
-    margin-right: 1em;
-  }
-  a {
-    font-weight: bold;
-  }
-
-  h2 {
-    font-size: 1em;
-  }
-}
-
-.node-employee-context ul.inline, .node-employee ul.inline {
-  display: none;
-}
-
+// Style the header for webforms used from e.g. long courses
+// so it does not break the design.
+//
+// Styleguide 8.0.0
 .field-type-entityreference .node-webform h2 {
-  font-size: 1em;
-
   a {
     text-decoration: none;
-    color: black;
+    color: $text-color;
   }
 }
 
+// Style for the date
+//
+// Add sufficient space under the time for the course.
+//
+// TODO: Should probably be done with a more global solution.
+//
+// Styleguide 10.0.0
 .node-type-vih-long-course div.field-name-field-course-time {
   margin-bottom: 1em;
-  color: #bbb;
+  color: $faded-text-color;
 }
 
 #col3 {
