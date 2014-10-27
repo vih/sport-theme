@@ -3,11 +3,15 @@
     display: none;
   }
 
-  .menu {
+  ul.menu {
+    margin: 0;
+    padding: 0;
     padding-bottom: 20px;
     font-size: 12px;
 
     li {
+      margin: 0;
+      padding: 0;
       text-transform: uppercase;
       font-weight: bold;
       letter-spacing: 0.1em;

@@ -16,9 +16,19 @@ $branding-color: #41AD49;
 
 // $background-color - main background color
 $background-color: white;
+$bodyBackground: white;
 
 // $link-color - primary link color
 $link-color: #4278AE;
 
 // $face_percent - how much should the sidebars fade in color
 $fade_percent: 18%;
+
+$tableBackground: white;
+$baseLineHeight: 1em;
+$tableBorder: #ddd;
+$baseBorderRadius: 2px;
+$tableBackgroundAccent: #bbb;
+$tableBackgroundHover: #bbb;
+
+$large-screen: 1024px;

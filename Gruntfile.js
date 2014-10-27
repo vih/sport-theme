@@ -8,10 +8,6 @@ module.exports = function(grunt) {
 	    	files: ['scss/**/*.{scss,sass}'],
 	    	tasks: ['compass']
 	    },
-	    js: {
-				files: ['js/**/*.js'],
-				tasks: ['uglify']
-			},
 		},
    	compass: {
       options: {
@@ -47,6 +43,6 @@ module.exports = function(grunt) {
   grunt.loadNpmTasks('grunt-styleguide');
 
   // Default task(s).
-  grunt.registerTask('default', ['watch']);
+  grunt.registerTask('default', ['compass', 'watch']);
 
 };

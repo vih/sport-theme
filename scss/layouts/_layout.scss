@@ -1,5 +1,11 @@
 /* Layout for vih.dk */
 
+@media only screen {
+
+body {
+  background-image: image-url("background/soccerfield2.jpg");
+}
+
 #outer {
   width: 1098px;
   margin: auto;
@@ -112,4 +118,5 @@
   background: $branding-color;
   @include border-bottom-right-radius(30px);
   @include background-image(linear-gradient($branding-color, darken($branding-color, $fade_percent)));
+}
 }

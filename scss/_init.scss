@@ -1,8 +1,10 @@
 /* Imports external dependencies */
 @import "compass/typography/text/replacement";
-@import "compass/reset/utilities";
 @import "compass/layout/stretching";
-@import "compass/utilities";
-@import "sassy-buttons";
 @import "compass/css3";
+@import "compass/css3/opacity";
+@import "compass/utilities";
 @import "compass/utilities/general/clearfix";
+@import "compass/reset/utilities";
+@import "breakpoint";
+@import "sassy-buttons";

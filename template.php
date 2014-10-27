@@ -42,9 +42,9 @@ function sport_menu_local_tasks(&$variables) {
   $has_access = user_access('access contextual links');
   if (!empty($variables['primary'])) {
     $variables['primary']['#prefix'] = '<h2 class="element-invisible">' . t('Primary tabs') . '</h2>';
-   
+
     // Only display contextual links if the user has the correct permissions enabled.
-    // Otherwise, the default primary tabs will be used.   
+    // Otherwise, the default primary tabs will be used.
     $variables['primary']['#prefix'] = ($has_access) ?
       '<div class="contextual-links-wrapper"><ul class="contextual-links">' : '<ul class="tabs primary">';
 
