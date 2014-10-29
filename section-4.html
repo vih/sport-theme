@@ -1,0 +1,375 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]> <html class="no-js lt-ie9 lt-ie8 lt-ie7" lang="en"> <![endif]-->
+<!--[if IE 7]>    <html class="no-js lt-ie9 lt-ie8" lang="en"> <![endif]-->
+<!--[if IE 8]>    <html class="no-js lt-ie9" lang="en"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" lang="en"> <!--<![endif]-->
+<head>
+  <meta charset="utf-8">
+  <title>KSS: Living Styleguide</title>
+
+  <meta name="description" content="">
+  <meta name="generator" content="kss-node" />
+  <meta name="viewport" content="width=device-width">
+
+  <link rel="stylesheet" type="text/css" href="http://fonts.googleapis.com/css?family=Droid+Serif">
+  <link rel="stylesheet" href="public/kss.css">
+  <link rel="stylesheet" href="public/style.css">
+</head>
+<body><div id="kss-wrapper">
+
+<div id="kss-nav">
+  <header id="kss-header">
+    <hgroup><h1>kss-node Styleguide</h1></hgroup>
+  </header>
+  <aside>
+    <nav><ul>
+      <li><a href="index.html">0.0: Overview</a></li>
+      <li><a href="section-1.html">1.0: Variables</a>
+        <!-- Uncomment this to add second-level navigation.
+        <ul>
+            <li><a href="section-1.html#1.1">1.1: Colors</a>
+            <li><a href="section-1.html#1.1">1.1: Main SCSS</a>
+        </ul>
+        -->
+      </li>
+      <li><a href="section-2.html">2.0: Buttons</a>
+        <!-- Uncomment this to add second-level navigation.
+        <ul>
+        </ul>
+        -->
+      </li>
+      <li><a href="section-3.html">3.0: Forms</a>
+        <!-- Uncomment this to add second-level navigation.
+        <ul>
+        </ul>
+        -->
+      </li>
+      <li><a href="section-4.html">4.0: Tables</a>
+        <!-- Uncomment this to add second-level navigation.
+        <ul>
+            <li><a href="section-4.html#4.1">4.1: Table styles</a>
+        </ul>
+        -->
+      </li>
+      <li><a href="section-5.html">5.0: Blockquote</a>
+        <!-- Uncomment this to add second-level navigation.
+        <ul>
+            <li><a href="section-5.html#5.1">5.1: Action links</a>
+        </ul>
+        -->
+      </li>
+      <li><a href="section-6.html">6.0: Search form</a>
+        <!-- Uncomment this to add second-level navigation.
+        <ul>
+        </ul>
+        -->
+      </li>
+      <li><a href="section-7.html">7.0: VIH Plugins</a>
+        <!-- Uncomment this to add second-level navigation.
+        <ul>
+        </ul>
+        -->
+      </li>
+      <li><a href="section-8.html">8.0: Special styles used specificially for vih.dk</a>
+        <!-- Uncomment this to add second-level navigation.
+        <ul>
+            <li><a href="section-8.html#8.1">8.1: Puts an opaque link over a picture for a button effect</a>
+            <li><a href="section-8.html#8.5">8.5: Styles for the theme in different contexts</a>
+        </ul>
+        -->
+      </li>
+      <li><a href="section-8.html">8.0: Styling for stories</a>
+        <!-- Uncomment this to add second-level navigation.
+        <ul>
+            <li><a href="section-8.html#8.1">8.1: Puts an opaque link over a picture for a button effect</a>
+            <li><a href="section-8.html#8.5">8.5: Styles for the theme in different contexts</a>
+        </ul>
+        -->
+      </li>
+      <li><a href="section-9.html">9.0: Style for the date</a>
+        <!-- Uncomment this to add second-level navigation.
+        <ul>
+        </ul>
+        -->
+      </li>
+      <li><a href="section-10.html">10.0: Styling for subject packages</a>
+        <!-- Uncomment this to add second-level navigation.
+        <ul>
+        </ul>
+        -->
+      </li>
+    </ul></nav>
+  </aside>
+</div>
+<div role="main" id="kss-main">
+  <article id="kss-content">
+
+
+      <h1 class="kss-title"><span class="kss-ref">4.0</span> - Tables</h1>
+
+        <div class="kss-box"><p>For basic styling—light padding and only horizontal dividers—add the base class <code>.table</code> to any <code>&lt;table&gt;</code>.</p>
+</div>
+
+
+      <section class="kss-depth-2">
+
+      <h1 class="kss-title"><span class="kss-ref">4.1</span> - Table styles</h1>
+
+        <div class="kss-box"><p>Add any of the following classes to the <code>.table</code> base class.</p>
+</div>
+
+        <table class="kss-mod-list">
+          <tr class="kss-mod-desc-group">
+            <td class="kss-mod-desc"><p>Default styling</p></td>
+            <td class="kss-mod-name"></td>
+          </tr>
+          <tr class="kss-mod-example">
+            <td colspan="2"><table class="table {$modifiers}">
+  <thead>
+    <tr>
+      <th>#</th>
+      <th>First Name</th>
+      <th>Last Name</th>
+      <th>Username</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>1</td>
+      <td>Mark</td>
+      <td>Otto</td>
+      <td>@mdo</td>
+    </tr>
+    <tr>
+      <td>2</td>
+      <td>Jacob</td>
+      <td>Thornton</td>
+      <td>@fat</td>
+    </tr>
+    <tr>
+      <td>3</td>
+      <td>Larry</td>
+      <td>the Bird</td>
+      <td>@twitter</td>
+    </tr>
+  </tbody>
+</table></td>
+          </tr>
+          <tr class="kss-mod-desc-group">
+            <td class="kss-mod-desc"><p>Adds zebra-striping to any table row within the <code>&lt;tbody&gt;</code> via the <code>:nth-child</code> CSS selector (not available in IE7-8).</p>
+</td>
+            <td class="kss-mod-name"><p>.table-striped</p></td>
+          </tr>
+          <tr class="kss-mod-example">
+            <td colspan="2"><table class="table table-striped">
+  <thead>
+    <tr>
+      <th>#</th>
+      <th>First Name</th>
+      <th>Last Name</th>
+      <th>Username</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>1</td>
+      <td>Mark</td>
+      <td>Otto</td>
+      <td>@mdo</td>
+    </tr>
+    <tr>
+      <td>2</td>
+      <td>Jacob</td>
+      <td>Thornton</td>
+      <td>@fat</td>
+    </tr>
+    <tr>
+      <td>3</td>
+      <td>Larry</td>
+      <td>the Bird</td>
+      <td>@twitter</td>
+    </tr>
+  </tbody>
+</table></td>
+          </tr>
+          <tr class="kss-mod-desc-group">
+            <td class="kss-mod-desc"><p>Add borders and rounded corners to the table.</p>
+</td>
+            <td class="kss-mod-name"><p>.table-bordered</p></td>
+          </tr>
+          <tr class="kss-mod-example">
+            <td colspan="2"><table class="table table-bordered">
+  <thead>
+    <tr>
+      <th>#</th>
+      <th>First Name</th>
+      <th>Last Name</th>
+      <th>Username</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>1</td>
+      <td>Mark</td>
+      <td>Otto</td>
+      <td>@mdo</td>
+    </tr>
+    <tr>
+      <td>2</td>
+      <td>Jacob</td>
+      <td>Thornton</td>
+      <td>@fat</td>
+    </tr>
+    <tr>
+      <td>3</td>
+      <td>Larry</td>
+      <td>the Bird</td>
+      <td>@twitter</td>
+    </tr>
+  </tbody>
+</table></td>
+          </tr>
+          <tr class="kss-mod-desc-group">
+            <td class="kss-mod-desc"><p>Enable a hover state on table rows within a <code>&lt;tbody&gt;</code>.</p>
+</td>
+            <td class="kss-mod-name"><p>.table-hover</p></td>
+          </tr>
+          <tr class="kss-mod-example">
+            <td colspan="2"><table class="table table-hover">
+  <thead>
+    <tr>
+      <th>#</th>
+      <th>First Name</th>
+      <th>Last Name</th>
+      <th>Username</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>1</td>
+      <td>Mark</td>
+      <td>Otto</td>
+      <td>@mdo</td>
+    </tr>
+    <tr>
+      <td>2</td>
+      <td>Jacob</td>
+      <td>Thornton</td>
+      <td>@fat</td>
+    </tr>
+    <tr>
+      <td>3</td>
+      <td>Larry</td>
+      <td>the Bird</td>
+      <td>@twitter</td>
+    </tr>
+  </tbody>
+</table></td>
+          </tr>
+          <tr class="kss-mod-desc-group">
+            <td class="kss-mod-desc"><p>Makes tables more compact by cutting cell padding in half.</p>
+</td>
+            <td class="kss-mod-name"><p>.table-condensed</p></td>
+          </tr>
+          <tr class="kss-mod-example">
+            <td colspan="2"><table class="table table-condensed">
+  <thead>
+    <tr>
+      <th>#</th>
+      <th>First Name</th>
+      <th>Last Name</th>
+      <th>Username</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>1</td>
+      <td>Mark</td>
+      <td>Otto</td>
+      <td>@mdo</td>
+    </tr>
+    <tr>
+      <td>2</td>
+      <td>Jacob</td>
+      <td>Thornton</td>
+      <td>@fat</td>
+    </tr>
+    <tr>
+      <td>3</td>
+      <td>Larry</td>
+      <td>the Bird</td>
+      <td>@twitter</td>
+    </tr>
+  </tbody>
+</table></td>
+          </tr>
+        </table>
+
+        <div class="kss-markup">
+          <pre class="prettyprint lang-html">&lt;table class=&quot;table {$modifiers}&quot;&gt;
+  &lt;thead&gt;
+    &lt;tr&gt;
+      &lt;th&gt;#&lt;/th&gt;
+      &lt;th&gt;First Name&lt;/th&gt;
+      &lt;th&gt;Last Name&lt;/th&gt;
+      &lt;th&gt;Username&lt;/th&gt;
+    &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+    &lt;tr&gt;
+      &lt;td&gt;1&lt;/td&gt;
+      &lt;td&gt;Mark&lt;/td&gt;
+      &lt;td&gt;Otto&lt;/td&gt;
+      &lt;td&gt;@mdo&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;2&lt;/td&gt;
+      &lt;td&gt;Jacob&lt;/td&gt;
+      &lt;td&gt;Thornton&lt;/td&gt;
+      &lt;td&gt;@fat&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;3&lt;/td&gt;
+      &lt;td&gt;Larry&lt;/td&gt;
+      &lt;td&gt;the Bird&lt;/td&gt;
+      &lt;td&gt;@twitter&lt;/td&gt;
+    &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;</pre>
+        </div>
+
+      </section>
+  </article>
+</div>
+
+
+<!-- SCRIPTS -->
+<script src="public/kss.js"></script>
+<script src="public/prettify.js"></script>
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
+<script>
+  $(document).ready(function(){
+    var sidebarAdjust = function() {
+      // Match footer/body height
+      var height = Math.max($(window).height(), $('#kss-main').height());
+
+      if ($(window).width() <= 768) {
+        $('#kss-main, #kss-nav').height('auto');
+      } else {
+        $('#kss-main, #kss-nav').height(height);
+      }
+    };
+
+    $(window).resize(sidebarAdjust);
+    $(window).scroll(sidebarAdjust);
+    sidebarAdjust();
+
+    // Ensure code blocks are highlighted properly...
+    $('pre>code').addClass('prettyprint');
+    prettyPrint();
+  });
+</script>
+
+
+</div></body>
+</html>
