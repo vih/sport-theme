@@ -3,7 +3,7 @@
 // Markup:
 // <input type="submit" class="form-submit" />
 //
-// Styleguide 4.3.0
+// Styleguide 2.0.0
 input.form-submit, a.button {
   @include sassy-button("matte", 5px, 16px, $branding-color, darken($branding-color, 8%), white, "inset");
 }
@@ -13,7 +13,7 @@ input.form-submit, a.button {
 // Markup:
 // <div class="field-name-field-registration"><a href="#">Registration</a></div>
 //
-// Styleguide 7.0.0
+// Styleguide 2.0.1
 .field-name-field-registration {
   margin: 1em 0;
   a {

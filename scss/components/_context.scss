@@ -1,6 +1,6 @@
 // Styles for the theme in different contexts
 //
-// Styleguide 2.0.0
+// Styleguide 8.5.0
 
 // Places a prop on the page
 //
@@ -82,7 +82,7 @@ body.skitur {
   background-image: image-url("background/bgski.jpg");
 }
 
-/* big graphic at top of screen */
+// Big graphic at top of screen
 .front ,.fodbold,.fodboldakademi {
   #prop {
     @include prop-top("props/float_fodboldstoevle2.png");

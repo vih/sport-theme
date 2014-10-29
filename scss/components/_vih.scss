@@ -1,6 +1,6 @@
 // Special styles used specificially for vih.dk
 //
-// Styleguide 3.0.0
+// Styleguide 8.0.0
 
 $opacity: 0.7;
 
@@ -9,7 +9,7 @@ $opacity: 0.7;
 // $top       - How long from the top of the image
 // $font-size - Font size to user
 //
-// Styleguide 8.0.0
+// Styleguide 8.0.1
 @mixin picture-button($top, $font-size: "16px") {
   position: relative;
   top: $top;
@@ -107,7 +107,7 @@ $opacity: 0.7;
 // Style the header for webforms used from e.g. long courses
 // so it does not break the design.
 //
-// Styleguide 8.0.0
+// Styleguide 8.0.2
 .field-type-entityreference .node-webform h2 {
   a {
     text-decoration: none;
@@ -121,7 +121,7 @@ $opacity: 0.7;
 //
 // TODO: Should probably be done with a more global solution.
 //
-// Styleguide 10.0.0
+// Styleguide 9.0.0
 .node-type-vih-long-course div.field-name-field-course-time {
   margin-bottom: 1em;
   color: $faded-text-color;

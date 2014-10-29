@@ -1,6 +1,6 @@
 // Main SCSS
 //
-// Styleguide 1.1
+// Styleguide 1.1.0
 
 #content-main {
   img {
@@ -129,7 +129,7 @@
 // Markup:
 // <div id="content-main"><blockquote>My quote rocks</blockquote></div>
 //
-// Styleguide 4.0.0
+// Styleguide 5.0.0
 #content-main blockquote {
   background: image-url("blockquote.png") no-repeat;
   padding: 5px 5px 5px 42px;
@@ -142,7 +142,7 @@
 //   <li><a href="#">My action link</a></li>
 // </ul>
 //
-// Styleguide 4.2.0
+// Styleguide 5.1.0
 ul.action-links, div.btn-links ul {
   @include clearfix;
   padding: 0 !important;

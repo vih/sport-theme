@@ -8,8 +8,8 @@
         <h2><a href="<?php print $front_page; ?>"><span><?php print $site_name; ?></span></a></h2>
       </div>
     </div>
-    <div id="main">
-      <div id="col1">
+    <div class="row" id="main">
+      <div class="col-md-3" id="col1">
         <div class="inner">
           <?php print render($page['sidebar_first']); ?>
         </div>
