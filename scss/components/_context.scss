@@ -89,6 +89,11 @@ body.skitur {
   }
 }
 
+.front #prop2,.fodbold #prop2 {
+  @include prop-bottom("props/float_fodbold.png")
+}
+
+
 .adventure #prop,.adventurerejse #prop {
   @include prop-top("props/float_vandrestoevle.png");
 }

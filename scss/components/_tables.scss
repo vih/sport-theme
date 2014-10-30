@@ -17,6 +17,15 @@ table {
   }
 }
 
+.views-view-grid{
+  td, th {
+    padding: 5px 5px;
+  }
+  .col-first {
+    padding-left: 0px;
+  }
+}
+
 // Table styles
 //
 // Add any of the following classes to the `.table` base class.

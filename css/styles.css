@@ -131,6 +131,9 @@ fieldset legend { font-weight: bold; color: black; }
 table { max-width: 100%; background-color: transparent; border-collapse: collapse; border-spacing: 0; width: 100%; }
 table td, table th { vertical-align: middle; padding: 8px 10px; }
 
+.views-view-grid td, .views-view-grid th { padding: 5px 5px; }
+.views-view-grid .col-first { padding-left: 0px; }
+
 .table { width: 100%; margin-bottom: 1em; }
 .table th, .table td { padding: 8px; line-height: 1em; text-align: left; vertical-align: top; border-top: 1px solid #ddd; }
 .table th { font-weight: bold; }
@@ -230,6 +233,8 @@ body.politilinje { background-image: url('../images/background/bgpoliti.jpg?1410
 body.skitur { background-image: url('../images/background/bgski.jpg?1410803237'); }
 
 .front #prop, .fodbold #prop, .fodboldakademi #prop { position: absolute; z-index: 100; width: 634px; height: 394px; background: url('../images/props/float_fodboldstoevle2.png?1410803237') no-repeat 0 0; top: -284px; left: -34px; }
+
+.front #prop2, .fodbold #prop2 { position: absolute; z-index: 100; width: 567px; height: 425px; background: url('../images/props/float_fodbold.png?1410803237') no-repeat 0 0; bottom: -375px; left: 487px; }
 
 .adventure #prop, .adventurerejse #prop { position: absolute; z-index: 100; width: 566px; height: 471px; background: url('../images/props/float_vandrestoevle.png?1410803237') no-repeat 0 0; top: -361px; left: 34px; }
 
