@@ -113,6 +113,7 @@ body {
   font-size: 11px;
   margin-right: 16px;
   background: $branding-color;
+  color: white;
   @include border-bottom-right-radius(30px);
   @include background-image(linear-gradient($branding-color, darken($branding-color, $fade_percent)));
 }
